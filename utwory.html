@@ -25,13 +25,21 @@
             const table = document.getElementById('utworyTable');
             const rows = table.getElementsByTagName('tr');
 
+            let anyCheckboxChecked = false;
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    anyCheckboxChecked = true;
+                }
+            });
+
             for (let i = 1; i < rows.length; i++) {
                 const cells = rows[i].getElementsByTagName('td');
                 const language = cells[2].textContent.toLowerCase();
                 const title = cells[1].textContent.toLowerCase();
                 const artist = cells[0].textContent.toLowerCase();
 
-                let showRow = false;
+                let showRow = !anyCheckboxChecked;
+
                 checkboxes.forEach(checkbox => {
                     if (checkbox.checked && language.includes(checkbox.value.toLowerCase())) {
                         showRow = true;
