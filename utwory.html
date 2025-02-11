@@ -63,11 +63,11 @@
             }
         }
 
-        function sortTable(n) {
+        function sortTable(n, initialDir = "asc") {
             const table = document.getElementById('utworyTable');
             let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
             switching = true;
-            dir = "asc"; 
+            dir = initialDir; 
             while (switching) {
                 switching = false;
                 rows = table.rows;
@@ -112,7 +112,7 @@
         }
 
         window.onload = function() {
-            sortTable(0);
+            sortTable(0, "asc");
         }
     </script>
 </head>
