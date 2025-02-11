@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utwory</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        function filterTable() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+            const table = document.getElementById('utworyTable');
+            const rows = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < rows.length; i++) {
+                const cells = rows[i].getElementsByTagName('td');
+                const language = cells[2].textContent.toLowerCase();
+                const title = cells[1].textContent.toLowerCase();
+                const artist = cells[0].textContent.toLowerCase();
+
+                let showRow = false;
+                checkboxes.forEach(checkbox => {
+                    if (checkbox.checked && language.includes(checkbox.value.toLowerCase())) {
+                        showRow = true;
+                    }
+                });
+
+                if (searchInput && !(title.includes(searchInput) || artist.includes(searchInput))) {
+                    showRow = false;
+                }
+
+                rows[i].style.display = showRow ? '' : 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Utwory</h1>
+    <div>
+        <label><input type="checkbox" value="Japońskie" onclick="filterTable()"> Japońskie</label>
+        <label><input type="checkbox" value="Angielskie" onclick="filterTable()"> Angielskie</label>
+        <label><input type="checkbox" value="Koreańskie" onclick="filterTable()"> Koreańskie</label>
+        <label><input type="checkbox" value="Inne" onclick="filterTable()"> Inne</label>
+    </div>
+    <div>
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for titles or artists..">
+    </div>
+    <table id="utworyTable">
+        <thead>
+            <tr>
+                <th>Wykonawca</th>
+                <th>Tytuł</th>
+                <th>Język</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Artist 1</td>
+                <td>Title 1</td>
+                <td>Japońskie</td>
+            </tr>
+            <tr>
+                <td>Artist 2</td>
+                <td>Title 2</td>
+                <td>Angielskie</td>
+            </tr>
+            <tr>
+                <td>Artist 3</td>
+                <td>Title 3</td>
+                <td>Koreańskie</td>
+            </tr>
+            <tr>
+                <td>Artist 4</td>
+                <td>Title 4</td>
+                <td>Inne</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
