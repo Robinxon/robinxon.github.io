@@ -18,6 +18,14 @@
         th {
             background-color: #f2f2f2;
         }
+        .sort-icon {
+            margin-left: 5px;
+            display: none;
+        }
+        .sort-asc .sort-icon.asc,
+        .sort-desc .sort-icon.desc {
+            display: inline;
+        }
     </style>
     <script>
         function filterTable() {
@@ -90,6 +98,21 @@
                     }
                 }
             }
+            updateSortIcons(n, dir);
+        }
+
+        function updateSortIcons(columnIndex, direction) {
+            const headers = document.querySelectorAll('th');
+            headers.forEach((header, index) => {
+                header.classList.remove('sort-asc', 'sort-desc');
+                if (index === columnIndex) {
+                    header.classList.add(direction === 'asc' ? 'sort-asc' : 'sort-desc');
+                }
+            });
+        }
+
+        window.onload = function() {
+            sortTable(0);
         }
     </script>
 </head>
@@ -107,9 +130,9 @@
     <table id="utworyTable">
         <thead>
             <tr>
-                <th onclick="sortTable(0)">Wykonawca</th>
-                <th onclick="sortTable(1)">Tytuł</th>
-                <th onclick="sortTable(2)">Język</th>
+                <th onclick="sortTable(0)">Wykonawca <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
+                <th onclick="sortTable(1)">Tytuł <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
+                <th onclick="sortTable(2)">Język <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
             </tr>
         </thead>
         <tbody>
