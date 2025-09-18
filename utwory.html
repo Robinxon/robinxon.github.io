@@ -1,187 +1,374 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utwory</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wyszukiwarka utworów</title>
     <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #fff;
+            --fg: #111;
+            --muted: #666;
+            --border: #ddd;
+            --accent: #0a7;
+            --hover: #f6f6f6;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root { --bg:#111; --fg:#eee; --muted:#aaa; --border:#333; --hover:#1a1a1a; }
+        }
+        html, body { height: 100%; }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.45;
+        }
+        .wrap {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem 3rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin: 0 0 1rem;
+        }
+        .toolbar {
+            display: flex;
+            gap: .75rem;
+            align-items: center;
+            margin-bottom: .75rem;
+            flex-wrap: wrap;
+        }
+        .search {
+            flex: 1 1 320px;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            border: 1px solid var(--border);
+            border-radius: .5rem;
+            padding: .5rem .75rem;
+            background: transparent;
+        }
+        .search input {
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: inherit;
+            width: 100%;
+            font-size: 1rem;
+        }
+        .meta {
+            color: var(--muted);
+            font-size: .9rem;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
+            border: 1px solid var(--border);
+            border-radius: .5rem;
+            overflow: clip;
         }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
+        thead th {
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 1;
             text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+            padding: .6rem .75rem;
             cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
         }
-        th {
-            background-color: #f2f2f2;
+        thead th.sortable:hover { background: var(--hover); }
+        thead th .arrow {
+            display: inline-block;
+            width: .9em;
+            text-align: center;
+            color: var(--muted);
+            margin-left: .25rem;
+            opacity: .9;
         }
-        .sort-icon {
-            margin-left: 5px;
+        thead th[aria-sort="ascending"] .arrow::after { content: "▲"; }
+        thead th[aria-sort="descending"] .arrow::after { content: "▼"; }
+        tbody td {
+            border-bottom: 1px solid var(--border);
+            padding: .6rem .75rem;
+            vertical-align: top;
+        }
+        tbody tr:hover { background: var(--hover); }
+        tfoot td {
+            padding: .75rem;
+            color: var(--muted);
+            text-align: center;
+        }
+        .error {
+            margin-top: .75rem;
+            color: #b00020;
+            font-size: .95rem;
             display: none;
         }
-        .sort-asc .sort-icon.asc,
-        .sort-desc .sort-icon.desc {
-            display: inline;
-        }
+        .hidden { display: none !important; }
     </style>
-    <script>
-        function filterTable() {
-            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-            const searchInput = document.getElementById('searchInput').value.toLowerCase();
-            const table = document.getElementById('utworyTable');
-            const rows = table.getElementsByTagName('tr');
-
-            let anyCheckboxChecked = false;
-            checkboxes.forEach(checkbox => {
-                if (checkbox.checked) {
-                    anyCheckboxChecked = true;
-                }
-            });
-
-            for (let i = 1; i < rows.length; i++) {
-                const cells = rows[i].getElementsByTagName('td');
-                const language = cells[2].textContent.toLowerCase();
-                const title = cells[1].textContent.toLowerCase();
-                const artist = cells[0].textContent.toLowerCase();
-
-                let showRow = !anyCheckboxChecked;
-
-                checkboxes.forEach(checkbox => {
-                    if (checkbox.checked && language.includes(checkbox.value.toLowerCase())) {
-                        showRow = true;
-                    }
-                });
-
-                if (searchInput && !(title.includes(searchInput) || artist.includes(searchInput))) {
-                    showRow = false;
-                }
-
-                rows[i].style.display = showRow ? '' : 'none';
-            }
-        }
-
-        function sortTable(n, initialDir = "asc") {
-            const table = document.getElementById('utworyTable');
-            let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-            switching = true;
-            dir = initialDir; 
-            while (switching) {
-                switching = false;
-                rows = table.rows;
-                for (i = 1; i < (rows.length - 1); i++) {
-                    shouldSwitch = false;
-                    x = rows[i].getElementsByTagName("TD")[n];
-                    y = rows[i + 1].getElementsByTagName("TD")[n];
-                    if (dir == "asc") {
-                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                            shouldSwitch = true;
-                            break;
-                        }
-                    } else if (dir == "desc") {
-                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                            shouldSwitch = true;
-                            break;
-                        }
-                    }
-                }
-                if (shouldSwitch) {
-                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                    switching = true;
-                    switchcount++;
-                } else {
-                    if (switchcount == 0 && dir == "asc") {
-                        dir = "desc";
-                        switching = true;
-                    }
-                }
-            }
-            updateSortIcons(n, dir);
-        }
-
-        function updateSortIcons(columnIndex, direction) {
-            const headers = document.querySelectorAll('th');
-            headers.forEach((header, index) => {
-                header.classList.remove('sort-asc', 'sort-desc');
-                if (index === columnIndex) {
-                    header.classList.add(direction === 'asc' ? 'sort-asc' : 'sort-desc');
-                }
-            });
-        }
-
-        window.onload = function() {
-            sortTable(0, "asc");
-        }
-    </script>
 </head>
 <body>
-    <h1>Utwory</h1>
-    <div>
-        <label><input type="checkbox" value="Japońskie" onclick="filterTable()"> Japońskie</label>
-        <label><input type="checkbox" value="Angielskie" onclick="filterTable()"> Angielskie</label>
-        <label><input type="checkbox" value="Koreańskie" onclick="filterTable()"> Koreańskie</label>
-        <label><input type="checkbox" value="Inne" onclick="filterTable()"> Inne</label>
+    <div class="wrap">
+        <h1>Wyszukiwarka utworów</h1>
+
+        <div class="toolbar">
+            <label class="search" title="Wpisz, aby filtrować">
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input id="q" type="search" placeholder="Szukaj w: Tytuł, Wykonawca, Język, Rok…" autocomplete="off" />
+            </label>
+            <div class="meta" id="status" aria-live="polite"></div>
+        </div>
+
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th class="sortable" data-key="tytul" scope="col" aria-sort="none">Tytuł <span class="arrow" aria-hidden="true"></span></th>
+                    <th class="sortable" data-key="wykonawca" scope="col" aria-sort="none">Wykonawca <span class="arrow" aria-hidden="true"></span></th>
+                    <th class="sortable" data-key="jezyk" scope="col" aria-sort="none">Język <span class="arrow" aria-hidden="true"></span></th>
+                    <th class="sortable" data-key="rok" scope="col" aria-sort="none">Rok <span class="arrow" aria-hidden="true"></span></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr><td colspan="4">Wczytywanie…</td></tr>
+            </tbody>
+            <tfoot id="tfoot" class="hidden">
+                <tr><td colspan="4">Brak wyników</td></tr>
+            </tfoot>
+        </table>
+
+        <div id="err" class="error" role="alert"></div>
     </div>
-    <div>
-        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for titles or artists..">
-    </div>
-    <table id="utworyTable">
-        <thead>
-            <tr>
-                <th onclick="sortTable(0)">Wykonawca <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
-                <th onclick="sortTable(1)">Tytuł <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
-                <th onclick="sortTable(2)">Język <span class="sort-icon asc">▲</span><span class="sort-icon desc">▼</span></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>BABYMETAL</td>
-            <td>Gimme Chocolate!!</td>
-            <td>Japońskie</td>
-            </tr>
-            <tr>
-            <td>BABYMETAL</td>
-            <td>Karate</td>
-            <td>Japońskie</td>
-            </tr>
-            <tr>
-            <td>BABYMETAL</td>
-            <td>Megitsune</td>
-            <td>Japońskie</td>
-            </tr>
-            <tr>
-            <td>BABYMETAL</td>
-            <td>Road of Resistance</td>
-            <td>Japońskie</td>
-            </tr>
-            <tr>
-            <td>Ado</td>
-            <td>Usseewa</td>
-            <td>Japońskie</td>
-            </tr>
-            <tr>
-            <td>Imagine Dragons</td>
-            <td>Believer</td>
-            <td>Angielskie</td>
-            </tr>
-            <tr>
-            <td>Aurora</td>
-            <td>Runaway</td>
-            <td>Angielskie</td>
-            </tr>
-            <tr>
-            <td>Dawid Podsiadło</td>
-            <td>Małomiasteczkowy</td>
-            <td>Polskie</td>
-            </tr>
-            <tr>
-            <td>Sanah</td>
-            <td>Szampan</td>
-            <td>Polskie</td>
-            </tr>
-        </tbody>
-    </table>
+
+    <script>
+        // Konfiguracja: plik z danymi (w tym samym katalogu co ta strona)
+        const DATA_URL = './data.txt';
+
+        // Stan
+        let rows = [];       // pełne dane
+        let filtered = [];   // przefiltrowane dane
+        let sortKey = null;  // 'tytul' | 'wykonawca' | 'jezyk' | 'rok'
+        let sortDir = 'asc'; // 'asc' | 'desc'
+
+        const $q = document.getElementById('q');
+        const $tbl = document.getElementById('tbl');
+        const $tbody = document.getElementById('tbody');
+        const $tfoot = document.getElementById('tfoot');
+        const $status = document.getElementById('status');
+        const $err = document.getElementById('err');
+        const collator = new Intl.Collator('pl', { sensitivity: 'base', numeric: true });
+
+        // Normalizacja do wyszukiwania (bez polskich znaków)
+        function norm(s) {
+            return String(s ?? '')
+                .toLowerCase()
+                .normalize('NFD')
+                .replace(/\p{Diacritic}/gu, '')
+                .trim();
+        }
+
+        // Auto-wykrywanie delimitera z pierwszej linii
+        function detectDelimiter(line) {
+            const candidates = [';', '\t', '|', ','];
+            let best = ';', max = -1;
+            for (const d of candidates) {
+                const c = (line.match(new RegExp('\\' + d, 'g')) || []).length;
+                if (c > max) { max = c; best = d; }
+            }
+            return best;
+        }
+
+        // Parsowanie pojedynczej linii CSV z obsługą cudzysłowów
+        function parseLine(line, delim) {
+            const out = [];
+            let cur = '';
+            let inQ = false;
+            for (let i = 0; i < line.length; i++) {
+                const ch = line[i];
+                if (inQ) {
+                    if (ch === '"') {
+                        if (line[i + 1] === '"') { cur += '"'; i++; } // escapowany cudzysłów
+                        else { inQ = false; }
+                    } else {
+                        cur += ch;
+                    }
+                } else {
+                    if (ch === '"') inQ = true;
+                    else if (ch === delim) { out.push(cur); cur = ''; }
+                    else cur += ch;
+                }
+            }
+            out.push(cur);
+            return out;
+        }
+
+        function tryParseInt(v) {
+            const n = parseInt(String(v).trim(), 10);
+            return Number.isFinite(n) ? n : null;
+        }
+
+        function render() {
+            // Sortowanie
+            if (sortKey) {
+                const dir = sortDir === 'asc' ? 1 : -1;
+                filtered.sort((a, b) => {
+                    if (sortKey === 'rok') {
+                        const av = a.rok ?? null;
+                        const bv = b.rok ?? null;
+                        if (av === null && bv === null) return 0;
+                        if (av === null) return 1;   // null na koniec
+                        if (bv === null) return -1;
+                        return (av - bv) * dir;
+                    }
+                    const av = a[sortKey] ?? '';
+                    const bv = b[sortKey] ?? '';
+                    return collator.compare(av, bv) * dir;
+                });
+            }
+
+            // Wypełnienie tabeli
+            if (filtered.length === 0) {
+                $tbody.innerHTML = '';
+                $tfoot.classList.remove('hidden');
+            } else {
+                $tfoot.classList.add('hidden');
+                const frag = document.createDocumentFragment();
+                for (const r of filtered) {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${escapeHTML(r.tytul)}</td>
+                        <td>${escapeHTML(r.wykonawca)}</td>
+                        <td>${escapeHTML(r.jezyk)}</td>
+                        <td>${r.rok ?? ''}</td>
+                    `;
+                    frag.appendChild(tr);
+                }
+                $tbody.replaceChildren(frag);
+            }
+
+            // Status
+            const total = rows.length;
+            const shown = filtered.length;
+            $status.textContent = total ? `Wyświetlono: ${shown} / ${total}` : '';
+            updateSortIndicators();
+        }
+
+        function updateSortIndicators() {
+            $tbl.querySelectorAll('thead th.sortable').forEach(th => {
+                const key = th.getAttribute('data-key');
+                if (key === sortKey) th.setAttribute('aria-sort', sortDir === 'asc' ? 'ascending' : 'descending');
+                else th.setAttribute('aria-sort', 'none');
+            });
+        }
+
+        function escapeHTML(s) {
+            return String(s ?? '')
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;');
+        }
+
+        function applyFilter() {
+            const q = norm($q.value);
+            if (!q) {
+                filtered = rows.slice();
+            } else {
+                filtered = rows.filter(r => {
+                    const hay = [
+                        r.tytul, r.wykonawca, r.jezyk,
+                        r.rok != null ? String(r.rok) : ''
+                    ].map(norm).join(' ');
+                    return hay.includes(q);
+                });
+            }
+            render();
+        }
+
+        async function loadData() {
+            try {
+                const res = await fetch(DATA_URL, { cache: 'no-store' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                let text = await res.text();
+                text = text.replace(/^\uFEFF/, ''); // BOM
+
+                const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+                if (lines.length === 0) {
+                    rows = [];
+                    applyFilter();
+                    return;
+                }
+
+                const delim = detectDelimiter(lines[0]);
+                const parsed = lines.map(l => parseLine(l, delim));
+
+                // Oczekiwane 4 kolumny: Tytuł;Wykonawca;Język;Rok
+                // Dostosuj do większej liczby kolumn: bierzemy pierwsze 4.
+                let recs = parsed
+                    .filter(cols => cols.length >= 2) // przynajmniej tytuł + wykonawca
+                    .map(cols => {
+                        const [tytul, wykonawca, jezyk, rok] = [
+                            cols[0]?.trim() ?? '',
+                            cols[1]?.trim() ?? '',
+                            cols[2]?.trim() ?? '',
+                            cols[3]?.trim() ?? ''
+                        ];
+                        const rokNum = tryParseInt(rok);
+                        return { tytul, wykonawca, jezyk, rok: rokNum };
+                    });
+
+                // Jeśli pierwsza linia wygląda na nagłówek (brak roku, słowa kluczowe) – pomiń
+                if (recs.length > 1) {
+                    const first = recs[0];
+                    const hasHeaderWords =
+                        /tytu|title/i.test(first.tytul) ||
+                        /wykon|artist|autor/i.test(first.wykonawca) ||
+                        /jęz|jezyk|lang/i.test(first.jezyk) ||
+                        first.rok === null;
+                    const someHasYear = recs.slice(1).some(r => r.rok !== null);
+                    if (hasHeaderWords && someHasYear) recs = recs.slice(1);
+                }
+
+                rows = recs;
+                filtered = rows.slice();
+                render();
+            } catch (e) {
+                console.error(e);
+                $err.style.display = 'block';
+                $err.textContent = `Błąd wczytywania danych z ${DATA_URL}: ${e.message}`;
+                rows = [];
+                filtered = [];
+                render();
+            }
+        }
+
+        // Obsługa sortowania po kliknięciu nagłówków
+        $tbl.addEventListener('click', (ev) => {
+            const th = ev.target.closest('th.sortable');
+            if (!th) return;
+            const key = th.getAttribute('data-key');
+            if (sortKey === key) {
+                sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortKey = key;
+                sortDir = 'asc';
+            }
+            render();
+        });
+
+        // Filtrowanie na żywo
+        $q.addEventListener('input', applyFilter);
+
+        // Inicjalizacja
+        loadData();
+    </script>
 </body>
 </html>
