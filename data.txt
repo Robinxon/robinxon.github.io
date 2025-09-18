@@ -1459,7 +1459,7 @@ I Drove All Night,Céline Dion,English,2003
 Itâ€™s all coming back to me now,CĂ©line Dion,English,1996
 My Heart Will Go On,Céline Dion,English,1997
 Think Twice,CĂ©line Dion,English,1993
-1,2,3,4 Gimme some more!,D.D. Sound,English,1977
+Gimme some more!,D.D. Sound,English,1977
 Memories,D.O.S.,English,2005
 Around The World,Daft Punk,English,1997
 Digital Love,Daft Punk,English,2001
@@ -5072,7 +5072,7 @@ Teenage Angst,Placebo,English,1996
 The Bitter End,Placebo,English,2003
 You Don't Care About Us,Placebo,English,1998
 Where Is My Mind,Placebo feat. Black Francis,English,2003
-1,2,3,4,Plain White T's,English,2008
+1 2 3 4,Plain White T's,English,2008
 Hey There Delilah,Plain White T's,English,2006
 Who Said,Planet Funk,English,2003
 Zombies on your Lawn,Plants vs Zombies,English,2009
