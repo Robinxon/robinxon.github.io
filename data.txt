@@ -8141,8 +8141,8 @@ Monster,ELLEGARDEN,Japanese,2005
 LAST RESOLUTION (Japanese ver.) (TV),Emblem of THE UNLIMITED,Japanese,2013
 Kimi no Mamade (TV),Emi Motoda,Japanese,2001
 Meiyaku no Kanata (TV),Emi Nitta,Japanese,2016
-Susume-Tomorrow (TV),Emi Nitta,Aya Uchida & Suzuko Mimori,Japanese,2013
-Sakura Happy Innovation (TV),Emi Nitta,Ui Miyazaki,Mikoi Sasaki,Chiyo Ousaki,and Erika Kaiho,Japanese,2013
+Susume-Tomorrow (TV),Emi Nitta Aya Uchida & Suzuko Mimori,Japanese,2013
+Sakura Happy Innovation (TV),Emi Nitta Ui Miyazaki Mikoi Sasaki Chiyo Ousaki and Erika Kaiho,Japanese,2013
 Starlight ni Kiss Shite,Emi Shinohara,Japanese,1993
 Tooi Akogare (TV),Emiko Shiratori,Japanese,1990
 Yume no Sekai e (TV),Emiko Shiratori,Japanese,1990
@@ -8558,7 +8558,7 @@ Vajura on! (TV),Hironobu Kageyama,Japanese,1995
 We Gotta Power,Hironobu Kageyama,Japanese,1993
 We Gotta Power (TV),Hironobu Kageyama,Japanese,1993
 We Go! (TV),Hiroshi Kitadani,Japanese,2012
-GAMERS! (TV),Hisako Kanemoto,Manaka Iwami and Rumi Ookubo,Japanese,2017
+GAMERS! (TV),Hisako Kanemoto Manaka Iwami and Rumi Ookubo,Japanese,2017
 I am (TV),Hitomi Furuya,Japanese,2003
 Anicca (TV),Hitomi Harada,Japanese,2012
 Kyoumei no True Force (TV),Hitomi Harada,Japanese,2014
@@ -8655,7 +8655,7 @@ Shikkoku wo Nuritsubuse (TV),Iori Nomizu,Japanese,2014
 Alice Sweet,IOSYS,Japanese,2007
 Cirno's Perfect Math Class,IOSYS,Japanese,2008
 Flower of the sun,IOSYS,Japanese,2008
-Freezing,Tomboyish Steam of Love,Cirno's Hot Spring,IOSYS,Japanese,2010
+Freezing Tomboyish Steam of Love Cirno's Hot Spring,IOSYS,Japanese,2010
 Heartful Necromancer (PV),IOSYS,Japanese,2007
 Hinarin's Relation of Misfortune (PV),IOSYS,Japanese,2010
 Miracle hinacle (PV),IOSYS,Japanese,2008
@@ -8700,7 +8700,7 @@ Raion (TV),Jinn,Japanese,2007
 Beautiful World (TV),Joanna Koike,Japanese,2014
 Start Dash! (TV),Johnny's West,Japanese,2018
 Se-no! (TV),Jouhoushori-bu,Japanese,2013
-Jojo - Sono Chi no Kioku ~end of THE WORLD~ (TV),JO☆STARS ~TOMMY,Coda,JIN~,Japanese,2015
+Jojo - Sono Chi no Kioku ~end of THE WORLD~ (TV),JO☆STARS ~TOMMY Coda JIN~,Japanese,2015
 Blue Tears,Judy and Mary,Japanese,1994
 Motto,Judy And Mary,Japanese,2000
 Sobakasu (TV),Judy And Mary,Japanese,1999
@@ -8715,7 +8715,7 @@ Silent Voice (TV),Jun Hiroe,Japanese,1986
 Baby it's you (TV),June,Japanese,2006
 Orange Rhapsody (TV),Junichi Suwabe,Japanese,2013
 Sekai no Hate Made Believe Heart (TV),Junichi Suwabe,Japanese,2011
-Code_T.V.U (TV),Junichi Suwabe,Hiro Shimono & Kousuke Toriumi,Japanese,2015
+Code_T.V.U (TV),Junichi Suwabe Hiro Shimono & Kousuke Toriumi,Japanese,2015
 Yoru no Uta,Junko Iwao,Japanese,1998
 Yoru no Uta (TV),Junko Iwao,Japanese,1998
 Eternal Eternity,Junko Minagawa & Sayaka Ohara,Japanese,2016
@@ -8796,8 +8796,8 @@ Renai Circulation,Kana Hanazawa,Japanese,2009
 Renai Circulation (TV),Kana Hanazawa,Japanese,2009
 Sweet Parade (TV),Kana Hanazawa,Japanese,2012
 Yuki ni Saku Hana (TV),Kana Hanazawa,Japanese,2012
-My Sweet Shelter (TV),Kana Hanazawa,Mayumi Nishikino & Hisako Kanemoto,Japanese,2014
-Hallelujahâ†Essaim (TV),Kana Hanazawa,Miyu Tomita,Saori Oonishi & Naomi Oozora,Japanese,2017
+My Sweet Shelter (TV),Kana Hanazawa Mayumi Nishikino & Hisako Kanemoto,Japanese,2014
+Hallelujah Essaim (TV),Kana Hanazawa Miyu Tomita Saori Oonishi & Naomi Oozora,Japanese,2017
 Hitosashiyubi Quiet! (TV),Kana Ueda,Japanese,2008
 Netsuretsu Kangei Wonderland (TV),Kana Ueda,Japanese,2009
 Baton Road (TV),KANA-BOON,Japanese,2017
@@ -9254,7 +9254,7 @@ Namae wo yobu yo (TV),Luck Life,Japanese,2016
 Symbol (TV),Luck Life,Japanese,2018
 Just Be Friends,Luka Megurine,Japanese,2009
 Rip=Release,Luka Megurine,Japanese,2009
-Pomp and Circumstance,Luka Megurine,Miku Hatsune,GUMI,IA,Kagamine Rin,Japanese,2012
+Pomp and Circumstance,Luka Megurine Miku Hatsune GUMI IA Kagamine Rin,Japanese,2012
 Gravity,Luna Sea,Japanese,2000
 ROSIER,LUNA SEA,Japanese,1994
 Kokoronashi,luz,Japanese,2014
@@ -9550,7 +9550,7 @@ Koori no ue ni tatsuyou ni (TV),Miho Komatsu,Japanese,1998
 Nazo,Miho Komatsu,Japanese,1997
 Nazo (TV),Miho Komatsu,Japanese,1997
 Negai (TV),Miho Nemoto,Japanese,1998
-Saikousoku Fall in Love (TV),Miia,Papi,Centorea,Suu,Mero & Rachnea,Japanese,2015
+Saikousoku Fall in Love (TV),Miia Papi Centorea Suu Mero & Rachnea,Japanese,2015
 Getsumei Fuuei (TV),Mika Arisaka,Japanese,2002
 Life Goes On (TV),Mika Arisaka,Japanese,2005
 Maybe the next waltz (TV),Mikako Komatsu,Japanese,2017
