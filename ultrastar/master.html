@@ -77,15 +77,14 @@
         });
         
         // Zmiana licznika o podaną wartość
-        function changeCounter(delta) {
+        window.changeCounter = function(delta) {
             counterRef.transaction(current => {
                 if (current === null) return delta;
                 return current + delta;
             });
         }
 
-        // Resetowanie licznika do zera
-        function resetCounter() {
+        window.resetCounter = function() {
             counterRef.set(0);
         }
     </script>
