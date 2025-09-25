@@ -52,11 +52,9 @@
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
+        import { getDatabase, ref, get, set, onValue } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js";
 
         // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
             apiKey: "AIzaSyAmBVErfs3BTNkDDIeh4dxhFkrNmMCo_rk",
             authDomain: "ultrastar-ee6c3.firebaseapp.com",
@@ -70,6 +68,30 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+        const db = getDatabase(app);
+        const counterRef = ref(db, 'counter');
+
+        // DOM elements
+        const counterDiv = document.getElementById('counter');
+
+        // Listen for counter changes in Firebase
+        onValue(counterRef, (snapshot) => {
+            const val = snapshot.val();
+            counterDiv.textContent = val !== null ? val : 0;
+        });
+
+        // Change counter value in Firebase
+        window.changeCounter = async function(delta) {
+            const snapshot = await get(counterRef);
+            let current = snapshot.exists() ? snapshot.val() : 0;
+            let newValue = current + delta;
+            set(counterRef, newValue);
+        }
+
+        // Reset counter value in Firebase
+        window.resetCounter = function() {
+            set(counterRef, 0);
+        }
     </script>
 </body>
 </html>
