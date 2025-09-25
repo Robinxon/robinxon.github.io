@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter Webpage</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        #counter {
+            font-size: 4em;
+            margin: 20px;
+            background: #fff;
+            padding: 30px 60px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #0078d4;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter">0</div>
+    <div class="buttons">
+        <button onclick="changeCounter(-1)">Subtract 1</button>
+        <button onclick="changeCounter(1)">Add 1</button>
+        <button onclick="resetCounter()">Reset</button>
+        <button onclick="setMinimum()">Set Minimum</button>
+        <button onclick="setMaximum()">Set Maximum</button>
+    </div>
+    <script>
+        let counter = 0;
+        let min = 0;
+        let max = 100;
+
+        // Load initial value from licznik.txt
+        async function loadCounter() {
+            try {
+                const response = await fetch('licznik.txt');
+                if (response.ok) {
+                    const text = await response.text();
+                    counter = parseInt(text.trim()) || 0;
+                    updateCounter();
+                }
+            } catch (e) {
+                counter = 0;
+                updateCounter();
+            }
+        }
+
+        function updateCounter() {
+            document.getElementById('counter').textContent = counter;
+        }
+
+        function changeCounter(amount) {
+            counter += amount;
+            if (counter < min) counter = min;
+            if (counter > max) counter = max;
+            updateCounter();
+        }
+
+        function resetCounter() {
+            counter = 0;
+            updateCounter();
+        }
+
+        function setMinimum() {
+            min = counter;
+            if (counter < min) counter = min;
+            updateCounter();
+        }
+
+        function setMaximum() {
+            max = counter;
+            if (counter > max) counter = max;
+            updateCounter();
+        }
+
+        loadCounter();
+    </script>
+</body>
+</html>
