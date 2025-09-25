@@ -44,61 +44,32 @@
 <body>
     <div id="counter">0</div>
     <div class="buttons">
-        <button onclick="changeCounter(-1)">Subtract 1</button>
-        <button onclick="changeCounter(1)">Add 1</button>
-        <button onclick="resetCounter()">Reset</button>
-        <button onclick="setMinimum()">Set Minimum</button>
-        <button onclick="setMaximum()">Set Maximum</button>
+        <button onclick="changeCounter(-1)">➖</button>
+        <button onclick="changeCounter(1)">➕</button>
+        <button onclick="resetCounter()">🔄</button>
     </div>
-    <script>
-        let counter = 0;
-        let min = 0;
-        let max = 100;
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-        // Load initial value from licznik.txt
-        async function loadCounter() {
-            try {
-                const response = await fetch('licznik.txt');
-                if (response.ok) {
-                    const text = await response.text();
-                    counter = parseInt(text.trim()) || 0;
-                    updateCounter();
-                }
-            } catch (e) {
-                counter = 0;
-                updateCounter();
-            }
-        }
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAmBVErfs3BTNkDDIeh4dxhFkrNmMCo_rk",
+            authDomain: "ultrastar-ee6c3.firebaseapp.com",
+            projectId: "ultrastar-ee6c3",
+            storageBucket: "ultrastar-ee6c3.firebasestorage.app",
+            messagingSenderId: "676524821273",
+            appId: "1:676524821273:web:712631803a729719f25388",
+            measurementId: "G-167YL74VYE"
+        };
 
-        function updateCounter() {
-            document.getElementById('counter').textContent = counter;
-        }
-
-        function changeCounter(amount) {
-            counter += amount;
-            if (counter < min) counter = min;
-            if (counter > max) counter = max;
-            updateCounter();
-        }
-
-        function resetCounter() {
-            counter = 0;
-            updateCounter();
-        }
-
-        function setMinimum() {
-            min = counter;
-            if (counter < min) counter = min;
-            updateCounter();
-        }
-
-        function setMaximum() {
-            max = counter;
-            if (counter > max) counter = max;
-            updateCounter();
-        }
-
-        loadCounter();
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
     </script>
 </body>
 </html>
