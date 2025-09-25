@@ -48,12 +48,10 @@
         <button onclick="changeCounter(1)">➕</button>
         <button onclick="resetCounter()">🔄</button>
     </div>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
-        import { getDatabase, ref, get, set, onValue } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js";
-
+    <script src="https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js"></script>
+    <script>
         // Your web app's Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyAmBVErfs3BTNkDDIeh4dxhFkrNmMCo_rk",
@@ -66,31 +64,32 @@
         };
 
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const db = getDatabase(app);
-        const counterRef = ref(db, 'counter');
+        const app = firebase.initializeApp(firebaseConfig);
+        const analytics = firebase.analytics(app);
+        const db = firebase.database(app);
+        const counterRef = db.ref('counter');
 
         // DOM elements
         const counterDiv = document.getElementById('counter');
 
         // Listen for counter changes in Firebase
-        onValue(counterRef, (snapshot) => {
+        counterRef.on('value', (snapshot) => {
             const val = snapshot.val();
             counterDiv.textContent = val !== null ? val : 0;
         });
 
         // Change counter value in Firebase
-        window.changeCounter = async function(delta) {
-            const snapshot = await get(counterRef);
-            let current = snapshot.exists() ? snapshot.val() : 0;
-            let newValue = current + delta;
-            set(counterRef, newValue);
+        window.changeCounter = function(delta) {
+            counterRef.once('value').then((snapshot) => {
+                let current = snapshot.exists() ? snapshot.val() : 0;
+                let newValue = current + delta;
+                counterRef.set(newValue);
+            });
         }
 
         // Reset counter value in Firebase
         window.resetCounter = function() {
-            set(counterRef, 0);
+            counterRef.set(0);
         }
     </script>
 </body>
