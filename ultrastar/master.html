@@ -72,23 +72,22 @@
         // DOM elements
         const counterDiv = document.getElementById('counter');
 
-        // Listen for counter changes in Firebase
+        // Listen for changes in the counter value in Firebase
         counterRef.on('value', (snapshot) => {
-            const val = snapshot.val();
-            counterDiv.textContent = val !== null ? val : 0;
+            const value = snapshot.val();
+            counterDiv.textContent = value !== null ? value : 0;
         });
-
-        // Change counter value in Firebase
-        window.changeCounter = function(delta) {
-            counterRef.once('value').then((snapshot) => {
-                let current = snapshot.exists() ? snapshot.val() : 0;
-                let newValue = current + delta;
-                counterRef.set(newValue);
+        
+        // Zmiana licznika o podaną wartość
+        function changeCounter(delta) {
+            counterRef.transaction(current => {
+                if (current === null) return delta;
+                return current + delta;
             });
         }
 
-        // Reset counter value in Firebase
-        window.resetCounter = function() {
+        // Resetowanie licznika do zera
+        function resetCounter() {
             counterRef.set(0);
         }
     </script>
