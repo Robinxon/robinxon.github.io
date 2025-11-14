@@ -178,8 +178,8 @@
 
         // Auto-wykrywanie delimitera z pierwszej linii
         function detectDelimiter(line) {
-            const candidates = [';', '\t', '|', ','];
-            let best = ';', max = -1;
+            const candidates = ['|', ';', '\t', ','];
+            let best = '|', max = -1;
             for (const d of candidates) {
                 const c = (line.match(new RegExp('\\' + d, 'g')) || []).length;
                 if (c > max) { max = c; best = d; }
