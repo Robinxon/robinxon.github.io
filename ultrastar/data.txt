@@ -31,7 +31,7 @@ All I want;A Day To Remember;English;2010
 All Signs Point to Lauderdale;A Day To Remember;English;2010
 Have Faith In Me;A Day To Remember;English;2009
 Homesick;A Day To Remember;English;2009
-I'm Made Of Wax;Larry;What Are You Made Of;A Day To Remember;English;2009
+I'm Made Of Wax,Larry,What Are You Made Of;A Day To Remember;English;2009
 If It Means A Lot To You;A Day To Remember;English;2009
 Since U Been Gone;A Day To Remember;English;2008
 Sticks And Bricks;A Day To Remember;English;2010
@@ -75,7 +75,7 @@ Fernando;ABBA;English;1976
 Gimme! Gimme! Gimme! (A Man After Midnight);ABBA;English;1979
 Head over heels;ABBA;English;1981
 Honey Honey;ABBA;English;1975
-I Do;I Do;I Do;I Do;ABBA;English;1975
+I Do,I Do,I Do,I Do;ABBA;English;1975
 I Have A Dream;ABBA;English;1982
 Knowing Me Knowing You;ABBA;English;1977
 Lay all your love on me;ABBA;English;1980
@@ -240,7 +240,7 @@ The Spectre;Alan Walker;English;2017
 All Falls Down;Alan Walker feat. Noah Cyrus with Digital Farm Animals;English;2017
 Darkside;Alan Walker ft. Au_Ra and Tomine Harket;English;2018
 Tired;Alan Walker ft. Gavin James;English;2017
-On my way;Alan Walker;Sabrina Carpenter and Farruko;English;2019
+On my way,Alan Walker;Sabrina Carpenter and Farruko;English;2019
 Hands Clean;Alanis Morissette;English;2002
 Head Over Feet;Alanis Morissette;English;1995
 Ironic;Alanis Morissette;English;1995
@@ -290,7 +290,7 @@ Days Without;All That Remains;English;2008
 Forever In Your Hands;All That Remains;English;2008
 Two Weeks;All That Remains;English;2008
 Undone;All That Remains;English;2008
-Dear Maria;count me in;All Time Low;English;2007
+Dear Maria,count me in;All Time Low;English;2007
 I need a Dollar;Aloe Blacc;English;2010
 Boyfriend;Alphabeat;English;2008
 Fascination;Alphabeat;English;2008
@@ -299,7 +299,7 @@ Dance with Me;Alphaville;English;1986
 Forever Young;Alphaville;English;1984
 Sounds Like A Melody;Alphaville;English;1984
 The Impossible Dream;Alphaville;English;1994
-Archie;Marry Me;Alvvays;English;2014
+Archie,Marry Me;Alvvays;English;2014
 Chemicals React;Aly & AJ;English;2005
 Like Whoa;Aly & AJ;English;2006
 No One;Aly & AJ;English;2005
@@ -411,7 +411,7 @@ Break Free;Ariana Grande & Zedd;English;2014
 Baby I;Ariana Grande;English;2013
 Bad Decisions;Ariana Grande;English;2016
 Be Alright;Ariana Grande;English;2016
-break up with your girlfriend;i'm bored;Ariana Grande;English;2019
+break up with your girlfriend,i'm bored;Ariana Grande;English;2019
 Breathin;Ariana Grande;English;2018
 Dangerous Woman;Ariana Grande;English;2016
 everytime;Ariana Grande;English;2018
@@ -432,18 +432,18 @@ Positions;Ariana Grande;English;2020
 Put Your Hearts Up;Ariana Grande;English;2012
 R.E.M;Ariana Grande;English;2018
 Santa tell me;Ariana Grande;English;2014
-Thank u;next;Ariana Grande;English;2018
-Thank u;next (MV);Ariana Grande;English;2018
+Thank u,next;Ariana Grande;English;2018
+Thank u,next (MV);Ariana Grande;English;2018
 Touch It;Ariana Grande;English;2016
 We can't be friends (wait for your love);Ariana Grande;English;2024
-yes;and?;Ariana Grande;English;2024
+yes,and?;Ariana Grande;English;2024
 Everyday;Ariana Grande feat. Future;English;2017
 Problem;Ariana Grande feat. Iggy Azalea;English;2014
 The Way;Ariana Grande feat. Mac Miller;English;2013
 Side To Side;Ariana Grande feat. Nicki Minaj;English;2016
-Don't call me angel;Ariana Grande;Miley Cyrus;Lana Del Rey;English;2019
-boyfriend;Ariana Grande;Social House;English;2019
-Komm;süsser Tod;Arianne Schreiber;English;1997
+Don't call me angel,Ariana Grande,Miley Cyrus;Lana Del Rey;English;2019
+boyfriend,Ariana Grande;Social House;English;2019
+Komm,süsser Tod;Arianne Schreiber;English;1997
 Tennessee;Arrested Development;English;1991
 Rumadai;Arsenium;English;2008
 One Day (Reckoning Song) (Wankelmut Remix);Asaf Avidan;English;2012
@@ -464,10 +464,10 @@ Undiscovered;Ashlee Simpson;English;2004
 Be Good To Me;Ashley Tisdale;English;2007
 Crank It Up;Ashley Tisdale;English;2009
 Hair;Ashley Tisdale;English;2009
-He Said;She Said;Ashley Tisdale;English;2007
+He Said,She Said;Ashley Tisdale;English;2007
 Hot Mess;Ashley Tisdale;English;2009
 How Do You Love Someone;Ashley Tisdale;English;2009
-It's Alright;It's Ok;Ashley Tisdale;English;2009
+It's Alright,It's Ok;Ashley Tisdale;English;2009
 Kiss The Girl;Ashley Tisdale;English;2006
 Kiss the Girl (De "The Little Mermaid");Ashley Tisdale;English;2006
 Masquerade;Ashley Tisdale;English;2009
@@ -627,7 +627,7 @@ Copacabana;Barry Manilow;English;1978
 Copacabana (12'' Maxi);Barry Manilow;English;1978
 Mandy;Barry Manilow;English;1974
 Read 'em and weep;Barry Manilow;English;1983
-You're The First;The Last;My Everything;Barry White;English;1974
+You're The First,The Last,My Everything;Barry White;English;1974
 Cruising for bruising;Basia;English;1990
 All I Ever Wanted;Basshunter;English;2008
 Angel In The Night;Basshunter;English;2008
@@ -647,8 +647,8 @@ No Sleep Till Brooklyn;Beastie Boys;English;1986
 Sabotage;Beastie Boys;English;1994
 So What'cha Want;Beastie Boys;English;1992
 Hit in the USA (TV);Beat Crusaders;English;2004
-Tonight;tonight;tonight;Beat Crusaders;English;2006
-Tonight;tonight;tonight (TV);Beat Crusaders;English;2006
+Tonight,tonight,tonight;Beat Crusaders;English;2006
+Tonight,tonight,tonight (TV);Beat Crusaders;English;2006
 Dub Be Good To Me;Beats International;English;1990
 Cut Off the Top;Beatsteaks;English;2007
 Beauty And The Beast;Beauty And The Beast;English;1991
@@ -686,7 +686,7 @@ Tic-Toc;Belanova & Lena Katina;English;2011
 Circle in the sand;Belinda Carlisle;English;1988
 Heaven Is A Place On Earth;Belinda Carlisle;English;1987
 La Luna;Belinda Carlisle;English;1989
-Rescue Me;Bell;Book & Candle;English;1997
+Rescue Me,Bell;Book & Candle;English;1997
 Build a B*tch;Bella Poarch;English;2021
 Call It Whatever;Bella Thorne;English;2014
 Let Your Love Flow;Bellamy Brothers;English;1975
@@ -728,7 +728,7 @@ Video Phone;Beyoncé ft. Lady Gaga;English;2008
 Sway;Bic Runga;English;1997
 Save a Horse;Big & Rich;English;2004
 In a Big Country;Big Country;English;1983
-Baby;I Love Your Way;Big Mountain;English;1994
+Baby,I Love Your Way;Big Mountain;English;1994
 Girl In Oslo;Bigbang;English;2000
 Rebel Girl;Bikini Kill;English;1993
 (I've Had) the Time of My Life;Bill Medley & Jennifer Warnes;English;1987
@@ -749,7 +749,7 @@ Ocean Eyes;Billie Eilish;English;2016
 The End of the World (Live BBC);Billie Eilish;English;2017
 What was I made for?;Billie Eilish;English;2023
 when the party's over;Billie Eilish;English;2018
-lovely;Billie Eilish;Khalid;English;2018
+lovely,Billie Eilish;Khalid;English;2018
 Kiss the Rain;Billie Myers;English;1997
 Summercat;Billie the Vision & the Dancers;English;2004
 Bright Lights;Billy Crawford;English;2004
@@ -767,13 +767,13 @@ Uptown Girl;Billy Joel;English;1983
 We didn't start the fire;Billy Joel;English;1989
 Caribbean Queen;Billy Ocean;English;1984
 European Queen (12 inch Maxi Single);Billy Ocean;English;1984
-Get outta my dreams;get into my car;Billy Ocean;English;1988
+Get outta my dreams,get into my car;Billy Ocean;English;1988
 Loverboy;Billy Ocean;English;1984
-When the going gets tough;the tough get going;Billy Ocean;English;1985
+When the going gets tough,the tough get going;Billy Ocean;English;1985
 Me and Mrs. Jones;Billy Paul;English;1972
 With You I'm Born Again;Billy Preston & Syreeta;English;1979
 Achy Breaky Heart;Billy Ray Cyrus;English;1992
-Ready;Set;Don't Go;Billy Ray Cyrus;English;2007
+Ready,Set,Don't Go;Billy Ray Cyrus;English;2007
 Everybody Wants You;Billy Squier;English;1982
 The stroke;Billy Squier;English;1981
 Sympathy;Billy Talent;English;2006
@@ -794,8 +794,8 @@ Everybody Everybody (Le Freak Mix);Black Box;English;1990
 Ride on time;Black Box;English;1989
 I Gotta Feeling;Black Eyed Peas;English;2008
 The Time (Dirty Bit);Black Eyed Peas;English;2010
-GIRL LIKE ME;Black Eyed Peas;Shakira;English;2020
-Don't you worry;Black Eyed Peas;Shakira and David Guetta;English;2022
+GIRL LIKE ME,Black Eyed Peas;Shakira;English;2020
+Don't you worry,Black Eyed Peas;Shakira and David Guetta;English;2022
 Melody;Black Rose;English;1994
 Iron Man;Black Sabbath;English;1970
 Paranoid;Black Sabbath;English;1970
@@ -883,7 +883,7 @@ One Love People Get Ready;Bob Marley & the Wailers;English;1977
 Redemption Song;Bob Marley & the Wailers;English;1980
 Stir It Up;Bob Marley & the Wailers;English;1967
 Three Little Birds;Bob Marley & the Wailers;English;1977
-Get Up;Stand Up;Bob Marley;English;1973
+Get Up,Stand Up;Bob Marley;English;1973
 Jamming;Bob Marley;English;1977
 No Woman No Cry;Bob Marley;English;1976
 Waiting in vain;Bob Marley;English;1977
@@ -893,7 +893,7 @@ Old Time Rock and Roll;Bob Seger & The Silver Bullet Band;English;1979
 Shakedown;Bob Seger;English;1987
 Love generation;Bob Sinclar Feat. Gary Pine;English;2005
 Together;Bob Sinclar Feat. Steve Edwards;English;2007
-World;hold on;Bob Sinclar Feat. Steve Edwards;English;2006
+World,hold on;Bob Sinclar Feat. Steve Edwards;English;2006
 On our own;Bobby Brown;English;1989
 Don't rain on my parade;Bobby Darin;English;1966
 Jingle Bell Rock;Bobby Helms;English;1957
@@ -997,7 +997,7 @@ I Wanna Go;Britney Spears;English;2011
 I Will Be There;Britney Spears;English;1999
 I'm Slave 4 U;Britney Spears;English;2001
 If U Seek Amy;Britney Spears;English;2008
-I´m Not A Girl;Not Yet A Woman;Britney Spears;English;2002
+I´m Not A Girl,Not Yet A Woman;Britney Spears;English;2002
 Lonely;Britney Spears;English;2001
 Lucky;Britney Spears;English;2000
 My Prerogative;Britney Spears;English;2004
@@ -1119,12 +1119,12 @@ Sweet Nothing;Calvin Harris feat. Florence Welch;English;2012
 Pray To God;Calvin Harris feat. HAIM;English;2015
 Bounce;Calvin Harris feat. Kelis;English;2011
 Let's Go;Calvin Harris feat. Ne-Yo;English;2012
-Feels;Calvin Harris feat. Pharrell Williams;Katy Perry;Big Sean;English;2017
+Feels,Calvin Harris feat. Pharrell Williams,Katy Perry;Big Sean;English;2017
 This Is What You Came For;Calvin Harris feat. Rihanna;English;2016
 Drinking From The Bottle;Calvin Harris feat. Tinie Tempah;English;2013
 Giant;Calvin Harris ft. Rag'n'Bone Man;English;2019
 Word Up;Cameo;English;1986
-Lloyd;I'm Ready To Be Heartbroken;Camera Obscura;English;2006
+Lloyd,I'm Ready To Be Heartbroken;Camera Obscura;English;2006
 My Oh My;Camila Cabello  feat. DaBaby;English;2019
 Consequences (orchestra);Camila Cabello;English;2018
 Crying in the Club;Camila Cabello;English;2017
@@ -1254,7 +1254,7 @@ Call My Name;Cheryl Cole;English;2012
 Fight For This Love;Cheryl Cole;English;2009
 Got to be real;Cheryl Lynn;English;1979
 The One And Only;Chesney Hawkes;English;1991
-Nice Guys;Chester See;KevJumba & Ryan Higa;English;2011
+Nice Guys,Chester See;KevJumba & Ryan Higa;English;2011
 Chic Mystique;Chic;English;1992
 Everybody dance;Chic;English;1977
 Good Times;Chic;English;1979
@@ -1310,9 +1310,9 @@ Your Body;Christina Aguilera;English;2011
 Dirrty;Christina Aguilera feat. Redman;English;2002
 Impossible;Christina Aguilera ft. Alicia Keys;English;2002
 Fall In Line;Christina Aguilera ft. Demi Lovato;English;2018
-Lady Marmalade;Christina Aguilera;Lil' Kim;Mýa;P!nk;English;2000
+Lady Marmalade,Christina Aguilera,Lil' Kim,Mýa;P!nk;English;2000
 AM to PM;Christina Milian;English;2001
-Invincible;Christina Novelli;Nash;Tom Rogers & J Puchler;English;2022
+Invincible,Christina Novelli,Nash;Tom Rogers & J Puchler;English;2022
 A Thousand Years;Christina Perri;English;2011
 Jar of Hearts;Christina Perri;English;2010
 The Lonely;Christina Perri;English;2011
@@ -1334,7 +1334,7 @@ Real Love;Clean Bandit & Jess Glynne;English;2014
 Solo;Clean Bandit feat. Demi Lovato;English;2018
 Rather Be;Clean Bandit feat. Jess Glynne;English;2014
 Symphony;Clean Bandit feat. Zara Larsson;English;2017
-Rockabye;Clean Bandit;Sean Paul & Anne-Marie;English;2016
+Rockabye,Clean Bandit;Sean Paul & Anne-Marie;English;2016
 Congratulations;Cliff Richard;English;1968
 Mistletoe and Wine;Cliff Richard;English;1988
 Never Say Die (Give a little bit more);Cliff Richard;English;1983
@@ -1522,7 +1522,7 @@ Jeans On;David Dundas;English;1976
 Superstars II;David Fonseca;English;2007
 The 80's;David Fonseca;English;2003
 Clouds;David Gates;English;1973
-Suite: Clouds;Rain;David Gates;English;1973
+Suite: Clouds,Rain;David Gates;English;1973
 Gettin' over You;David Guetta & Chris Willis ft. Fergie & LMFAO;English;2010
 Bad;David Guetta & Showtek feat. Vassy;English;2014
 Flames;David Guetta & Sia;English;2018
@@ -1540,7 +1540,7 @@ Where Them Girls At?;David Guetta feat. Flo Rida & Nicki Minaj;English;2011
 Memories;David Guetta feat. Kid Cudi;English;2009
 Play Hard;David Guetta feat. Ne-Yo & Akon;English;2013
 Turn Me On;David Guetta feat. Nicki Minaj;English;2012
-Hey Mama;David Guetta feat. Nicki Minaj;Bebe Rexha & Afrojack;English;2015
+Hey Mama,David Guetta feat. Nicki Minaj;Bebe Rexha & Afrojack;English;2015
 Who's That Chick?;David Guetta feat. Rihanna;English;2010
 Lovers On The Sun;David Guetta feat. Sam Martin;English;2014
 Bang My Head;David Guetta feat. Sia & Fetty Wap;English;2015
@@ -1625,7 +1625,7 @@ Got Dynamite;Demi Lovato;English;2009
 Heart Attack;Demi Lovato;English;2013
 Here We Go Again;Demi Lovato;English;2009
 Hold Up;Demi Lovato;English;2011
-I Hate You;Don't Leave Me;Demi Lovato;English;2013
+I Hate You,Don't Leave Me;Demi Lovato;English;2013
 I Love Me;Demi Lovato;English;2020
 In Case;Demi Lovato;English;2013
 In Real Life;Demi Lovato;English;2011
@@ -1634,7 +1634,7 @@ Let It Go;Demi Lovato;English;2013
 Lightweight;Demi Lovato;English;2011
 Lionheart;Demi Lovato;English;2015
 Made In The USA;Demi Lovato;English;2013
-Me;Myself And Time;Demi Lovato;English;2010
+Me,Myself And Time;Demi Lovato;English;2010
 Mistake;Demi Lovato;English;2011
 Mr. Hughes;Demi Lovato;English;2015
 My Love Is Like A Star;Demi Lovato;English;2011
@@ -1734,7 +1734,7 @@ Muscles;Diana Ross;English;1982
 Upside down;Diana Ross;English;1980
 Baby Love;Diana Ross And The Supremes;English;1964
 Reflections;Diana Ross And The Supremes;English;1967
-What Else Can I Do? (De "Encanto");Diane Guerrero;Stephanie Beatriz;English;2021
+What Else Can I Do? (De "Encanto"),Diane Guerrero;Stephanie Beatriz;English;2021
 Don't believe in love;Dido;English;2008
 Don't Leave Home;Dido;English;2004
 End of Night;Dido;English;2013
@@ -1806,8 +1806,8 @@ She Works Hard for the Money;Donna Summer;English;1993
 She Works Hard For The Money (Special Long Version);Donna Summer;English;1983
 Supernatural Love;Donna Summer;English;1984
 This time I know it's for real;Donna Summer;English;1989
-Perhaps;perhaps;perhaps;Doris Day;English;1964
-Whatever will be;will be (Que sera;sera);Doris Day;English;1956
+Perhaps,perhaps,perhaps;Doris Day;English;1964
+Whatever will be,will be (Que sera,sera);Doris Day;English;1956
 The captain of her heart;Double;English;1985
 Please don't go;Double You;English;1992
 Better In Stereo (TV);Dove Cameron;English;2015
@@ -1885,22 +1885,22 @@ You're Welcome;Dwayne Johnson;English;2016
 Missing You;E-Rotic;English;2000
 Here I Go Again;E-Type;English;1998
 Life;E-Type;English;2001
-Say it;say it;E.G. Daily;English;1986
+Say it,say it;E.G. Daily;English;1986
 Save Tonight;Eagle-Eye Cherry;English;1997
 I can't tell you why;Eagles;English;1979
 Wannabe in L.A;Eagles Of Death Metal;English;2008
 Weekend;Earth and Fire;English;1979
 September '99 (Phats & Small Remix);Earth Wind & Fire;English;1999
-After the love has gone;Earth;Wind & Fire;English;1979
-Fall in love with me;Earth;Wind & Fire;English;1982
-Fantasy;Earth;Wind & Fire;English;1978
-Got to get you into my life;Earth;Wind & Fire;English;1978
-Let's Groove;Earth;Wind & Fire;English;1981
-Love's Holiday;Earth;Wind & Fire;English;1977
-September;Earth;Wind & Fire;English;1978
-Shining Star;Earth;Wind & Fire;English;1975
-Thinking of you;Earth;Wind & Fire;English;1987
-Boogie Wonderland;Earth;Wind & Fire with The Emotions;English;1979
+After the love has gone,Earth;Wind & Fire;English;1979
+Fall in love with me,Earth;Wind & Fire;English;1982
+Fantasy,Earth;Wind & Fire;English;1978
+Got to get you into my life,Earth;Wind & Fire;English;1978
+Let's Groove,Earth;Wind & Fire;English;1981
+Love's Holiday,Earth;Wind & Fire;English;1977
+September,Earth;Wind & Fire;English;1978
+Shining Star,Earth;Wind & Fire;English;1975
+Thinking of you,Earth;Wind & Fire;English;1987
+Boogie Wonderland,Earth;Wind & Fire with The Emotions;English;1979
 Where is my man;Eartha Kitt;English;1983
 Let It Rain;East 17;English;1994
 Stay Another Day;East 17;English;1994
@@ -1954,7 +1954,7 @@ Blue;Eiffel 65;English;1999
 Blue (Da Ba Dee) (Blue Ice Pop Radio Edit);Eiffel 65;English;1999
 Dub in life;Eiffel 65;English;1999
 Too much of heaven (Club Remix);Eiffel 65;English;1999
-Baby;baby;Eighth Wonder;English;1988
+Baby,baby;Eighth Wonder;English;1988
 Cross my heart;Eighth Wonder;English;1988
 I'm not scared;Eighth Wonder;English;1988
 I Know Him So Well;Elaine Paige & Barbara Dickson;English;1984
@@ -2089,13 +2089,13 @@ Tonight (I'm Fuckin' You);Enrique Iglesias feat. Ludacris & DJ Frank E;English;2
 Tonight (I'm Lovin' You);Enrique Iglesias feat. Ludacris & DJ Frank E;English;2010
 I Like How It Feels;Enrique Iglesias feat. Pitbull & The WAV.s;English;2011
 I Like It;Enrique Iglesias feat. Pitbull;English;2010
-Dirty Dancer;Enrique Iglesias;Usher & Lil Wayne;English;2011
+Dirty Dancer,Enrique Iglesias;Usher & Lil Wayne;English;2011
 Eternal Wait;Ensiferum;English;2001
 Wanderer;Ensiferum;English;2007
 Anywhere Is;Enya;English;1995
 May It Be;Enya;English;2001
 My! My! Time Flies!;Enya;English;2008
-O Come;O Come;Emmanuel;Enya;English;2008
+O Come,O Come,Emmanuel;Enya;English;2008
 Only Time;Enya;English;2000
 Trains and Winter Rains;Enya;English;2008
 Cry For The Moon;Epica;English;2004
@@ -2210,8 +2210,8 @@ Dance Dance;Fall Out Boy;English;2005
 Dead on Arrival;Fall Out Boy;English;2003
 I don't care;Fall Out Boy;English;2008
 Immortals;Fall Out Boy;English;2014
-Sugar;We're Goin' Down;Fall Out Boy;English;2005
-The Take Over;the Breaks Over;Fall Out Boy;English;2007
+Sugar,We're Goin' Down;Fall Out Boy;English;2005
+The Take Over,the Breaks Over;Fall Out Boy;English;2007
 This Ain't A Scene;Fall Out Boy;English;2007
 Thnks Fr Th Mmrs;Fall Out Boy;English;2007
 Give Me Your Love;Fame;English;2003
@@ -2226,7 +2226,7 @@ Like A G6;Far East Movement feat. The Cataracs & DEV;English;2010
 Eyes on me;Faye Wong;English;1999
 Dead end (TV);Faylan;English;2012
 I do (TV);Fayray;English;2001
-Let me hear (TV);Fear;and Loathing in Las Vegas;English;2014
+Let me hear (TV),Fear;and Loathing in Las Vegas;English;2014
 Goodbye;Feder feat. Lyse;English;2015
 Buck Rogers;Feeder;English;2006
 DuckTales (TV);Felicia Barton;English;2017
@@ -2250,7 +2250,7 @@ Worth It;Fifth Harmony feat. Kid Ink;English;2015
 Brave Honest Beautiful;Fifth Harmony feat. Meghan Trainor;English;2015
 Work From Home;Fifth Harmony feat. Ty Dolla $ign;English;2016
 Cupid (Twin Ver.);FIFTY FIFTY;English;2023
-Hey Man;Nice Shot;Filter;English;1995
+Hey Man,Nice Shot;Filter;English;1995
 She drives me crazy;Fine Young Cannibals;English;1988
 Paralyzer;Finger Eleven;English;2007
 Stay In Shadow;Finger Eleven;English;2003
@@ -2277,10 +2277,10 @@ Seven Wonders;Fleetwood Mac;English;1987
 Shooting Star;Flip & Fill;English;2003
 Good Feeling;Flo Rida;English;2011
 Right round;Flo Rida;English;2009
-Turn Around (5;4;3;2;1);Flo Rida;English;2010
+Turn Around (5,4,3,2,1);Flo Rida;English;2010
 Whistle;Flo Rida;English;2012
 Club Can't Handle Me;Flo Rida ft David Guetta;English;2010
-I don't like it;I love it;Flo Rida ft. Robin Thicke & Verdine White;English;2015
+I don't like it,I love it;Flo Rida ft. Robin Thicke & Verdine White;English;2015
 Breath of Life;Florence + the Machine;English;2012
 Dog Days Are Over;Florence + the Machine;English;2010
 Drumming Song;Florence + the Machine;English;2009
@@ -2302,7 +2302,7 @@ Doll;Foo Fighters;English;1997
 Enough space;Foo Fighters;English;1997
 Everlong;Foo Fighters;English;1997
 February stars;Foo Fighters;English;1997
-Hey;Johnny Park;Foo Fighters;English;1997
+Hey,Johnny Park;Foo Fighters;English;1997
 I'll Stick Around;Foo Fighters;English;1995
 Learn to Fly;Foo Fighters;English;1999
 Long Road To Ruin;Foo Fighters;English;2007
@@ -2344,7 +2344,7 @@ Dindi;Frank Sinatra;English;1967
 Fly Me to the Moon;Frank Sinatra;English;1964
 Love And Marriage;Frank Sinatra;English;1955
 My Way;Frank Sinatra;English;1969
-New York;New York;Frank Sinatra;English;1980
+New York,New York;Frank Sinatra;English;1980
 One for my baby;Frank Sinatra;English;1958
 Far from over;Frank Stallone;English;1983
 Beauty School Dropout;Frankie Avalon;English;1978
@@ -2408,7 +2408,7 @@ I Like Chopin;Gazebo;English;1983
 Lunatic;Gazebo;English;1983
 Masterpiece;Gazebo;English;1982
 Singing In The Rain;Gene Kelly;English;1952
-Follow You;Follow Me;Genesis;English;1978
+Follow You,Follow Me;Genesis;English;1978
 Home by the sea;Genesis;English;1983
 I Can't Dance;Genesis;English;1991
 In too deep;Genesis;English;1986
@@ -2419,7 +2419,7 @@ Mama;Genesis;English;1983
 No son of mine;Genesis;English;1991
 That's all;Genesis;English;1983
 The Carpet Crawlers;Genesis;English;1974
-Tonight;Tonight;Tonight;Genesis;English;1986
+Tonight,Tonight,Tonight;Genesis;English;1986
 Give me the night;George Benson;English;1980
 On Broadway;George Benson;English;1979
 Budapest;George Ezra;English;2014
@@ -2458,12 +2458,12 @@ La Passion;Gigi D'Agostino;English;1999
 Alone Again (Naturally) (TV);Gilbert O'Sullivan;English;1972
 Alone Again;Gilbert OSullivan;English;1972
 CLAIR;Gilbert OSullivan;English;1972
-Bend me;shape me;Gilla;English;1977
+Bend me,shape me;Gilla;English;1977
 Hey Jealousy;Gin Blossoms;English;1993
 Together In Electric Dreams;Giorgio Moroder & Philip Oakey;English;1984
 Tom's Diner;Giorgio Moroder feat. Britney Spears;English;2015
 Diamonds;Giorgio Moroder feat. Charli XCX;English;2015
-Right Here;Right Now;Giorgio Moroder feat. Kylie Minogue;English;2015
+Right Here,Right Now;Giorgio Moroder feat. Kylie Minogue;English;2015
 Tempted;Giorgio Moroder feat. Matthew Koma;English;2015
 The Show;Girls Allowed;English;2004
 Biology;Girls Aloud;English;2005
@@ -2479,7 +2479,7 @@ Licence to kill;Gladys Knight;English;1989
 4 minutes;Glee;English;2009
 ABC;Glee;English;2011
 Alone;Glee;English;2009
-Americano;Dance Again;Glee;English;2012
+Americano,Dance Again;Glee;English;2012
 And I Am Telling You I'm Not Going;Glee;English;2009
 Animal;Glee;English;2011
 Any Way You Want It  Lovin' Touchin' Squeezin';Glee;English;2010
@@ -2487,26 +2487,26 @@ Anything Could Happen;Glee;English;2012
 Applause;Glee;English;2013
 As Long As You're There;Glee;English;2011
 Baby;Glee;English;2011
-Baby;It's Cold Outside;Glee;English;2010
+Baby,It's Cold Outside;Glee;English;2010
 Back To Black;Glee;English;2011
 Bad Romance;Glee;English;2010
 Be Okay;Glee;English;2014
 Beautiful;Glee;English;2010
 Beth;Glee;English;2010
 Billionaire;Glee;English;2010
-Bills;Bills;Bills;Glee;English;2011
+Bills,Bills,Bills;Glee;English;2011
 Blow Me (One Last Kiss);Glee;English;2012
 Blurred Lines;Glee;English;2013
 Bohemian Rhapsody;Glee;English;2010
-Borderline;Open Your Heart;Glee;English;2010
+Borderline,Open Your Heart;Glee;English;2010
 Born This Way;Glee;English;2011
-Boys;Boyfriend;Glee;English;2012
+Boys,Boyfriend;Glee;English;2012
 Bust Your Windows;Glee;English;2009
 Call Me Maybe;Glee;English;2012
 Chasing Pavements;Glee;English;2012
 Clarity;Glee;English;2013
 Constant Craving;Glee;English;2011
-Crazy;U Drive Me Crazy;Glee;English;2012
+Crazy,U Drive Me Crazy;Glee;English;2012
 Crush;Glee;English;2009
 Dancing Queen;Glee;English;2011
 Defying Gravity;Glee;English;2010
@@ -2515,7 +2515,7 @@ Dog Days Are Over;Glee;English;2010
 Don't Go Breaking My Heart;Glee;English;2011
 Don't Rain on my Parade;Glee;English;2010
 Don't Speak;Glee;English;2012
-Don't Stand So Close To Me;Young Girl;Glee;English;2010
+Don't Stand So Close To Me,Young Girl;Glee;English;2010
 Don't Stop;Glee;English;2011
 Don't Stop Believin';Glee;English;2010
 Don't You Want Me;Glee;English;2010
@@ -2533,7 +2533,7 @@ Fat Bottomed Girls;Glee;English;2011
 Fighter;Glee;English;2012
 Firework;Glee;English;2011
 Fix You;Glee;English;2011
-Fly;I Believe I Can Fly;Glee;English;2012
+Fly,I Believe I Can Fly;Glee;English;2012
 Forever Young;Glee;English;2012
 Forget You;Glee;English;2010
 Friday;Glee;English;2011
@@ -2549,16 +2549,16 @@ Gold Digger;Glee;English;2009
 Halo & Walking On Sunshine;Glee;English;2010
 Hate On Me;Glee;English;2009
 Hello;Glee;English;2009
-Hello;Goodbye;Glee;English;2010
-Hello;I Love You;Glee;English;2010
+Hello,Goodbye;Glee;English;2010
+Hello,I Love You;Glee;English;2010
 Hey Soul Sister;Glee;English;2011
-Hit Me With Your Best Shot;One Way Or Another;Glee;English;2012
+Hit Me With Your Best Shot,One Way Or Another;Glee;English;2012
 Hold It Against Me;Glee;English;2012
 Hung Up;Glee;English;2013
-I Feel Pretty;Unpretty;Glee;English;2011
+I Feel Pretty,Unpretty;Glee;English;2011
 I Kissed a Girl;Glee;English;2011
 I Look To You;Glee;English;2010
-I Love New York;New York;New York;Glee;English;2011
+I Love New York,New York,New York;Glee;English;2011
 I Say A Little Prayer;Glee;English;2009
 I Want to Hold Your Hand;Glee;English;2010
 I'll Remember;Glee;English;2011
@@ -2568,7 +2568,7 @@ I've Slept With You;Glee;English;2011
 If I Die Young;Glee;English;2013
 Imagine;Glee;English;2009
 Isn't She Lovely;Glee;English;2011
-It's My Life;Confessions;Pt. II;Glee;English;2010
+It's My Life,Confessions,Pt. II;Glee;English;2010
 It's Not Unusual;Glee;English;2011
 Jessie's Girl;Glee;English;2010
 Just The Way You Are;Glee;English;2011
@@ -2609,7 +2609,7 @@ Rehab;Glee;English;2009
 River Deep Mountain High;Glee;English;2010
 Roar;Glee;English;2013
 Rolling In The Deep;Glee;English;2011
-Rumour Has It;Someone Like You;Glee;English;2011
+Rumour Has It,Someone Like You;Glee;English;2011
 Run The World (Girls);Glee;English;2011
 Sexy And I Know It;Glee;English;2012
 She's Not There;Glee;English;2011
@@ -2623,7 +2623,7 @@ Songbird;Glee;English;2011
 Starships;Glee;English;2012
 Stereo Hearts;Glee;English;2012
 Stronger;Glee;English;2010
-Survivor;I Will Survive;Glee;English;2011
+Survivor,I Will Survive;Glee;English;2011
 Sweet Caroline;Glee;English;2009
 Sweet Transvestite;Glee;English;2010
 Take a bow;Glee;English;2010
@@ -2634,13 +2634,13 @@ The Boy Is Mine;Glee;English;2009
 The Fox (What Does the Fox Say?);Glee;English;2013
 The Only Exception;Glee;English;2011
 The Scientist;Glee;English;2012
-Thriller;Heads Will Roll;Glee;English;2011
+Thriller,Heads Will Roll;Glee;English;2011
 Tik Tok;Glee;English;2010
 Torn;Glee;English;2013
 Total Eclipse Of The Heart;Glee;English;2010
 Toxic;Glee;English;2010
 True Colors;Glee;English;2009
-Umbrella;Singin' In The Rain;Glee;English;2010
+Umbrella,Singin' In The Rain;Glee;English;2010
 Valerie;Glee;English;2010
 Vogue;Glee;English;2010
 Wannabe;Glee;English;2013
@@ -2656,7 +2656,7 @@ Wrecking Ball;Glee;English;2013
 You Keep Me Hangin' On;Glee;English;2009
 Home;Glee Cast;English;2010
 Heartache Tonight;Glenn Frey;English;1993
-Part of me;part of you;Glenn Frey;English;1991
+Part of me,part of you;Glenn Frey;English;1991
 The heat is on;Glenn Frey;English;1985
 You belong to the city;Glenn Frey;English;1985
 Nothing's gonna change my love for you;Glenn Medeiros;English;1987
@@ -2676,7 +2676,7 @@ I will survive (Special Disco Version);Gloria Gaynor;English;1979
 Never can say goodbye;Gloria Gaynor;English;1974
 Rusty Anchor;Glottis;English;1998
 Crazy;Gnarls Barkley;English;2006
-i hate u;i love u;gnash & Olivia O'Brien;English;2016
+i hate u,i love u;gnash & Olivia O'Brien;English;2016
 The King Of Wishful Thinking;Go West;English;1990
 We close our eyes;Go West;English;1985
 Radar Love;Golden Earring;English;1973
@@ -2766,7 +2766,7 @@ Heat Above;Greta Van Fleet;English;2021
 Redneck Woman;Gretchen Wilson;English;2004
 Chemical Heart;Grinspoon;English;2002
 Hard Act To Follow;Grinspoon;English;2004
-Just the two of us;Grover Washington;Jr.;English;1980
+Just the two of us,Grover Washington;Jr.;English;1980
 Never Forget;Gréta Salóme & Jónsi;English;2012
 Big in Japan;Guano Apes;English;2000
 You Can't Stop Me;Guano Apes;English;2003
@@ -2817,7 +2817,7 @@ Rock Star;Hannah Montana;English;2007
 Supergirl;Hannah Montana;English;2009
 The Best of Both Worlds;Hannah Montana;English;2006
 You'll Always Find Your Way Back Home;Hannah Montana;English;2009
-A Day Late;A Dollar Short;Hanoi Rocks;English;2002
+A Day Late,A Dollar Short;Hanoi Rocks;English;2002
 MMMBop;Hanson;English;1997
 Kinky Afro;Happy Mondays;English;1990
 Hard To Beat;Hard Fi;English;2005
@@ -2871,7 +2871,7 @@ High School Musical;High School Musical 3;English;2008
 I Want It All;High School Musical 3;English;2008
 Just Wanna Be With You;High School Musical 3;English;2008
 Now Or Never;High School Musical 3;English;2008
-Right Here;Right Now;High School Musical 3;English;2008
+Right Here,Right Now;High School Musical 3;English;2008
 Scream;High School Musical 3;English;2008
 The Boys Are Back;High School Musical 3;English;2008
 Walk Away;High School Musical 3;English;2008
@@ -3103,7 +3103,7 @@ Pigs in Zen;Jane's Addiction;English;1988
 Standing in the Shower... Thinking;Jane's Addiction;English;1988
 Stop!;Jane's Addiction;English;1990
 Summertime Rolls;Jane's Addiction;English;1988
-Ted;just admit it;Jane's Addiction;English;1988
+Ted,just admit it;Jane's Addiction;English;1988
 Up the beach;Jane's Addiction;English;1988
 Black Cat;Janet Jackson;English;1989
 Together again;Janet Jackson;English;1997
@@ -3124,7 +3124,7 @@ Make It Mine;Jason Mraz;English;2008
 Lucky;Jason Mraz ft. Colbie Caillat;English;2009
 Real Things;Javine;English;2004
 Savage Love (Laxed - Siren Beat);Jawsh 685 & Jason Derulo;English;2020
-Savage Love (Laxed - Siren Beat) (BTS Remix);Jawsh 685;Jason Derulo;BTS;English;2020
+Savage Love (Laxed - Siren Beat) (BTS Remix),Jawsh 685,Jason Derulo;BTS;English;2020
 You Don't Know Me;Jax Jones ft. Raye;English;2017
 Eyes On You;Jay Sean featuring The Rishi Rich Project;English;2004
 Run This Town;Jay-Z feat. Rihanna & Kanye West;English;2009
@@ -3177,7 +3177,7 @@ Who's Laughing Now?;Jessie J;English;2011
 Burnin' Up;Jessie J feat. 2 Chainz;English;2014
 Wild;Jessie J feat. Big Sean & Dizzee Rascal;English;2013
 LaserLight;Jessie J feat. David Guetta;English;2012
-Bang Bang;Jessie J;Ariana Grande & Nicki Minaj;English;2014
+Bang Bang,Jessie J;Ariana Grande & Nicki Minaj;English;2014
 Right Here Right Now;Jesus Jones;English;1991
 Are You Gonna Be My Girl;Jet;English;2003
 Look what you've done;Jet;English;2003
@@ -3205,14 +3205,14 @@ N'oubliez jamais;Joe Cocker;English;1997
 Summer in the City;Joe Cocker;English;1966
 Unchain my heart;Joe Cocker;English;1987
 You Can Leave Your Hat On;Joe Cocker;English;1977
-Lady;lady;lady;Joe Esposito;English;1983
+Lady,lady,lady;Joe Esposito;English;1983
 You're the best;Joe Esposito;English;1984
 See No More;Joe Jonas;English;2011
 Head & Heart;Joel Corry x MNEK;English;2020
 Believe it or not;Joey Scarbury;English;1981
 Happy Xmas (War Is Over);John & Yoko;English;1971
 Hurts So Good;John Cougar Mellencamp;English;1982
-Take Me Home;Country Roads;John Denver;English;1971
+Take Me Home,Country Roads;John Denver;English;1971
 You're The Voice;John Farnham;English;1986
 All of Me;John Legend;English;2013
 (Just Like) Starting Over;John Lennon;English;1980
@@ -3234,7 +3234,7 @@ Greased Lightnin';John Travolta;English;1978
 Missing you;John Waite;English;1984
 Lover why;John Wesley;English;1996
 A Boy Named Sue;Johnny Cash;English;1969
-Cry;Cry;Cry;Johnny Cash;English;1955
+Cry,Cry,Cry;Johnny Cash;English;1955
 Folsom Prison Blues;Johnny Cash;English;1955
 Hurt;Johnny Cash;English;2002
 I Walk The Line;Johnny Cash;English;1956
@@ -3250,7 +3250,7 @@ Hold me now;Johnny Logan;English;1987
 What's another year!;Johnny Logan;English;1980
 Leave (Get Out);JoJo;English;2006
 Say Love;JoJo;English;2015
-Too little;too late;Jojo;English;2006
+Too little,too late;Jojo;English;2006
 When love hurts;JoJo;English;2015
 I'm Not Yours;Jolin Tsai Feat. Namie Amuro;English;2014
 Harry Potter in 99 seconds;Jon Cozart;English;2011
@@ -3355,7 +3355,7 @@ Queen of Witches;Kano;English;1983
 Carry On Wayward Son;Kansas;English;1976
 Dust in the Wind;Kansas;English;1977
 Lost In The World;Kanye West feat. Bon Iver;English;2012
-All Of The Lights;Kanye West;Rihanna & Kid Cudi;English;2011
+All Of The Lights,Kanye West;Rihanna & Kid Cudi;English;2011
 Club Foot;Kasabian;English;2004
 Days Are Forgotten;Kasabian;English;2011
 Eez-eh;Kasabian;English;2014
@@ -3413,12 +3413,12 @@ California Gurls;Katy Perry feat. Snoop Dogg;English;2010
 Give it up;KC & The Sunshine Band;English;1983
 Get down tonight;KC and the Sunshine Band;English;1975
 That's the way (I like it);KC and the Sunshine Band;English;1975
-THE BADDEST;KDA ft. (G)I-DLE;Bea Miller;Wolftyla;English;2020
-DRUM GO DUM;KDA ft. Aluna;Wolftyla;Bekuh BOOM;English;2020
+THE BADDEST,KDA ft. (G)I-DLE,Bea Miller;Wolftyla;English;2020
+DRUM GO DUM,KDA ft. Aluna,Wolftyla;Bekuh BOOM;English;2020
 VILLAIN;KDA ft. Madison Beer and Kim Petras;English;2020
-POP/STARS;K/DA ft. Madison Beer;(G)I-DLE;Jaira Burns;English;2018
-MORE;KDA ft. Madison Beer;(G)I-DLE;Lexie Liu;Jaira Burns;Seraphine;English;2020
-I'LL SHOW YOU;KDA ft. TWICE;Bekuh BOOM;Annika Wells;English;2020
+POP/STARS,K/DA ft. Madison Beer,(G)I-DLE;Jaira Burns;English;2018
+MORE,KDA ft. Madison Beer,(G)I-DLE,Lexie Liu,Jaira Burns;Seraphine;English;2020
+I'LL SHOW YOU,KDA ft. TWICE,Bekuh BOOM;Annika Wells;English;2020
 Run Devil Run;Ke$ha;English;2010
 Tik Tok;Ke$ha;English;2009
 We R Who We R;Ke$ha;English;2010
@@ -3451,7 +3451,7 @@ Child Is My Name;Kemopetrol;English;1999
 Big Star;Kenny Chesney;English;2003
 Danger Zone;Kenny Loggins;English;1986
 Footloose;Kenny Loggins;English;1984
-Ruby;don't take your love to town;Kenny Rogers & The First Edition;English;1969
+Ruby,don't take your love to town;Kenny Rogers & The First Edition;English;1969
 Lady;Kenny Rogers;English;1980
 The Gambler;Kenny Rogers;English;1978
 You decorated my life;Kenny Rogers;English;1979
@@ -3511,7 +3511,7 @@ Cherish;Kool & The Gang;English;1985
 Emergency;Kool & The Gang;English;1984
 Fresh;Kool & The Gang;English;1985
 Get down on it;Kool & The Gang;English;1981
-Hi De Hi;Hi De Ho;Kool & The Gang;English;1982
+Hi De Hi,Hi De Ho;Kool & The Gang;English;1982
 Joanna;Kool & The Gang;English;1983
 Jungle Boogie;Kool & The Gang;English;1973
 Ladies Night;Kool & The Gang;English;1979
@@ -3525,7 +3525,7 @@ Freak on a Leash (Unplugged);Korn feat. Amy Lee;English;2007
 Beer Beer;Korpiklaani;English;2005
 Beer Beer (Cirno & Beer);Korpiklaani;English;2005
 Computer Love;Kraftwerk;English;1981
-Do you want to build a snowman?;Kristen Bell;Agatha Lee Monn & Katie Lopez;English;2013
+Do you want to build a snowman?,Kristen Bell;Agatha Lee Monn & Katie Lopez;English;2013
 Sunny Day;Kristiina Wheeler;English;2008
 Keep Believing;Krypteria;English;2005
 Black Horse And The Cherry Tree;KT Tunstall;English;2004
@@ -3612,7 +3612,7 @@ Born This Way;Lady GaGa;English;2011
 Dance In The Dark;Lady Gaga;English;2009
 Diamond Heart;Lady Gaga;English;2016
 Donatella;Lady Gaga;English;2013
-Eh;Eh (Nothing Else I Can Say);Lady GaGa;English;2008
+Eh,Eh (Nothing Else I Can Say);Lady GaGa;English;2008
 Electric Chapel;Lady Gaga;English;2011
 Enigma;Lady Gaga;English;2020
 Fashion;Lady Gaga;English;2008
@@ -3658,8 +3658,8 @@ Do What U Want;Lady Gaga feat. Christina Aguilera;English;2013
 Just Dance;Lady GaGa feat. Colby O'Donis;English;2008
 Do What U Want;Lady GaGa feat. R. Kelly;English;2013
 Christmas Tree;Lady GaGa feat. Space Cowboy;English;2008
-Shallow;Lady Gaga;Bradley Cooper;English;2018
-Die With A Smile;Lady Gaga;Bruno Mars;English;2024
+Shallow,Lady Gaga;Bradley Cooper;English;2018
+Die With A Smile,Lady Gaga;Bruno Mars;English;2024
 Sunshine Reggae;Laid Back;English;1982
 Blue Jeans;Lana Del Rey;English;2012
 Born To Die;Lana Del Rey;English;2011
@@ -3808,8 +3808,8 @@ Running with the night;Lionel Richie;English;1983
 Say You Say Me;Lionel Richie;English;1986
 Se La;Lionel Richie;English;1986
 Funky Town;Lipps Inc;English;1980
-All night dancing;Lipps;Inc.;English;1979
-How long;Lipps;Inc.;English;1980
+All night dancing,Lipps;Inc.;English;1979
+How long,Lipps;Inc.;English;1980
 Anyway you do it;Liquid Gold;English;1978
 Dance Yourself Dizzy;Liquid Gold;English;1980
 Don't panic;Liquid Gold;English;1981
@@ -3850,7 +3850,7 @@ Get It Shawty;Lloyd;English;2007
 Sexy and I Know It;LMFAO;English;2011
 Sorry For Party Rocking;LMFAO;English;2012
 Champagne Showers;LMFAO feat. Natalia Kills;English;2011
-Party Rock Anthem;LMFAO;Lauren Bennett & Goon Rock;English;2011
+Party Rock Anthem,LMFAO;Lauren Bennett & Goon Rock;English;2011
 0 (TV) (English ver.);LMYK;English;2021
 I'd love you to want me;Lobo;English;1972
 Mt. Washington;Local Natives;English;2013
@@ -4006,7 +4006,7 @@ Vogue;Madonna;English;1990
 What It Feels Like For A Girl;Madonna;English;2000
 What It Feels Like For A Girl (Video Mix);Madonna;English;2000
 Who's That Girl;Madonna;English;1987
-Like A Virgin & Hollywood;Madonna feat. Britney Spears;Christina Aguilera & Missy Elliott;English;2003
+Like A Virgin & Hollywood,Madonna feat. Britney Spears;Christina Aguilera & Missy Elliott;English;2003
 4 Minutes;Madonna feat. Justin Timberlake;English;2008
 Give Me All Your Luvin';Madonna feat. M.I.A. & Nicki Minaj;English;2012
 Bitch I'm Madonna;Madonna feat. Nicki Minaj;English;2015
@@ -4018,7 +4018,7 @@ Rain;Mai Yamane;English;1998
 Rasputin;Majestic x Boney M.;English;2021
 Lean On;Major Lazer & DJ Snake feat. MŘ;English;2015
 Powerful;Major Lazer feat. Ellie Goulding & Tarrus Riley;English;2015
-Watch out for this (Bumaye);Major Lazer Ft. Busy Signal;The Flexican;FS Green;English;2013
+Watch out for this (Bumaye),Major Lazer Ft. Busy Signal,The Flexican;FS Green;English;2013
 Beyond The Bounds;Maki Kimura;English;2003
 Beyond The Bounds (TV);Maki Kimura;English;2003
 Seven Deadly Sins;Man With A Mission;English;2015
@@ -4122,7 +4122,7 @@ Those Were The Days;Mary Hopkin;English;1968
 One;Mary J. Blige ft. U2;English;2006
 Chim Chim Cher-ee;Mary Poppins;English;1964
 My Guy;Mary Wells;English;1964
-Sonic;You Can do Anything;Masafumi Ogata;English;1993
+Sonic,You Can do Anything;Masafumi Ogata;English;1993
 Top of the Pops 2011 (What The Fuck);Mashup Germany;English;2011
 Protection;Massive Attack;English;1994
 Unfinished Sympathy;Massive Attack;English;1991
@@ -4149,8 +4149,8 @@ Dub-I-Dub;Me & My;English;1995
 When You Wish Upon A Star;Meaghan Martin;English;2008
 Paradise by the Dashboard Light;Meat Loaf;English;1977
 I'd Do Anything for Love (But I Won't Do That);Meatloaf;English;1993
-Lose Control;MEDUZA;Becky Hill;Goodboys;English;2019
-Fire;MEDUZA;OneRepublic;Leony;English;2024
+Lose Control,MEDUZA,Becky Hill;Goodboys;English;2019
+Fire,MEDUZA,OneRepublic;Leony;English;2024
 Five Magics;Megadeth;English;1990
 Hangar 18;Megadeth;English;1990
 Holy Wars... The Punishment Due;Megadeth;English;1990
@@ -4172,7 +4172,7 @@ Dollhouse;Melanie Martinez;English;2014
 Pity Party;Melanie Martinez;English;2015
 Sippy Cup;Melanie Martinez;English;2015
 Soap;Melanie Martinez;English;2015
-Tag;You're It;Melanie Martinez;English;2015
+Tag,You're It;Melanie Martinez;English;2015
 Love How You Love Me;Melanie Thornton;English;2000
 Ring the Bells;Melissa Etheridge & Salman Ahmad;English;2008
 Red Fraction (TV);Mell;English;2006
@@ -4189,7 +4189,7 @@ Yes;Merry Clayton;English;1987
 All Nightmare Long;Metallica;English;2008
 Battery;Metallica;English;1986
 Blackened;Metallica;English;1988
-Broken;Beat & Scarred;Metallica;English;2008
+Broken,Beat & Scarred;Metallica;English;2008
 Creeping death;Metallica;English;1984
 Cyanide;Metallica;English;2008
 Disposable heroes;Metallica;English;1986
@@ -4244,7 +4244,7 @@ It Had Better Be Tonight;Michael Bublé;English;2007
 It's A Beautiful Day;Michael Bublé;English;2013
 It's Beginning to Look a lot Like Christmas (Live);Michael Bublé;English;2011
 Kissing a Fool;Michael Bublé;English;2003
-Let It Snow;Let It Snow;Let It Snow (Live);Michael Bublé;English;2003
+Let It Snow,Let It Snow,Let It Snow (Live);Michael Bublé;English;2003
 Lost;Michael Bublé;English;2007
 Nobody But Me;Michael Bublé;English;2016
 Save The Last Dance For Me;Michael Bublé;English;2005
@@ -4301,7 +4301,7 @@ Happy Ending;Mika;English;2007
 Kick ass;Mika;English;2010
 Love Today;Mika;English;2007
 Rain;Mika;English;2009
-Relax;Take It Easy;Mika;English;2007
+Relax,Take It Easy;Mika;English;2007
 Tomorrow;Mika;English;2019
 We Are Golden;Mika;English;2009
 Before my Body is Dry;Mika Kobayashi & David Whitaker;English;2013
@@ -4360,7 +4360,7 @@ You And Me (In My Pocket);Milow;English;2011
 You Don't Know;Milow;English;2006
 Daylight (TV);MindaRyn;English;2022
 Gospel of the Throttle (Kyouhon Remix ver.) (TV);Minutes Til Midnight;English;2016
-So many men;so little time;Miquel Brown;English;1983
+So many men,so little time;Miquel Brown;English;1983
 The boy that I secretly love;Miraculous;English;2016
 Headphones On;Miranda Cosgrove;English;2008
 Leave It All To Me;Miranda Cosgrove;English;2007
@@ -4385,11 +4385,11 @@ South side;Moby Feat. Gwen Stefani;English;2001
 I Melt With You;Modern English;English;1982
 Brother Louie;Modern Talking;English;1986
 Cheri Cheri Lady;Modern Talking;English;1985
-Cheri;Cheri Lady;Modern Talking;English;1985
+Cheri,Cheri Lady;Modern Talking;English;1985
 Geronimo's Cadillac;Modern Talking;English;1986
 Jet Airliner;Modern Talking;English;1987
 You Can Win If You Want;Modern Talking;English;1984
-You're My Heart;You're My Soul;Modern Talking;English;1984
+You're My Heart,You're My Soul;Modern Talking;English;1984
 Float On;Modest Mouse;English;2004
 Lady (Hear Me Tonight);Modjo;English;2000
 Bumpy Ride;Mohombi;English;2010
@@ -4404,7 +4404,7 @@ Rome Wasn't Built in a Day;Morcheeba;English;2000
 A&E;Morning Parade;English;2011
 Feelings;Morris Albert;English;1975
 Boxers;Morrissey;English;1997
-Irish Blood;English Heart;Morrissey;English;2004
+Irish Blood,English Heart;Morrissey;English;2004
 Suedehead;Morrissey;English;1988
 The Last of the Famous International Playboys;Morrissey;English;1989
 The wheels on the bus;Mother Goose Club;English;2011
@@ -4517,7 +4517,7 @@ Hope & Glory;Mĺns Zelmerlöw;English;2009
 Make you rock;Mónica Naranjo;English;2012
 Don't go away mad (Just go away);Mötley Crüe;English;1989
 Dr. Feelgood;Mötley Crüe;English;1989
-Girls;Girls;Girls;Mötley Crüe;English;1987
+Girls,Girls,Girls;Mötley Crüe;English;1987
 Kickstart my heart;Mötley Crüe;English;1989
 Rattlesnake shake;Mötley Crüe;English;1989
 Same Ol' Situation (S.O.S.);Mötley Crüe;English;1989
@@ -4633,7 +4633,7 @@ Last Ride of the Day;Nightwish;English;2011
 Nemo;Nightwish;English;2004
 Over The Hills And Far Away;Nightwish;English;2001
 Storytime;Nightwish;English;2011
-The Crow;The Owl And The Dove;Nightwish;English;2011
+The Crow,The Owl And The Dove;Nightwish;English;2011
 The Phantom Of The Opera (Live);Nightwish;English;2002
 The Poet And The Pendulum;Nightwish;English;2007
 Turn Loose the Mermaids;Nightwish;English;2011
@@ -4738,7 +4738,7 @@ The masterplan;Oasis;English;1998
 Whatever;Oasis;English;1994
 Wonderwall;Oasis;English;1995
 Better Day;Ocean Colour Scene;English;1997
-Cry;cry;Oceana;English;2009
+Cry,cry;Oceana;English;2009
 Going back to my roots;Odyssey;English;1981
 Use it up and wear it out;Odyssey;English;1980
 King And Lionheart;Of Monsters And Men;English;2013
@@ -4746,7 +4746,7 @@ Little Talks;Of Monsters and Men;English;2011
 Be Mine;Ofenbach;English;2017
 You Don't Know Me;Ofenbach ft  Brodie Barclay;English;2015
 Katchi;Ofenbach vs. Nick Waterhouse;English;2017
-Head Shoulders Knees & Toes;Ofenbach;Quarterhead & Norma Jean Martine;English;2020
+Head Shoulders Knees & Toes,Ofenbach;Quarterhead & Norma Jean Martine;English;2020
 Get Over It;Ok Go;English;2002
 Here It Goes Again;OK Go;English;2005
 Kind Lady;OKUYATOS;English;2002
@@ -4820,7 +4820,7 @@ Good Time;Owl City & Carly Rae Jepsen;English;2012
 Fireflies;Owl City;English;2009
 Bark at the Moon;Ozzy Osbourne;English;1983
 Crazy Train;Ozzy Osbourne;English;1980
-Mama;I'm coming home;Ozzy Osbourne;English;1991
+Mama,I'm coming home;Ozzy Osbourne;English;1991
 Mr. Crowley;Ozzy Osbourne;English;1980
 No more tears;Ozzy Osbourne;English;1991
 Ordinary Man;Ozzy Osbourne;English;2020
@@ -4845,7 +4845,7 @@ Walk me home;P!nk;English;2019
 What about us;P!nk;English;2017
 Who Knew;P!nk;English;2006
 Just give me a reason;P!nk feat. Nate Ruess;English;2013
-We will rock you (Comercial Pepsi);P!nk;BeyoncĂ© & Britney Spears;English;2004
+We will rock you (Comercial Pepsi),P!nk;BeyoncĂ© & Britney Spears;English;2004
 Dream;P.Lion;English;1984
 Happy Children;P.Lion;English;1983
 Eleanor Rigby;Pain;English;2002
@@ -4995,7 +4995,7 @@ Following The Leader;Peter Pan;English;1953
 You Can Fly;Peter Pan;English;1953
 Major Tom (Coming Home);Peter Schilling;English;1983
 You're A Lady;Peter Skellern;English;1973
-Blowin' in the wind;Peter;Paul and Mary;English;1963
+Blowin' in the wind,Peter;Paul and Mary;English;1963
 Downtown;Petula Clark;English;1964
 California;Phantom Planet;English;2002
 Happy;Pharrell Williams;English;2003
@@ -5037,11 +5037,11 @@ International Love;Pitbull & Chris Brown;English;2012
 Feel This Moment;Pitbull & Christina Aguilera;English;2013
 Timber;Pitbull & Ke$ha;English;2013
 Fireball;Pitbull feat. John Ryan;English;2014
-Give me everything;Pitbull feat. Ne-Yo;Afrojack & Nayer;English;2011
+Give me everything,Pitbull feat. Ne-Yo;Afrojack & Nayer;English;2011
 Rain over me;Pitbull ft. Marc Anthony;English;2011
 Don't Stop The Party;Pitbull ft. TJR;English;2012
 Cry Me Out;Pixie Lott;English;2009
-Mama do (Uh oh;uh oh);Pixie Lott;English;2009
+Mama do (Uh oh,uh oh);Pixie Lott;English;2009
 Alec Eiffel;Pixies;English;1991
 Allison;Pixies;English;1990
 Crackity Jones;Pixies;English;1989
@@ -5101,7 +5101,7 @@ Lost and Running;Powder Finger;English;2007
 (Baby I've Got You) On My Mind;Powderfinger;English;2003
 These Days;Powderfinger;English;2000
 Ghetto Supastar;Pras Feat. Ol' Dirty Bastard & Mya;English;1998
-Hold On;I'm Coming;Precious Wilson;English;1979
+Hold On,I'm Coming;Precious Wilson;English;1979
 Back on the chain gang;Pretenders;English;1982
 Brass In Pocket;Pretenders;English;1979
 I'll Stand By You;Pretenders;English;1994
@@ -5123,8 +5123,8 @@ Teen Titans theme (TV);Puffy;English;2003
 Babies;Pulp;English;1992
 Common People;Pulp;English;1995
 Disco 2000;Pulp;English;1995
-Hypnotized;Purple Disco Machine;Sophie and the Giants;English;2020
-In The Dark;Purple Disco Machine;Sophie and the Giants;English;2022
+Hypnotized,Purple Disco Machine;Sophie and the Giants;English;2020
+In The Dark,Purple Disco Machine;Sophie and the Giants;English;2022
 Buttons;Pussycat Dolls;English;2006
 Don't Cha (Radio Edit);Pussycat Dolls;English;2005
 I Don't need a Man;Pussycat Dolls;English;2005
@@ -5177,8 +5177,8 @@ No One Knows;Queens Of The Stone Age;English;2002
 The Lost Art Of Keeping A Secret;Queens Of The Stone Age;English;2000
 Silent Lucidity;Queensr˙che;English;1990
 Cum On Feel The Noize;Quiet Riot;English;1983
-The Secret Garden;Quincy Jones Feat. Al B. Sure!;James Ingram;El DeBarge & Barry White;English;1989
-Tomorrow (A better you;better me);Quincy Jones feat. Tevin Campbell;English;1989
+The Secret Garden,Quincy Jones Feat. Al B. Sure!,James Ingram;El DeBarge & Barry White;English;1989
+Tomorrow (A better you,better me);Quincy Jones feat. Tevin Campbell;English;1989
 I believe I can fly;R. Kelly;English;1996
 Drive;R.E.M.;English;1992
 Driver 8;R.E.M.;English;1985
@@ -5200,7 +5200,7 @@ Supernatural Superserious;R.E.M.;English;2008
 The one I love;R.E.M.;English;1987
 The Sidewinder Sleeps Tonite;R.E.M.;English;1992
 These Days;R.E.M.;English;1986
-What's the Frequency;Kenneth;R.E.M.;English;1994
+What's the Frequency,Kenneth;R.E.M.;English;1994
 Like I Love You;R.I.O.;English;2012
 Fight song;Rachel Platten;English;2015
 Welcome Home;Radical Face;English;2007
@@ -5288,7 +5288,7 @@ Under the bridge;Red Hot Chili Peppers;English;1991
 All Mixed Up;Red House Painters;English;1996
 Come and get your Love;Redbone;English;1973
 Cotton Eye Joe;Rednex;English;1994
-Don't You Need Somebody;RedOne feat. Enrique Iglesias;R. City;Serayah & Shaggy;English;2016
+Don't You Need Somebody,RedOne feat. Enrique Iglesias,R. City;Serayah & Shaggy;English;2016
 In your eyes (original extended version);Reeds;English;1985
 I like to move it;Reel 2 Real;English;1994
 Baby love;Regina;English;1985
@@ -5389,7 +5389,7 @@ Rehab;Rihanna feat. Justin Timberlake;English;2007
 Stay;Rihanna feat. Mikky Ekko;English;2013
 Raining Men;Rihanna feat. Nicki Minaj;English;2010
 Rockstar 101;Rihanna feat. Slash;English;2009
-FourFiveSeconds;Rihanna;Kanye West & Paul McCartney;English;2015
+FourFiveSeconds,Rihanna;Kanye West & Paul McCartney;English;2015
 I'll be your home;Rin Oikawa;English;2007
 Give It All;Rise Against;English;2004
 Kotov Syndrome;Rise Against;English;2008
@@ -5447,7 +5447,7 @@ Show me love;Robin S.;English;1993
 Speechless;Robin Schulz & Erika Sirola;English;2018
 Sugar;Robin Schulz ft. Francesco Yates;English;2015
 You;Robin Stjernberg;English;2013
-Blurred Lines;Robin Thicke;Pharrell Williams & T.I.;English;2013
+Blurred Lines,Robin Thicke;Pharrell Williams & T.I.;English;2013
 Show Me Love;Robyn;English;1997
 The Big Bang;Rock Mafia;English;2010
 Somebody's watching me;Rockwell;English;1983
@@ -5485,13 +5485,13 @@ Blue Bayou;Roy Orbison;English;1963
 Crying;Roy Orbison;English;1961
 I Drove All Night;Roy Orbison;English;1992
 In Dreams;Roy Orbison;English;1963
-Oh;pretty woman;Roy Orbison;English;1964
+Oh,pretty woman;Roy Orbison;English;1964
 Only the Lonely (Know the Way I Feel);Roy Orbison;English;1960
 Ooby Dooby;Roy Orbison;English;1956
 You Got It;Roy Orbison;English;1989
 Are you ready to fly;Rozalla;English;1992
 Here in the Moment;Ruby Tuesday;English;2008
-These Days;Rudimental feat. Jess Glynne;Macklemore & Dan Caplen;English;2018
+These Days,Rudimental feat. Jess Glynne;Macklemore & Dan Caplen;English;2018
 Waiting All Night;Rudimental ft. Ella Eyre;English;2013
 Ain't Nobody;Rufus & Chaka Khan;English;1983
 Hallelujah;Rufus Wainwright;English;2001
@@ -5523,7 +5523,7 @@ Sundown;S Club 8;English;2003
 Back in Control;Sabaton;English;2006
 Boys (Summertime love);Sabrina;English;1987
 Espresso;Sabrina Carpenter;English;2024
-Please;Please;Please;Sabrina Carpenter;English;2024
+Please,Please,Please;Sabrina Carpenter;English;2024
 Thumbs;Sabrina Carpenter;English;2016
 Why;Sabrina Carpenter;English;2017
 Smooth Operator;Sade;English;1984
@@ -5541,8 +5541,8 @@ I'm Not Here To Make Friends;Sam Smith;English;2023
 I'm Not The Only One;Sam Smith;English;2014
 Stay with me;Sam Smith;English;2014
 Writing's on the wall;Sam Smith;English;2016
-Unholy;Sam Smith;Kim Petras;English;2022
-Dancing with a stranger;Sam Smith;Normani;English;2019
+Unholy,Sam Smith;Kim Petras;English;2022
+Dancing with a stranger,Sam Smith;Normani;English;2019
 Black And Gold;Sam Sparro;English;2008
 Happiness;Sam Sparro;English;2012
 Wooly Bully;Sam The Sham & The Pharaohs;English;1964
@@ -5616,7 +5616,7 @@ No Lie;Sean Paul & Dua Lipa;English;2016
 She Doesn't Mind;Sean Paul;English;2012
 Calling (Lose My Mind);Sebastian Ingrosso & Alesso ft. Ryan Tedder;English;2012
 Flash in the night;Secret Service;English;1982
-Oh;Susie;Secret Service;English;1979
+Oh,Susie;Secret Service;English;1979
 Remedy;Seether;English;2009
 Broken;Seether feat. Amy Lee;English;2004
 Dreaming of you;Selena;English;1995
@@ -5624,7 +5624,7 @@ Who Says;Selena Gomez & The Scene;English;2011
 Wolves;Selena Gomez & Marshmello;English;2017
 We Own The Night;Selena Gomez & Pixie Lott;English;2011
 A Year Without Rain;Selena Gomez & The Scene;English;2010
-Bang;Bang;Bang;Selena Gomez & The Scene;English;2011
+Bang,Bang,Bang;Selena Gomez & The Scene;English;2011
 Falling Down;Selena Gomez & The Scene;English;2009
 Ghost Of You;Selena Gomez & The Scene;English;2010
 Hit the Lights;Selena Gomez & The Scene;English;2011
@@ -5709,7 +5709,7 @@ The Rest Of My Life;Sharpay's Fabulous Adventure;English;2011
 Walking On Sunshine;Sharpay's Fabulous Adventure;English;2011
 Stitches;Shawn Mendes;English;2015
 Treat you better;Shawn Mendes;English;2016
-Seńorita;Shawn Mendes;Camila Cabello;English;2019
+Seńorita,Shawn Mendes;Camila Cabello;English;2019
 Lips Of An Angel;Shaylen and Austin John Winkler;English;2023
 For Your Eyes Only;Sheena Easton;English;1981
 Jimmy Mack;Sheena Easton;English;1985
@@ -5742,7 +5742,7 @@ The Greatest;Sia;English;2016
 Unstoppable;Sia;English;2016
 Everybody Knows;Sigrid;English;2017
 Love Missile F1-11;Sigue Sigue Sputnik;English;1986
-Fly;Robin;Fly;Silver Convention;English;1975
+Fly,Robin,Fly;Silver Convention;English;1975
 Get up and Boogie;Silver Convention;English;1976
 Waiting so long (TV);Silver Fins;English;1997
 Anthem For The Year 2000;Silverchair;English;1999
@@ -6249,11 +6249,11 @@ Electric Crown;Testament;English;1992
 Souls of Black;Testament;English;1990
 I don't want a lover;Texas;English;1989
 Summer Son;Texas;English;1999
-Hey baby;qué pasó;Texas Tornados;English;1990
+Hey baby,qué pasó;Texas Tornados;English;1990
 Somebody Else;The 1975;English;2016
 Dumb;The 411;English;2004
 Woo Hoo;The 5.6.7.8's;English;2003
-Day Late;Dollar Short;The Acro-Brats;English;2006
+Day Late,Dollar Short;The Acro-Brats;English;2006
 Gasoline;The Airborne Toxic Event;English;2008
 Don't answer me;The Alan Parsons Project;English;1984
 Eye in the Sky;The Alan Parsons Project;English;1982
@@ -6306,9 +6306,9 @@ From Me To You;The Beatles;English;1963
 Get Back;The Beatles;English;1969
 Girl;The Beatles;English;1965
 Golden Slumbers & Carry That Weight;The Beatles;English;1969
-Good Morning;Good Morning;The Beatles;English;1967
+Good Morning,Good Morning;The Beatles;English;1967
 Hello Goodbye;The Beatles;English;1967
-Hello;Goodbye;The Beatles;English;1967
+Hello,Goodbye;The Beatles;English;1967
 Help!;The Beatles;English;1965
 Helter Skelter;The Beatles;English;1968
 Her Majesty;The Beatles;English;1969
@@ -6418,7 +6418,7 @@ Train in Vain;The Clash;English;1979
 Brick House;The Commodores;English;1977
 Easy;The Commodores;English;1977
 Don't leave me this way;The Communards;English;1986
-74;75;The Connells;English;1993
+74,75;The Connells;English;1993
 Do You Love Me;The Contours;English;1962
 Breathless;The Corrs;English;2000
 Dreams;The Corrs;English;1998
@@ -6478,7 +6478,7 @@ China Grove;The Doobie Brothers;English;1973
 Long train runnin';The Doobie Brothers;English;1973
 What a fool believes;The Doobie Brothers;English;1978
 Break on Through (to the other side);The Doors;English;1967
-Hello;I love you;The Doors;English;1968
+Hello,I love you;The Doors;English;1968
 LA. Woman;The Doors;English;1971
 Light my fire;The Doors;English;1967
 Love Me Two Times;The Doors;English;1967
@@ -6516,10 +6516,10 @@ Question Of Love;The Gift;English;2001
 Bulletproof;The Glee Project;English;2011
 Firework;The Glee Project;English;2011
 Hate On Me;The Glee Project;English;2011
-Ice Ice Baby;Under Pressure;The Glee Project;English;2011
+Ice Ice Baby,Under Pressure;The Glee Project;English;2011
 Mad World;The Glee Project;English;2011
 Please Don't Leave Me;The Glee Project;English;2011
-Milkshake;Moves Like Jagger;The Glee Project 2;English;2012
+Milkshake,Moves Like Jagger;The Glee Project 2;English;2012
 RISE (feat. The Word Alive);The Glitch Mob & Mako;English;2018
 Our Lips Are Sealed;The Go-Go's;English;1981
 We got the beat;The Go-Go's;English;1980
@@ -6593,7 +6593,7 @@ Stubborn love;The Lumineers;English;2012
 Blue moon of Kentucky;The Lákazans;English;2013
 Heartache Avenue;The Maisonettes;English;1982
 California dreamin';The Mamas & the Papas;English;1965
-Monday;Monday;The Mamas & the Papas;English;1966
+Monday,Monday;The Mamas & the Papas;English;1966
 Boy from New York City;The Manhattan Transfer;English;1981
 Soul food to go;The Manhattan Transfer;English;1987
 Twilight Zone;The Manhattan Transfer;English;1979
@@ -6625,7 +6625,7 @@ Pretty fly (for a white guy);The Offspring;English;1998
 Self Esteem;The Offspring;English;1996
 The kids aren't alright;The Offspring;English;1998
 Want You Bad;The Offspring;English;2000
-You're gonna go far;kid;The Offspring;English;2008
+You're gonna go far,kid;The Offspring;English;2008
 Vuja De;The Orb;English;2007
 Brother;The Organ;English;2004
 Your Love;The Outfield;English;1986
@@ -6640,7 +6640,7 @@ Dirty Old Town;The Pogues;English;1985
 Fiesta;The Pogues;English;1988
 I'm So Excited;The Pointer Sisters;English;1982
 Can't Stand Losing You;The Police;English;1978
-De Do Do Do;De Da Da Da;The Police;English;1980
+De Do Do Do,De Da Da Da;The Police;English;1980
 Don't Stand So Close To Me;The Police;English;1980
 Every Breath You Take;The Police;English;1983
 Every little thing she does is magic;The Police;English;1981
@@ -6672,7 +6672,7 @@ Love my way;The Psychedelic Furs;English;1982
 Pretty in Pink;The Psychedelic Furs;English;1981
 Sister Europe;The Psychedelic Furs;English;1980
 Mr. Sandman;The Puppini Sisters;English;2006
-Steady;As She Goes;The Raconteurs;English;2006
+Steady,As She Goes;The Raconteurs;English;2006
 F-F-F-Falling;The Rasmus;English;2001
 First day of my life;The Rasmus;English;2003
 Guilty;The Rasmus;English;2003
@@ -6681,7 +6681,7 @@ Livin' in a World Without You;The Rasmus;English;2008
 No fear;The Rasmus;English;2005
 You to me are everything;The Real Thing;English;1976
 I'll Be There for You;The Rembrandts;English;1995
-Just the way it is;baby;The Rembrandts;English;1990
+Just the way it is,baby;The Rembrandts;English;1990
 Alex Chilton;The Replacements;English;1987
 Unchained Melody;The Righteous Brothers;English;1964
 Unchained Melody (Re-Recorded In Stereo - Ghost Videoclip Version);The Righteous Brothers;English;1990
@@ -6694,7 +6694,7 @@ Honky Tonk Women;The Rolling Stones;English;1969
 I'm Free (Live);The Rolling Stones;English;1969
 Jumpin´ Jack Flash;The Rolling Stones;English;1968
 Living in a Ghost Town;The Rolling Stones;English;2020
-Paint It;Black;The Rolling Stones;English;1966
+Paint It,Black;The Rolling Stones;English;1966
 Satisfaction (I Can't Get No);The Rolling Stones;English;1966
 She's a Rainbow;The Rolling Stones;English;1967
 Sympathy For The Devil;The Rolling Stones;English;1968
@@ -6715,7 +6715,7 @@ Leader Of The Pack;The Shangri-Las;English;1964
 New Slang;The Shins;English;2001
 Will you love me tomorrow;The Shirelles;English;1960
 Baby on Board;The Simpsons;English;1993
-Happy Birthday;Lisa;The Simpsons;English;1991
+Happy Birthday,Lisa;The Simpsons;English;1991
 School Days;The Simpsons;English;1990
 1979;The Smashing Pumpkins;English;1995
 Ava Adore;The Smashing Pumpkins;English;1998
@@ -6727,7 +6727,7 @@ Perfect;The Smashing Pumpkins;English;1998
 Siva;The Smashing Pumpkins;English;1991
 Thirty Three;The Smashing Pumpkins;English;1995
 Today;The Smashing Pumpkins;English;1993
-Tonight;Tonight;The Smashing Pumpkins;English;1995
+Tonight,Tonight;The Smashing Pumpkins;English;1995
 Zero;The Smashing Pumpkins;English;1995
 Ask;The Smiths;English;1986
 Asleep;The Smiths;English;1985
@@ -6736,19 +6736,19 @@ Girlfriend in a coma;The Smiths;English;1987
 Heaven Knows I'm Miserable Now;The Smiths;English;1984
 How Soon is Now;The Smiths;English;1984
 Panic;The Smiths;English;1986
-Please;please;please;let me get what I want;The Smiths;English;1984
+Please,please,please,let me get what I want;The Smiths;English;1984
 Some girls are bigger than others;The Smiths;English;1986
 Stop Me If You Think You've Heard This One Before;The Smiths;English;1987
 The boy with the thorn in his side;The Smiths;English;1985
 There is a light that never goes out;The Smiths;English;1986
 This Charming Man;The Smiths;English;1983
-William;it was really nothing;The Smiths;English;1984
+William,it was really nothing;The Smiths;English;1984
 Walking in the Air;The Snowman;English;1982
 Living in your head;The Soundlovers;English;2000
 Surrender;The Soundlovers;English;1998
 Living in America;The Sounds;English;2002
 Song with a Mission;The Sounds;English;2006
-A message to you;Rudy;The Specials;English;1979
+A message to you,Rudy;The Specials;English;1979
 Ghost Town;The Specials;English;1981
 Elephant Stone;The Stone Roses;English;1988
 Fools Gold;The Stone Roses;English;1989
@@ -6758,8 +6758,8 @@ Made of Stone;The Stone Roses;English;1989
 I wanna be your dog;The Stooges;English;1969
 Always The Sun;The Stranglers;English;1986
 Golden brown;The Stranglers;English;1981
-12;51;The Strokes;English;2003
-Alone;Together;The Strokes;English;2001
+12,51;The Strokes;English;2003
+Alone,Together;The Strokes;English;2001
 Ask Me Anything;The Strokes;English;2006
 Hard to Explain;The Strokes;English;2001
 Last nite;The Strokes;English;2001
@@ -6790,7 +6790,7 @@ Disco Inferno;The Trammps;English;1977
 Handle With Care;The Traveling Wilburys;English;1988
 Wild thing;The Troggs;English;1966
 Happy Together;The Turtles;English;1967
-Face to face;heart to heart;The Twins;English;1982
+Face to face,heart to heart;The Twins;English;1982
 Teenage Kicks;The Undertones;English;1978
 Turning Japanese;The Vapors;English;1980
 Needle In A Haystack;The Velvelettes;English;1964
@@ -6841,13 +6841,13 @@ Getting Strong;The Wiggles;English;2007
 Hot Poppin' Popcorn;The Wiggles;English;2009
 Hot Potato;The Wiggles;English;1994
 I'm Dorothy The Dinosaur!;The Wiggles;English;1991
-Lights;Camera;Action;Wiggles!;The Wiggles;English;2004
+Lights,Camera,Action,Wiggles!;The Wiggles;English;2004
 Move Your Arms Like Henry;The Wiggles;English;1998
 Rock-A-Bye Your Bear;The Wiggles;English;2000
 The Monkey Dance;The Wiggles;English;1994
 The Shimmie Shake!;The Wiggles;English;2008
 Toot Toot Chugga Chugga Big Red Car;The Wiggles;English;2001
-Twinkle;Twinkle Little Star;The Wiggles;English;2007
+Twinkle,Twinkle Little Star;The Wiggles;English;2007
 Wags The Dog Is Chasing His Tail;The Wiggles;English;2009
 That thing you do;The Wonders;English;1996
 On hold;The XX;English;2016
@@ -6891,7 +6891,7 @@ Radio Romance;Tiffany;English;1988
 Forget You;Tiffany Alvord;English;2011
 If We Ever Meet Again;Timbaland feat. Katy Perry;English;2009
 Apologize;Timbaland feat. One Republic;English;2007
-The way I are;Timbaland;Keri Hilson y D.O.E;English;2007
+The way I are,Timbaland;Keri Hilson y D.O.E;English;2007
 Stand by me;Timon and Pumbaa;English;2012
 I want to spend my lifetime loving you;Tina Arena & Marc Anthony;English;1998
 Chains;Tina Arena;English;1994
@@ -6916,7 +6916,7 @@ I Still Burn;Tobias Regner;English;2006
 Automatic;Tokio Hotel;English;2009
 Humanoid;Tokio Hotel;English;2009
 Monsoon;Tokio Hotel;English;2007
-Ready;Set;Go!;Tokio Hotel;English;2007
+Ready,Set,Go!;Tokio Hotel;English;2007
 Morena;Tom Boxer feat. Antonia;English;2009
 Burning Down The House;Tom Jones & The Cardigans;English;1999
 Delilah;Tom Jones;English;1968
@@ -6963,7 +6963,7 @@ Love Ballad;Tove Lo;English;2014
 Talking Body;Tove Lo;English;2015
 True Disaster;Tove Lo;English;2016
 WTF Love Is;Tove Lo;English;2016
-bitches;Tove Lo feat. Charli XCX;Icona Pop;Elliphant & ALMA;English;2018
+bitches,Tove Lo feat. Charli XCX,Icona Pop;Elliphant & ALMA;English;2018
 Vibes;Tove Lo feat. Joe Janiak;English;2016
 Influence;Tove Lo feat. Wiz Khalifa;English;2016
 You Got A Friend In Me;Toy Story;English;1995
@@ -6978,7 +6978,7 @@ Talkin' Bout A Revolution;Tracy Chapman;English;1988
 Telling Stories;Tracy Chapman;English;2000
 Drive By;Train;English;2012
 Drops of Jupiter;Train;English;2001
-Hey;Soul Sister;Train;English;2009
+Hey,Soul Sister;Train;English;2009
 Long train runnin';Traks;English;1982
 I want your love;Transvision Vamp;English;1988
 Billionarie;Travie McCoy ft. Bruno Mars;English;2010
@@ -7042,7 +7042,7 @@ Hymn;Ultravox;English;1982
 Vienna;Ultravox;English;1980
 Born Slippy;Underworld;English;1996
 Unisonic;Unisonic;English;2012
-Girl;You'll Be a Woman Soon;Urge Overkill;English;1994
+Girl,You'll Be a Woman Soon;Urge Overkill;English;1994
 Lady In Black;Uriah Heep;English;1971
 Black Swallowtail (TV);UROBOROS;English;2015
 Mama;US5;English;2006
@@ -7087,7 +7087,7 @@ Something's Got A Hold On Me;Vaya Con Dios;English;1990
 Time Flies;Vaya Con Dios;English;1992
 What's A Woman;Vaya Con Dios;English;1990
 2 Brazil;Vengaboys;English;2014
-Boom;Boom;Boom;Boom!!;Vengaboys;English;1998
+Boom,Boom,Boom,Boom!!;Vengaboys;English;1998
 Shalalalala;Vengaboys;English;1999
 We Like To Party;Vengaboys;English;1998
 Seether;Veruca Salt;English;1994
@@ -7204,9 +7204,9 @@ Gold Lion;Yeah Yeah Yeahs;English;2006
 Maps;Yeah Yeah Yeahs;English;2003
 King;Years & Years;English;2015
 Breathing;Yellowcard;English;2003
-For You;And Your Denial;Yellowcard;English;2011
+For You,And Your Denial;Yellowcard;English;2011
 Holly Wood Died;Yellowcard;English;2006
-Rough Landing;Holly;Yellowcard;English;2006
+Rough Landing,Holly;Yellowcard;English;2006
 Owner Of A Lonely Heart;Yes;English;1983
 Roundabout;Yes;English;1971
 The Fox;Ylvis;English;2013
@@ -7320,8 +7320,8 @@ Minna no Peace (TV);Afromania;Japanese;2007
 Happiness;AI;Japanese;2011
 Oración (TV);Ai Kayano;Japanese;2014
 Secret Base ~Kimi ga Kureta Mono~ (10 Years After) (TV);Ai Kayano;Japanese;2011
-Secret Base ~Kimi ga Kureta Mono~ (10 Years After Ver.);Ai Kayano;Haruka Tomatsu & Saori Hayami;Japanese;2011
-Maware! Setsugetsuka (TV);Ai Kayano;Hitomi Harada;& Yui Ogura;Japanese;2012
+Secret Base ~Kimi ga Kureta Mono~ (10 Years After Ver.),Ai Kayano;Haruka Tomatsu & Saori Hayami;Japanese;2011
+Maware! Setsugetsuka (TV),Ai Kayano,Hitomi Harada;& Yui Ogura;Japanese;2012
 Ashita wa Atashi no Kaze ga Fuku (TV);Ai Maeda;Japanese;2000
 I Wish (TV);Ai Maeda;Japanese;1999
 I wish ~tri.Version~ (TV);Ai Maeda;Japanese;2015
@@ -7351,8 +7351,8 @@ Atemonaku (TV);Aimer;Japanese;2023
 Brave Shine (TV);Aimer;Japanese;2015
 broKen NIGHT;Aimer;Japanese;2015
 broKen NIGHT (TV);Aimer;Japanese;2015
-Dare ka;Umi wo;Aimer;Japanese;2014
-Dare ka;Umi wo (TV);Aimer;Japanese;2014
+Dare ka,Umi wo;Aimer;Japanese;2014
+Dare ka,Umi wo (TV);Aimer;Japanese;2014
 Escalate (TV);Aimer;Japanese;2023
 Hakuchuumu;Aimer;Japanese;2014
 Kogoesou na Kisetsu Kara;Aimer;Japanese;2017
@@ -7408,7 +7408,7 @@ Shoujo Meiro De Tsukamaete (TV);Aki Misato;Japanese;2006
 Spread Wings (TV);Aki Misato;Japanese;2011
 U-n-d-e-r-standing! (TV);Aki Misato;Japanese;2012
 Ichiban Ippai (TV);Aki Toyosaki;Japanese;2011
-Minna no Namae wo Irete Kudasai (TV);Aki Toyosaki;Kana Hanazawa;Shizuka Itou;Japanese;2014
+Minna no Namae wo Irete Kudasai (TV),Aki Toyosaki,Kana Hanazawa;Shizuka Itou;Japanese;2014
 Rain Man (TV);Akihide;Japanese;2014
 Black Night Town;Akihisa Kondo;Japanese;2013
 Black Night Town (TV);Akihisa Kondo;Japanese;2013
@@ -7566,8 +7566,8 @@ Hanamaru Pippi wa Yoiko Dake (TV);AOP;Japanese;2015
 Kunshi Ayauku mo Chikau yore (TV);AOP;Japanese;2017
 Unknown;Unknown;English;Unknown
 Zenryoku Batankyuu (TV);AOP;Japanese;2016
-REASON FOR... (TV);Apollon;Hades;Tsukito;Takeru;Balder;Loki;Japanese;2014
-TILL THE END (TV);Apollon;Hades;Tsukito;Takeru;Balder;Loki;Japanese;2014
+REASON FOR... (TV),Apollon,Hades,Tsukito,Takeru,Balder;Loki;Japanese;2014
+TILL THE END (TV),Apollon,Hades,Tsukito,Takeru,Balder;Loki;Japanese;2014
 Aozora Jumping Heart (TV);Aqours;Japanese;2016
 Kimeta Yo Hand in Hand (TV);Aqours;Japanese;2016
 Mirai no Bokura wa Shitteru yo (TV);Aqours;Japanese;2017
@@ -7586,7 +7586,7 @@ Love so sweet;Arashi;Japanese;1998
 Truth;Arashi;Japanese;2008
 Yume de Sekai wo Kaeru nara (TV);ARCANA PROJECT;Japanese;2021
 Ura Omote Fortune (TV);Ari Ozawa;Japanese;2014
-HYPNO (TV);Ari Ozawa;Minami Tanaka;Rie Murakawa;Rie Takahashi;Japanese;2018
+HYPNO (TV),Ari Ozawa,Minami Tanaka,Rie Murakawa;Rie Takahashi;Japanese;2018
 Himitsu wo Choudai (TV);Ars Magna;Japanese;2015
 14 to 1 (TV);ASAHINA Bros.+JULI;Japanese;2013
 Open your eyes (TV);Asaka;Japanese;2016
@@ -7610,7 +7610,7 @@ Re:Re: (TV);Asian Kung-Fu Generation;Japanese;2016
 Rewrite;Asian Kung-fu Generation;Japanese;2004
 Rewrite (TV);Asian Kung-fu Generation;Japanese;2004
 Road Movie;Asian Kung-Fu Generation;Japanese;2005
-Sore Dewa;Mata Ashita;Asian Kung-fu Generation;Japanese;2012
+Sore Dewa,Mata Ashita;Asian Kung-fu Generation;Japanese;2012
 Sequentia (TV);Asriel;Japanese;2009
 Ran (TV);Asuka;Japanese;2014
 SEE THE LIGHTS;ASY feat. IA;Japanese;2012
@@ -7633,8 +7633,8 @@ Lost my music (TV);Aya Hirano;Japanese;2006
 LOVE GUN;Aya Hirano;Japanese;2007
 Motteke! Sailor Fuku (TV);Aya Hirano;Japanese;2007
 Super Driver (TV);Aya Hirano;Japanese;2009
-Hare Hare Yukai;Aya Hirano;Minori Chihara & Yuko Goto;Japanese;2006
-Hare hare yukai (TV);Aya Hirano;Minori Chihara & Yuko Goto;Japanese;2006
+Hare Hare Yukai,Aya Hirano;Minori Chihara & Yuko Goto;Japanese;2006
+Hare hare yukai (TV),Aya Hirano;Minori Chihara & Yuko Goto;Japanese;2006
 Onaji Namida wo Wakeatte;Aya Hisakawa;Japanese;1993
 Itoshiki Sekai (TV);Aya Kagami;Japanese;2006
 Chocolate Damashii;Aya Matsuura;Japanese;2009
@@ -7691,7 +7691,7 @@ Break up!;Ayumi Miyazaki;Japanese;2000
 Shake Shake Shake;AyumiKurikaMaki;Japanese;2015
 Tabidachi no Uta (TV);Ayumikurikamaki;Japanese;2016
 Occultics no Majo (TV);Ayumu;Japanese;2009
-Sarazanmai no Uta;Ayumu Murase;Kouki Uchiyama;Shun Horie and Junichi Suwabe;Japanese;2019
+Sarazanmai no Uta,Ayumu Murase,Kouki Uchiyama;Shun Horie and Junichi Suwabe;Japanese;2019
 For You (TV);AZU;Japanese;2010
 In My Life (TV);AZU;Japanese;2010
 Jikan yo Tomare feat. SEAMO;AZU;Japanese;2008
@@ -7703,9 +7703,9 @@ Tonari no Totoro (TV);Azumi Inoue;Japanese;1988
 Aoi Aoi Kono Chikyuu ni (TV);Azumi Uehara;Japanese;2001
 Koyoi Mofumofu (TV);Azumi Waki & Maaya Uchida;Japanese;2019
 Moffumoffu DE Yoi no Ja yo (TV);Azumi Waki;Japanese;2019
-Grow Up Shine! (TV);Azumi Waki;Marika Kouno;Machico;Ayaka Ohashi;Chise Kimura;Hitomi Ueda;Saori Oonishi;Japanese;2018
-Make Debut! (TV);Azumi Waki;Marika Kouno;Machico;Ayaka Ohashi;Chise Kimura;Hitomi Ueda;Saori Oonishi;Japanese;2018
-Yume wo Kakeru! (TV);Azumi Waki;Marika Kouno;Machico;Ayaka Ohashi;Chise Kimura;Hitomi Ueda;Saori Oonishi;Japanese;2021
+Grow Up Shine! (TV),Azumi Waki,Marika Kouno,Machico,Ayaka Ohashi,Chise Kimura,Hitomi Ueda;Saori Oonishi;Japanese;2018
+Make Debut! (TV),Azumi Waki,Marika Kouno,Machico,Ayaka Ohashi,Chise Kimura,Hitomi Ueda;Saori Oonishi;Japanese;2018
+Yume wo Kakeru! (TV),Azumi Waki,Marika Kouno,Machico,Ayaka Ohashi,Chise Kimura,Hitomi Ueda;Saori Oonishi;Japanese;2021
 Junshin Always (TV);Azusa Tadokoro;Japanese;2016
 Don't wanna lie;B'z;Japanese;2011
 Don't wanna lie (TV);B'z;Japanese;2011
@@ -7718,7 +7718,7 @@ Kodou＊Ambitious (TV);B-PROJECT;Japanese;2016
 Kimi ga suki da to sakebitai;BAAD;Japanese;1993
 Kimi ga suki da to sakebitai (TV);BAAD;Japanese;1993
 GIMME CHOCO!!;BABYMETAL;Japanese;2013
-Ijime;Dame;Zettai;BABYMETAL;Japanese;2013
+Ijime,Dame,Zettai;BABYMETAL;Japanese;2013
 Karate;BABYMETAL;Japanese;2016
 Megitsune;BABYMETAL;Japanese;2013
 Christmas Song;back number;Japanese;2015
@@ -7744,7 +7744,7 @@ Ah Merry-go-round;Berryz Koubou;Japanese;2008
 BERRY FIELDS;Berryz Koubou;Japanese;2004
 Cha Cha Sing;Berryz Koubou;Japanese;2012
 Furare Pattern;Berryz Koubou;Japanese;2008
-Futsuu;Idol 10nen Yatterannai Desho;Berryz Koubou;Japanese;2014
+Futsuu,Idol 10nen Yatterannai Desho;Berryz Koubou;Japanese;2014
 Gag 100kaibun Aishite Kudasai;Berryz Koubou;Japanese;2005
 Gaki Taishou;Berryz Koubou;Japanese;2007
 Golden Chinatown;Berryz Koubou;Japanese;2013
@@ -7805,7 +7805,7 @@ Last kiss (TV);Bonnie Pink;Japanese;2004
 Hitomi no Melody (TV);BOYFRIEND;Japanese;2013
 Kokoro no chizu;BOYSTYLE;Japanese;2004
 Kokoro no chizu (TV);BOYSTYLE;Japanese;2004
-Scarlet (TV);BRACE;d;Japanese;2005
+Scarlet (TV);BRACE:d;Japanese;2005
 Flyers (TV);BRADIO;Japanese;2015
 Everlasting Luv (TV);BREAKERZ;Japanese;2009
 Miss Mystery (TV);BREAKERZ;Japanese;2012
@@ -7829,7 +7829,7 @@ Romance;BUCK-TICK;Japanese;2005
 Answer (TV);BUMP OF CHICKEN;Japanese;2016
 Fighter (TV);BUMP OF CHICKEN;Japanese;2016
 Go (TV);BUMP OF CHICKEN;Japanese;2017
-Hello;world! (TV);BUMP OF CHICKEN;Japanese;2015
+Hello,world! (TV);BUMP OF CHICKEN;Japanese;2015
 Karma (TV);Bump Of Chicken;Japanese;2009
 SOUVENIR (TV);BUMP OF CHICKEN;Japanese;2022
 Ray;BUMP OF CHICKEN feat. Miku Hatsune;Japanese;2014
@@ -7922,7 +7922,7 @@ Be your girl;Chieko Kawabe;Japanese;2004
 Be your girl (TV);Chieko Kawabe;Japanese;2004
 Sakura kiss;Chieko Kawabe;Japanese;2006
 Sakura kiss (TV);Chieko Kawabe;Japanese;2006
-Paradigm Box (TV);Chiharu Sawashiro;Shunsuke Takeuchi;Japanese;2018
+Paradigm Box (TV),Chiharu Sawashiro;Shunsuke Takeuchi;Japanese;2018
 Honey (TV);Chihiro;Japanese;1999
 Arashi no Naka de Kagayaite (TV);Chihiro Yonekura;Japanese;1996
 Butterfly Kiss (TV);Chihiro Yonekura;Japanese;2001
@@ -8009,7 +8009,7 @@ Shinsou (TV);Daisuke Ishiwatari;Japanese;2011
 Seirei Hirai (TV);Daisuke Ono & Tetsuya Kakihara;Japanese;2012
 Key;Daisuke Ono;Japanese;2010
 Key (TV);Daisuke Ono;Japanese;2010
-Welcome!! DISCO Kemokemoke (TV);Daisuke Ono;Takahiro Sakurai & Jouji Nakata;Japanese;2014
+Welcome!! DISCO Kemokemoke (TV),Daisuke Ono;Takahiro Sakurai & Jouji Nakata;Japanese;2014
 Evidence (TV);Daisy x Daisy;Japanese;2011
 Towa No Kizuna (TV);Daisy x Daisy;Japanese;2011
 Moonlight Densetsu;DALI;Japanese;1992
@@ -8155,7 +8155,7 @@ Birth (TV);Eri Kitamura;Japanese;2013
 Marshmallow Justice (TV);Eri Kitamura;Japanese;2012
 Rinrei (TV);Eri Kitamura;Japanese;2014
 Tenohira -show- (TV);Eri Kitamura;Japanese;2014
-Rettsu! Ohime-sama Dakko (TV);Eri Kitamura;Kei Shindou & Mai Kadowaki;Japanese;2007
+Rettsu! Ohime-sama Dakko (TV),Eri Kitamura;Kei Shindou & Mai Kadowaki;Japanese;2007
 Ring of Fortune (TV);Eri Sasaki;Japanese;2015
 Last Promise (TV);Erii Yamazaki;Japanese;2019
 Starlight (TV);Erii Yamazaki;Japanese;2018
@@ -8183,7 +8183,7 @@ Soukyuu no Hikari (TV);Faylan;Japanese;2012
 Tokyo Zero Hearts (TV);Faylan;Japanese;2014
 WHITE justice (TV);Faylan;Japanese;2012
 wonder fang (TV);Faylan;Japanese;2013
-Just Awake (TV);Fear;and Loathing in Las Vegas;Japanese;2011
+Just Awake (TV),Fear;and Loathing in Las Vegas;Japanese;2011
 Bari Bari Saikyou no. 1 (TV);FEEL SO BAD;Japanese;1996
 Crescent Moon;FELT;Japanese;2016
 Sabishii Nettaigyo;FEMM;Japanese;2017
@@ -8193,10 +8193,10 @@ calling (TV);fhána;Japanese;2016
 Comet Lucifer ~The Seed and the Sower~ (TV);fhána;Japanese;2015
 Divine Intervention (TV);fhána;Japanese;2014
 Hoshikuzu no Interlude (TV);fhána;Japanese;2014
-Itsuka no;Ikutsuka no Kimi to no Sekai (TV);fhána;Japanese;2014
+Itsuka no,Ikutsuka no Kimi to no Sekai (TV);fhána;Japanese;2014
 Moon River (TV);fhĂˇna;Japanese;2017
 Niji wo Ametara (TV);fhána;Japanese;2016
-QuĂ© SerĂˇ;SerĂˇ (TV);fhĂˇna;Japanese;2013
+QuĂ© SerĂˇ,SerĂˇ (TV);fhĂˇna;Japanese;2013
 Distance (TV);FictionJunction;Japanese;2011
 Parallel Hearts (TV);FictionJunction;Japanese;2009
 Toki no Mukou Maboroshi no Sora;FictionJunction;Japanese;2010
@@ -8463,7 +8463,7 @@ Gekkou (TV);Hassy;Japanese;2004
 Kotonoha;Hata Motohiro;Japanese;2013
 Rain;Hata Motohiro;Japanese;2013
 Magnet;Hatsune Miku & Megurine Luka;Japanese;2008
-Last Night;Good Night;Hatsune Miku;Japanese;2008
+Last Night,Good Night;Hatsune Miku;Japanese;2008
 Love is War;Hatsune Miku;Japanese;2008
 World is mine;Hatsune Miku;Japanese;2010
 Fragments (PV);Hatsunetsumiko's;Japanese;2009
@@ -8630,15 +8630,15 @@ Chikaigoto ~sukoshi dake mou ichido~ (TV);IKU;Japanese;2008
 Rimless ~Fuchi Nashi no Sekai~ (TV);IKU;Japanese;2008
 Crank Up (TV);Ikusaburo Yamazaki;Japanese;2024
 Sign of Love (TV);Immi;Japanese;2010
-Allegro (TV);in NO hurry to shout;;Japanese;2017
-Canary [ANIME SIDE];in NO hurry to shout;;Japanese;2017
-High School (TV);in NO hurry to shout;;Japanese;2017
-High School [ANIME SIDE] -Alternative- (TV);in NO hurry to shout;;Japanese;2017
+Allegro (TV);in NO hurry to shout:;Japanese;2017
+Canary [ANIME SIDE];in NO hurry to shout:;Japanese;2017
+High School (TV);in NO hurry to shout:;Japanese;2017
+High School [ANIME SIDE] -Alternative- (TV);in NO hurry to shout:;Japanese;2017
 Bokutachi no shiro (TV);Inazuma Eleven Go! All Stars;Japanese;2012
 Winners Forever (TV);INFIX;Japanese;1993
 The Brutal Sisters and Suffering Maid (PV);Innocent Key;Japanese;2008
 Touhou school (PV);Innocent Key;Japanese;2011
-Ugoku;Ugoku (TV);Inori Minase & Yurika Kubo;Japanese;2017
+Ugoku,Ugoku (TV);Inori Minase & Yurika Kubo;Japanese;2017
 Iolite (TV);Inori Minase;Japanese;2023
 CLOSER;Inoue Joe;Japanese;2008
 CLOSER (TV);Inoue Joe;Japanese;2008
@@ -8670,7 +8670,7 @@ Atsuki Kodou (TV);Isao Bitou;Japanese;1998
 Kimi ga Iru Kara (TV);Issei Eguchi;Japanese;2007
 Kimi To Yozora To Sakamichi To (TV);Itou Kanako;Japanese;2007
 Dou Kangaete mo Watashi wa Warukunai (TV);Izumi Kitta;Japanese;2013
-I;I;You and Ai (TV);Izumi Kobayashi;Japanese;1982
+I,I,You and Ai (TV);Izumi Kobayashi;Japanese;1982
 Ichizu (TV);i☆Ris;Japanese;2013
 Change (TV);J-Min;Japanese;2009
 Breakthrough (TV);JAM Project;Japanese;2014
@@ -8734,8 +8734,8 @@ Don't say lazy (TV);K-ON!;Japanese;2009
 Fuwa fuwa time (TV);K-ON!;Japanese;2009
 Go! Go! Maniac! (TV);K-ON!!;Japanese;2010
 Listen!! (TV);K-ON!!;Japanese;2010
-No;Thank You!;K-ON!!;Japanese;2010
-No;Thank You! (TV);K-ON!!;Japanese;2010
+No,Thank You!;K-ON!!;Japanese;2010
+No,Thank You! (TV);K-ON!!;Japanese;2010
 Ikanaide;Kaai Yuki;Japanese;2013
 Sailor Star Song (TV);Kae Hanazawa;Japanese;1996
 Super Special (TV);Kagami Seira;Japanese;2008
@@ -8786,8 +8786,8 @@ Kizuna;Kamenashi Kazuya;Japanese;2006
 Ai no Yokan (TV);Kami Nomi zo Shiritai;Japanese;2011
 Koi no Shirushi (TV);Kami Nomi zo Shiritai;Japanese;2010
 Someone Else (TV);Kana Asumi;Japanese;2010
-Dekirukanatte☆☆☆ (TV);Kana Asumi;Kaori Mizuhashi;Ryouko Shintani & Yuuko Gotou;Japanese;2010
-Sketch Switch (TV);Kana Asumi;Kaori Mizuhashi;Ryouko Shintani & Yuuko Gotou;Japanese;2007
+Dekirukanatte☆☆☆ (TV),Kana Asumi,Kaori Mizuhashi;Ryouko Shintani & Yuuko Gotou;Japanese;2010
+Sketch Switch (TV),Kana Asumi,Kaori Mizuhashi;Ryouko Shintani & Yuuko Gotou;Japanese;2007
 Ashita Kuru Hi;Kana Hanazawa;Japanese;2009
 happy endings (TV);Kana Hanazawa;Japanese;2012
 Meiwaku Spectacle (TV);Kana Hanazawa;Japanese;2014
@@ -8877,7 +8877,7 @@ Tsumibukaki Oretachi no Sanka (TV);Kangoku Danshi;Japanese;2015
 Trouble Maker (TV);KANIKAPILA;Japanese;2015
 A-Han!!;Kankaku Pierrot;Japanese;2015
 Dear Brave (TV);Kano;Japanese;2015
-Hello;How Are You?;Kano;Japanese;2011
+Hello,How Are You?;Kano;Japanese;2011
 nameless (TV);Kano;Japanese;2016
 Tsuki to Hoshizora (TV);KanoeRana;Japanese;2020
 Brand New Breeze (TV);Kanon;Japanese;2006
@@ -8891,8 +8891,8 @@ Still doll;Kanon Wakeshima;Japanese;2008
 Still doll (TV);Kanon Wakeshima;Japanese;2008
 Suna no Oshiro;Kanon Wakeshima;Japanese;2008
 Suna no Oshiro (TV);Kanon Wakeshima;Japanese;2008
-World's end;girl's rondo;Kanon Wakeshima;Japanese;2014
-World's end;girl's rondo (TV);Kanon Wakeshima;Japanese;2014
+World's end,girl's rondo;Kanon Wakeshima;Japanese;2014
+World's end,girl's rondo (TV);Kanon Wakeshima;Japanese;2014
 Calendula Requiem;Kanon x Kanon;Japanese;2010
 Calendula Requiem (TV);Kanon x Kanon;Japanese;2010
 Tears Infection (TV);Kaori;Japanese;2007
@@ -8920,7 +8920,7 @@ One Half;Kawamoto Makoto;Japanese;1997
 One Half (TV);Kawamoto Makoto;Japanese;1997
 Easy Go (TV);Kazuki Kato;Japanese;2009
 Chouzetsu☆Dynamic! (TV);Kazuya Yoshii;Japanese;2015
-Hello;Worker;KEI feat. Luka Megurine;Japanese;2011
+Hello,Worker;KEI feat. Luka Megurine;Japanese;2011
 veil (TV);Keina Suda;Japanese;2019
 CHU-BURA;Kelun;Japanese;2008
 CHU-BURA (TV);Kelun;Japanese;2008
@@ -9050,7 +9050,7 @@ ZoNE-iT (TV);Kotoko;Japanese;2014
 Ai wa Energy;Kotono Mitsuishi;Japanese;1994
 I Am Sailor Moon;Kotono Mitsuishi;Japanese;1993
 Nanda Kana (TV);Kotono Mitsuishi;Japanese;1999
-Tsukini Kawatte Oshioki Yo!;Kotono Mitsuishi;Aya Hisakawa;Michie Tomizawa;Japanese;1992
+Tsukini Kawatte Oshioki Yo!,Kotono Mitsuishi,Aya Hisakawa;Michie Tomizawa;Japanese;1992
 Kage;Kou Shibasaki;Japanese;2006
 Kage (TV);Kou Shibasaki;Japanese;2006
 Butter-fly;Kouji Wada;Japanese;1999
@@ -9179,7 +9179,7 @@ Farewell Song (TV);Lia;Japanese;2004
 Justitia (TV);Lia;Japanese;2014
 Kizunairo (TV);Lia;Japanese;2010
 Kokoro ni Todoku Uta (TV);Lia;Japanese;2010
-My Soul;Your Beats (TV);Lia;Japanese;2009
+My Soul,Your Beats (TV);Lia;Japanese;2009
 Toki wo Kizamu Uta (TV);Lia;Japanese;2008
 Torch (TV);Lia;Japanese;2008
 Tori no Uta (TV);Lia;Japanese;2004
@@ -9226,10 +9226,10 @@ Kanashimi wo yasashisa ni (PV);Little by little;Japanese;2003
 Kanashimi wo yasashisa ni (TV);Little by little;Japanese;2003
 Kimi monogatari;Little by little;Japanese;2007
 Kimi monogatari (TV);Little by little;Japanese;2007
-Dakara;hitori ja nai;Little Glee Monster;Japanese;2017
-Dakara;hitori ja nai (TV);Little Glee Monster;Japanese;2017
+Dakara,hitori ja nai;Little Glee Monster;Japanese;2017
+Dakara,hitori ja nai (TV);Little Glee Monster;Japanese;2017
 Your Name (TV);Little Glee Monster;Japanese;2022
-1;2;3 Day (TV);Little Non;Japanese;2009
+1,2,3 Day (TV);Little Non;Japanese;2009
 Bloooomin (TV);Little Non;Japanese;2009
 Hanamaru Sensation (TV);Little Non;Japanese;2008
 Take Your Way (TV);livetune adding Fukase;Japanese;2013
@@ -9422,7 +9422,7 @@ departure! (TV);Masatoshi Ono;Japanese;2011
 Kimi Janakya Dame Mitai (TV);Masayoshi Ooishi;Japanese;2014
 Shinda!;Masayoshi Ooishi;Japanese;2023
 Shinda! (TV);Masayoshi Ooishi;Japanese;2023
-One More Time;One More Chance;Masayoshi Yamazaki;Japanese;2007
+One More Time,One More Chance;Masayoshi Yamazaki;Japanese;2007
 DADDY! DADDY! DO! (TV);Masayuki Suzuki ft. Airi Suzuki;Japanese;2020
 Love Dramatic (TV);Masayuki Suzuki ft. Rikka Ihara;Japanese;2019
 GIRI GIRI (TV);Masayuki Suzuki ft. Suu;Japanese;2022
@@ -9444,8 +9444,8 @@ Buiikikaesu!!;Maximum the Hormone;Japanese;2007
 Chuu Chuu Lovely Muni Muni Mura Mura Purin Purin Boron Nururu Rerorero;Maximum The Hormone;Japanese;2007
 Koi No Mega Lover;Maximum The Hormone;Japanese;2006
 ROLLING 1000 tOON (TV);Maximum the Hormone;Japanese;2003
-What's up;people!;Maximum The Hormone;Japanese;2005
-What's up;people! (TV);Maximum the Hormone;Japanese;2006
+What's up,people!;Maximum The Hormone;Japanese;2005
+What's up,people! (TV);Maximum the Hormone;Japanese;2006
 Zetsubou Billy;Maximum the Hormone;Japanese;2007
 Zetsubou Billy (TV);Maximum the Hormone;Japanese;2007
 「F」;Maximum the Hormone;Japanese;2007
@@ -9542,7 +9542,7 @@ KiSS KiSS xxx;MiChi;Japanese;2009
 Promise;MiChi;Japanese;2009
 Secret Sky (TV);MICHI;Japanese;2015
 Masterpiece (TV);Mihimaru GT;Japanese;2012
-Territory (TV);Miho Arakawa;Yoshiko Ikuta and Nozomi Yamane;Japanese;2015
+Territory (TV),Miho Arakawa;Yoshiko Ikuta and Nozomi Yamane;Japanese;2015
 Suteki na Serenade (TV);Miho Fujiwara;Japanese;1995
 LET IT OUT;Miho Fukuhara;Japanese;2009
 LET IT OUT (TV);Miho Fukuhara;Japanese;2009
@@ -9555,7 +9555,7 @@ Getsumei Fuuei (TV);Mika Arisaka;Japanese;2002
 Life Goes On (TV);Mika Arisaka;Japanese;2005
 Maybe the next waltz (TV);Mikako Komatsu;Japanese;2017
 Swing heart direction (TV);Mikako Komatsu;Japanese;2017
-Tsumetai Heya;Hitori (TV);Mikako Komatsu;Japanese;2012
+Tsumetai Heya,Hitori (TV);Mikako Komatsu;Japanese;2012
 Masshiro World (TV);Mikakuning!;Japanese;2014
 Tomadoi→Recipe (TV);Mikakuning!;Japanese;2014
 Romantic Ukare Mode;Miki Fujimoto;Japanese;2002
@@ -9578,8 +9578,8 @@ Torinoko City (Remake);Miku Hatsune;Japanese;2013
 Two Breaths Walking;Miku Hatsune;Japanese;2009
 Ura Omote Lovers;Miku Hatsune;Japanese;2009
 B Who I Want 2 B;Miku Hatsune feat. Namie Amuro;Japanese;2015
-Gomen ne;Iiko ja Irarenai. (TV);Miku Sawai;Japanese;2013
-Konna Sekai;Shiritakunakatta (TV);Miku Sawai;Japanese;2014
+Gomen ne,Iiko ja Irarenai. (TV);Miku Sawai;Japanese;2013
+Konna Sekai,Shiritakunakatta (TV);Miku Sawai;Japanese;2014
 Karenai Hana (TV);Mikuni Shimokawa;Japanese;2002
 Kimi ga iru kara (TV);Mikuni Shimokawa;Japanese;2010
 Minami Kaze (TV);Mikuni Shimokawa;Japanese;2005
@@ -9640,21 +9640,21 @@ Flashback (TV);MIYAVI vs. KenKen;Japanese;2018
 Deep in Abyss (TV);Miyu Tomita & Mariya Ise;Japanese;2017
 OveR (TV);Miyu Tomita;Japanese;2022
 Paradoxes (TV);Miyu Tomita;Japanese;2024
-Tabi no Hidarite;Saihate no Migite (TV);Miyu Tomita;Shiori Izawa & Mariya Ise;Japanese;2017
+Tabi no Hidarite,Saihate no Migite (TV),Miyu Tomita;Shiori Izawa & Mariya Ise;Japanese;2017
 Glossy MMM (TV);Miyuki Hashimoto;Japanese;2009
 Innocence (TV);Miyuki Hashimoto;Japanese;2006
 Ambivalent World (TV);Miyuki Sawashiro;Japanese;2009
 Chiisana Mahou (TV);Miyuki Sawashiro;Japanese;2002
 Maigo no Kokoro (TV);Miyuki Sawashiro;Japanese;2011
-Delta Decision (TV);Miyuki Sawashiro;Maaya Uchida & Haruka Terui;Japanese;2015
-Good bye;yesterday (TV);Mizrock;Japanese;2007
+Delta Decision (TV),Miyuki Sawashiro;Maaya Uchida & Haruka Terui;Japanese;2015
+Good bye,yesterday (TV);Mizrock;Japanese;2007
 Kaze mo Sora mo Kitto (TV);Mizuki Arisa;Japanese;1996
 99;MOB CHOIR;Japanese;2016
 99 (TV);MOB CHOIR;Japanese;2016
 Gekkou (TV);Momoiro Clover Z;Japanese;2014
 MOON PRIDE (TV);Momoiro Clover Z;Japanese;2014
 Nippon Egao Hyakkei (TV);Momoiro Clover Z;Japanese;2012
-Saraba;Itoshiki Kanashimitachi yo;Momoiro Clover Z;Japanese;2012
+Saraba,Itoshiki Kanashimitachi yo;Momoiro Clover Z;Japanese;2012
 Tsukiiro Chainon (With Sailor Guardians);Momoiro Clover Z;Japanese;2021
 Z no Chikai;Momoiro Clover Z;Japanese;2015
 Yume no Ukiyo ni Saitemina;Momoiro Clover Z vs KISS;Japanese;2014
@@ -9668,7 +9668,7 @@ Sunshine (TV);Monkey Majik;Japanese;2010
 Together;Monkey Majik;Japanese;2007
 La Soldier;Moon Lips;Japanese;1993
 Suberidai (TV);Mori Tsubasa;Japanese;2008
-3;2;1 BREAKIN' OUT!;Morning Musume;Japanese;2009
+3,2,1 BREAKIN' OUT!;Morning Musume;Japanese;2009
 Ai no Gundan;Morning Musume;Japanese;2013
 Ai no Tane;Morning Musume;Japanese;1997
 Aisaresugiru Koto wa Nai no yo;Morning Musume;Japanese;2010
@@ -9779,14 +9779,14 @@ Yuugure wa Ameagari;Morning Musume;Japanese;2015
 Chousai Kenbo Sengen (TV);MOSAIC.WAV;Japanese;2008
 Toumei Datta Sekai (TV);Motohiro Hata;Japanese;2010
 Ki Ni Naru Aitsu (TV);Motoko Kumai;Japanese;1999
-Hello;shooting-star (TV);moumoon;Japanese;2015
+Hello,shooting-star (TV);moumoon;Japanese;2015
 CLASSIC (TV);MUCC;Japanese;2016
 Heide;MUCC;Japanese;2016
 Kuukyo Na Heya;MUCC;Japanese;2006
 MOTHER (TV);MUCC;Japanese;2012
 Nirvana;Mucc;Japanese;2012
 Nirvana (TV);Mucc;Japanese;2012
-Yue ni;Matenrou (TV);MUCC;Japanese;2014
+Yue ni,Matenrou (TV);MUCC;Japanese;2014
 Family;Mugiwara kaizoku-dan;Japanese;2003
 Family (TV);Mugiwara kaizoku-dan;Japanese;2003
 Jungle fever;Mugiwara kaizoku-dan;Japanese;2003
@@ -9970,7 +9970,7 @@ Beautiful Days (TV);OKAMOTO'S;Japanese;2015
 HEADHUNT (TV);OKAMOTO'S;Japanese;2015
 Yokubou o Sakebe!!! (TV);OKAMOTO'S;Japanese;2011
 Tsuki no Curse (TV);Okina Reika;Japanese;2005
-Only One;No. 1 (TV);Okui Masami;Japanese;1999
+Only One,No. 1 (TV);Okui Masami;Japanese;1999
 Catal Rhythm (TV);OLDCODEX;Japanese;2012
 Deal with (TV);OLDCODEX;Japanese;2016
 Dried Up Youthful Fame (TV);OLDCODEX;Japanese;2014
@@ -10076,7 +10076,7 @@ Melissa (TV);Porno graffiti;Japanese;2003
 Anima Rossa (TV);Porno Graffitti;Japanese;2009
 Hitori no Yoru;Porno Graffitti;Japanese;1999
 Hitori no Yoru (TV);Porno Graffitti;Japanese;1999
-Koyoi;Tsuki ga Miezutomo (TV);Porno Graffitti;Japanese;2009
+Koyoi,Tsuki ga Miezutomo (TV);Porno Graffitti;Japanese;2009
 Matataku Hoshi no Shita de (TV);Porno Graffitti;Japanese;2013
 The Day (TV);Porno Graffitti;Japanese;2016
 Balance Doll (TV);Prague;Japanese;2011
@@ -10141,7 +10141,7 @@ Honki Power no Dasshu! (TV);Rie Kugimiya;Japanese;2002
 Honto No Kimochi (TV);Rie Kugimiya;Japanese;2006
 Kiss Shite Agenai (TV);Rie Kugimiya;Japanese;2012
 Suki Kirai! Suki!!! (TV);Rie Kugimiya;Japanese;2007
-Orange (TV);Rie Kugimiya;Yui Horie & Eri Kitamura;Japanese;2008
+Orange (TV),Rie Kugimiya;Yui Horie & Eri Kitamura;Japanese;2008
 Dokidoki no Kaze (TV);Rie Murakawa;Japanese;2016
 Stay Alive (TV);Rie Takahashi;Japanese;2016
 Katakoto no Koi (TV);Rie Tanaka & Tomokazu Sugita;Japanese;2002
@@ -10163,8 +10163,8 @@ Tokyo Teddy Bear;Rin Kagamine;Japanese;2011
 drop pop candy;Rin Kagamine x Luka Megurine;Japanese;2014
 100 mono tobira;Rina Aiuchi & Yuuka Saegusa;Japanese;2006
 100 mono tobira (TV);Rina Aiuchi & Yuuka Saegusa;Japanese;2006
-Koi wa Thrill;Shock;Suspense;Rina Aiuchi;Japanese;2000
-Koi wa Thrill;Shock;Suspense (TV);Rina Aiuchi;Japanese;2000
+Koi wa Thrill,Shock,Suspense;Rina Aiuchi;Japanese;2000
+Koi wa Thrill,Shock,Suspense (TV);Rina Aiuchi;Japanese;2000
 Magic;Rina Aiuchi;Japanese;2009
 Magic (TV);Rina Aiuchi;Japanese;2009
 Start (TV);Rina Aiuchi;Japanese;2004
@@ -10178,7 +10178,7 @@ Tsumi to Batsu;Ringo Sheena;Japanese;2000
 Super Shooter (TV);Rip Slyme;Japanese;2004
 Promised Land (TV);Risa Shimizu;Japanese;2014
 Wareta Ringo (TV);Risa Taneda;Japanese;2013
-Ichiban Boshi (TV);Risa Taneda;Aya Suzaki;MAO & Azusa Tadokoro;Japanese;2014
+Ichiban Boshi (TV),Risa Taneda,Aya Suzaki;MAO & Azusa Tadokoro;Japanese;2014
 Alicemagic (TV);Rita;Japanese;2012
 Little Busters (TV);Rita;Japanese;2012
 Little Busters! (TV);Rita;Japanese;2012
@@ -10233,9 +10233,9 @@ UPON A STAR (TV);Saeko Zougou;Japanese;2014
 Aoarashi no Ato de (TV);sajou no hana;Japanese;2020
 Prism;Sakura Tange;Japanese;1999
 Release My Heart;Sakura Tange;Japanese;2000
-Solar Miracle;Make Up!;Sakurakko Club;Japanese;1994
-Kimi o Mamotte;Kimi o Aishite;Sambomaster;Japanese;2009
-Kimi o Mamotte;Kimi o Aishite (TV);Sambomaster;Japanese;2009
+Solar Miracle,Make Up!;Sakurakko Club;Japanese;1994
+Kimi o Mamotte,Kimi o Aishite;Sambomaster;Japanese;2009
+Kimi o Mamotte,Kimi o Aishite (TV);Sambomaster;Japanese;2009
 Seishun Kyousoukyoku (TV);Sambomaster;Japanese;2004
 Sekai wa Sore wo Ai to Yobundaze;Sambomaster;Japanese;2005
 Sekai wa Sore wo Ai to Yobundaze (TV);Sambomaster;Japanese;2005
@@ -10283,7 +10283,7 @@ Mikazuki (TV);Sayuri;Japanese;2015
 Sore wa Chiisana Hikari no You na;Sayuri;Japanese;2016
 Sore wa Chiisana Hikari no You na (TV);Sayuri;Japanese;2016
 Tsuki to Hanataba (TV);Sayuri;Japanese;2018
-Awanai Tsumori no;Genki de ne;SCANDAL;Japanese;2013
+Awanai Tsumori no,Genki de ne;SCANDAL;Japanese;2013
 Doll;SCANDAL;Japanese;2008
 Harukaze;SCANDAL;Japanese;2012
 Harukaze (TV);SCANDAL;Japanese;2012
@@ -10303,7 +10303,7 @@ ROUGH DIAMONDS (TV);SCREEN mode;Japanese;2016
 DEEP SIX;SCREW;Japanese;2011
 Honey Honey (TV);Seamo feat. Ayuse Kozue;Japanese;2008
 The Real Folk Blues (TV);Seatbelts feat. Mai Yamane;Japanese;1998
-Twinkle;Twinkle (TV);Secret;Japanese;2012
+Twinkle,Twinkle (TV);Secret;Japanese;2012
 Anna ni Issho Datta no Ni ă€śReTracks (TV);See-Saw;Japanese;2011
 Edge (TV);See-Saw;Japanese;2002
 Kimi ga Ita Monogatari (TV);See-Saw;Japanese;2002
@@ -10317,7 +10317,7 @@ Unable to do Anything but Sing;Sekken-ya;Japanese;2006
 Pierrot;Senka;Japanese;2010
 Tougenkyou Alien;serial TV drama;Japanese;2011
 Tougenkyou Alien (TV);serial TV drama;Japanese;2011
-Onna;Kanashii;Otona;Sexy Otonajan;Japanese;2005
+Onna,Kanashii,Otona;Sexy Otonajan;Japanese;2005
 Kimi wa Majutsushi;Sharan Q;Japanese;1999
 Kimi wa Majutsushi (TV);Sharan Q;Japanese;1999
 Natsu no Maboroshi (TV);SHEEP;Japanese;1998
@@ -10420,8 +10420,8 @@ Samurai Heart (Some Like It Hot!!);SPYAIR;Japanese;2011
 Samurai Heart (Some Like It Hot!!) (TV);SPYAIR;Japanese;2011
 Wadachi;SPYAIR;Japanese;2021
 Higher Ground (TV);SRS;Japanese;2012
-No boy;no cry;Stance Punks;Japanese;2005
-No boy;no cry (TV);Stance Punks;Japanese;2005
+No boy,no cry;Stance Punks;Japanese;2005
+No boy,no cry (TV);Stance Punks;Japanese;2005
 Maji Love 1000% (TV);STARISH;Japanese;2011
 Maji Love 2000% (TV);STARISH;Japanese;2013
 Maji Love Revolutions (TV);STARISH;Japanese;2015
@@ -10533,7 +10533,7 @@ Resonance (TV);T.M.Revolution;Japanese;2007
 Kakumei Dualism;T.M.Revolution x Nana Mizuki;Japanese;2013
 Preserved Roses;T.M.Revolution x Nana Mizuki;Japanese;2013
 Newsong (TV);Tacica;Japanese;2011
-One Day;One Dream (TV);Tackey & Tsubasa;Japanese;2004
+One Day,One Dream (TV);Tackey & Tsubasa;Japanese;2004
 Sotsugyou Sayonara wa Ashita no Tame ni;Tackey & Tsubasa;Japanese;2003
 Doll (TV);Tada Aoi;Japanese;2008
 Kirameku namida wa hoshi ni;Tainaka Sachi;Japanese;2006
@@ -10600,7 +10600,7 @@ Guren;the GazettE;Japanese;2008
 Shiver (TV);The Gazette;Japanese;2010
 Vortex;the GazettE;Japanese;2011
 Congratulations (TV);The Goddess Family Club;Japanese;1993
-My Heart iidasenai;Your Heart tashikametai (TV);The Goddess Family Club;Japanese;1993
+My Heart iidasenai,Your Heart tashikametai (TV);The Goddess Family Club;Japanese;1993
 Mune ga doki doki;The High-Lows;Japanese;1996
 Mune ga doki doki (TV);The High-Lows;Japanese;1996
 Ima made nando mo;The Mass Missile;Japanese;2004
@@ -10629,7 +10629,7 @@ Hateshinaku Tooi Sora ni (TV);The Stand Up;Japanese;2004
 Tactics;The Yellow Monkey;Japanese;1996
 Tactics (TV);The Yellow Monkey;Japanese;1996
 Uragiri no Yuuyake (TV);Theatre Brook;Japanese;2010
-Sonna Kimi;Konna Boku (TV);Thinking Dogs;Japanese;2016
+Sonna Kimi,Konna Boku (TV);Thinking Dogs;Japanese;2016
 Nagareboshi He (Search For Your Love);Three Lights;Japanese;1996
 Todokanu Omoi ~My Friend's Love~;Three Lights;Japanese;1996
 Glorious Days (TV);THREE LIGHTS DOWN KINGS;Japanese;2015
@@ -10749,7 +10749,7 @@ Sinryaku no Susume (TV);Ultra-Prism;Japanese;2010
 Zetchou Daybreak (TV);Ultra-Souls;Japanese;2014
 I am Just Feeling Alive (TV);UMI☆KUUN;Japanese;2015
 Kotoba (TV);Under Graph;Japanese;2006
-10% roll;10% romance (TV);UNISON SQUARE GARDEN;Japanese;2017
+10% roll,10% romance (TV);UNISON SQUARE GARDEN;Japanese;2017
 Invisible Sensation (TV);UNISON SQUARE GARDEN;Japanese;2017
 Sakura no Ato (all quartets lead to the?) (TV);UNISON SQUARE GARDEN;Japanese;2013
 Sugar Song to Bitter Step (TV);UNISON SQUARE GARDEN;Japanese;2015
@@ -10769,7 +10769,7 @@ Sakura Drops;Utada Hikaru;Japanese;2002
 This Is Love (Live);Utada Hikaru;Japanese;2006
 This Is Love (TV);Utada Hikaru;Japanese;2006
 Core Pride (TV);UVERworld;Japanese;2011
-Boku no Kotoba dewa nai;Kore wa Bokutachi no Kotoba (TV);UVERworld;Japanese;2015
+Boku no Kotoba dewa nai,Kore wa Bokutachi no Kotoba (TV);UVERworld;Japanese;2015
 CHANCE! (TV);UVERworld;Japanese;2005
 Colors of the Heart;UVERworld;Japanese;2006
 Colors of the Heart (TV);UVERworld;Japanese;2006
@@ -10825,7 +10825,7 @@ Ikusa;Wagakki Band;Japanese;2015
 Ikusa (TV);Wagakki Band;Japanese;2015
 Seimei no Aria (TV);Wagakki Band;Japanese;2021
 Senbonzakura;Wagakki Band;Japanese;2014
-Ashita;Boku wa Kimi ni Ai ni Iku (TV);Wakaba;Japanese;2011
+Ashita,Boku wa Kimi ni Ai ni Iku (TV);Wakaba;Japanese;2011
 Hametsu no Junjou (TV);WalkĂĽre;Japanese;2016
 Ichido dake no Koi nara (TV);Walküre;Japanese;2016
 Ikenai Borderline;Walküre;Japanese;2015
@@ -10943,7 +10943,7 @@ TOKYO;YUI;Japanese;2006
 Tomorrow's way;YUI;Japanese;2005
 Requiem of Red;Yui Horie & Red Clansmen;Japanese;2013
 Smile Smile (TV);Yui Horie & Satsuki Yukino;Japanese;2001
-Be for You;Be for Me (TV);Yui Horie & Ueda Yuji;Japanese;2002
+Be for You,Be for Me (TV);Yui Horie & Ueda Yuji;Japanese;2002
 Asymmetry (TV);Yui Horie;Japanese;2015
 Chocolate Insomnia (TV);Yui Horie;Japanese;2013
 Egao no Mirai e (TV);Yui Horie;Japanese;2001
@@ -10991,7 +10991,7 @@ Fantastic Future (TV);Yukari Tamura;Japanese;2013
 Happy! Lucky! Dochy! (TV);Yukari Tamura;Japanese;2011
 Oshiete A to Z (TV);Yukari Tamura;Japanese;2010
 Ureshii Sora no Tobikata;Yukari Tamura;Japanese;2003
-Mahou Shoujo Magical-tan! (TV);Yukari Tamura;Kaori Nazuka & Haruka Tomatsu;Japanese;2007
+Mahou Shoujo Magical-tan! (TV),Yukari Tamura;Kaori Nazuka & Haruka Tomatsu;Japanese;2007
 Sakamichi no Melody (TV);YUKI;Japanese;2012
 Denwa Shite Iwa Chan;Yuki Ishii;Japanese;1998
 Fall In You (TV);Yuki Kimura;Japanese;1999
@@ -11015,7 +11015,7 @@ Wonderful Wonder World;Yun chi;Japanese;2014
 Wonderful Wonder World (TV);Yun chi;Japanese;2014
 Your Song;Yun chi;Japanese;2013
 Your Song (TV);Yun chi;Japanese;2013
-Open☆Canvas (TV);Yuno;Miyako;Hiro;Sae;Nori & Nazuna;Japanese;2012
+Open☆Canvas (TV),Yuno,Miyako,Hiro,Sae;Nori & Nazuna;Japanese;2012
 Koi no Uta (TV);Yunomi feat. Akari Kitou;Japanese;2020
 Scramble;Yuri Horie & UNSCANDAL;Japanese;2004
 Scramble (TV);Yuri Horie & UNSCANDAL;Japanese;2004
@@ -11034,7 +11034,7 @@ Run Run Riru Ran Ran Rara (TV);Yuu Kobayashi;Japanese;2011
 Hikari no Hahen (TV);Yuu Takahashi;Japanese;2016
 Tsuki ni Murakumo Hana ni Kaze (Short Ver.);Yuuhei Satellite;Japanese;2011
 Rakuen no Photograph (TV);Yuuichi Nakamura;Japanese;2012
-Hikari;Hikari (TV);Yuuka Aisaka;Japanese;2017
+Hikari,Hikari (TV);Yuuka Aisaka;Japanese;2017
 BLOODY HOLIC (TV);Yuuka Nanri;Japanese;2013
 Mother land;Yuuka Nanri;Japanese;2013
 Senkou no Prisoner (TV);Yuuka Nanri;Japanese;2014
@@ -11115,7 +11115,7 @@ HURRICANE VENUS;BoA;Korean;2010
 Kiss My Lips;BoA;Korean;2015
 NEGA DOLA;BoA;Korean;2018
 No.1;BoA;Korean;2002
-ONE SHOT;TWO SHOT;BoA;Korean;2018
+ONE SHOT,TWO SHOT;BoA;Korean;2018
 Only One;BoA;Korean;2012
 VALENTI (Pump it up ver.);BoA;Korean;2003
 We;BoA;Korean;2004
@@ -11157,7 +11157,7 @@ LOVE DIVE;IVE;Korean;2022
 SOLO;JENNIE;Korean;2018
 Trouble Maker;JS & Hyuna;Korean;2011
 Don't Recall;K.A.R.D;Korean;2017
-Comeback;You Bad Person;Kahi;Korean;2011
+Comeback,You Bad Person;Kahi;Korean;2011
 Paparazzi;Kan Mi Youn ft. Eric;Korean;2011
 Wanna;Kara;Korean;2009
 Bogoshipda;Kim Bum Soo;Korean;2003
@@ -11192,13 +11192,13 @@ SHAKE IT;SISTAR;Korean;2015
 Because I'm Stupid;SS501;Korean;2009
 Devil;Super Junior;Korean;2015
 Mr. Simple;Super Junior;Korean;2011
-Sexy;Free & Single;Super Junior;Korean;2012
+Sexy,Free & Single;Super Junior;Korean;2012
 Sorry Sorry;Super Junior;Korean;2009
 Lo siento;Super Junior Feat. Leslie Grace;Korean;2018
 One More Time (Otra vez);Super Junior ft. Reik;Korean;2018
 Super Girl (Korean ver.);Super Junior M;Korean;2009
 Paradise;T-Max;Korean;2009
-Eyes;Nose;Lips;TAEYANG;Korean;2014
+Eyes,Nose,Lips;TAEYANG;Korean;2014
 Stress;Taeyeon;Korean;2015
 I;Taeyeon feat. Verbal Jint;Korean;2015
 Alone;Team. Hurihuri feat. SeeU;Korean;2012
@@ -11256,7 +11256,7 @@ Polonez Kościuszki;Artur Ruciński;Polish;1997
 Wesoly mix weselny;bayer full;English;Unknown
 Biała Armia;Bajm;Polish;Unknown
 Dziesięć Przykazań;Bajm;English;Unknown
-Lola;Lola;Bajm;Polish;Unknown
+Lola,Lola;Bajm;Polish;Unknown
 Myśli i słowa;Bajm;Polish;Unknown
 Noc po ciezkim dniu;Bajm;Polish;Unknown
 P.S. Zabierz mnie tam;Bajm;Polish;2009
@@ -11275,7 +11275,7 @@ Makumba;Big Cyc;Polish;1996
 Nie Zapomnisz Nigdy;Big Cyc;Polish;Unknown
 Świat Według Kiepskich;Big Cyc;Polish;Unknown
 Czas nie będzie czekał;Blue Cafe;Polish;2008
-Do nieba;do piekła;Blue cafe;Polski;Unknown
+Do nieba,do piekła;Blue cafe;Polski;Unknown
 Daj mi tę noc;Bolter;Polish;Unknown
 Biba;Boys;Polish;Unknown
 Hej Sokoły;Boys;English;Unknown
@@ -11285,7 +11285,7 @@ Nie płacz;Boys;Polish;Unknown
 Twój jeden uśmiech;Boys;Polish;Unknown
 Wolność;Boys;Polish;Unknown
 Czerwone korale;BRAThANKI;Polish;2000
-W kinie;w Lublinie;BRAThANKI;Polish;2001
+W kinie,w Lublinie;BRAThANKI;Polish;2001
 Za Wielkim Morzem;Brathanki;English;Unknown
 Kiedy byłem małym chłopcem;Breakout;Polish;Unknown
 Bal wszystkich świętych;Budka Suflera;Polish;2000
@@ -11359,7 +11359,7 @@ A gdy jest już ciemno;Feel;Polish;Unknown
 Jak Anioła Głos;Feel;English;Unknown
 Jezus Malusieńki;Feel;Polish;2008
 Kiedy przy mnie śpisz;Feel;Polish;Unknown
-Nasze słowa;Nasze dni;Feel;English;Unknown
+Nasze słowa,Nasze dni;Feel;English;Unknown
 No kochaj mnie;Feel;Polish;Unknown
 No pokaz na co Cie stac;Feel;Polish;2007
 To długa rzeka;Feel;Polish;Unknown
@@ -11419,7 +11419,7 @@ Wszystko czego dziś chcę;Izabela Trojanowska;Polish;Unknown
 Pieśń Konfederatów;Jacek Kaczmarski & Jacek Kowalski;Polish;1997
 Pieśń Konfederatów;Jacek Kaczmarski & Jacek Kowlaski;Polish;1997
 Mury;Jacek Kaczmarski;Polish;1980
-Syn Marnotrawny;Jacek Kaczmarski;PrzemysĹ‚aw Gintrowski & Zbigniew ĹapiĹ„ski;Polish;1992
+Syn Marnotrawny,Jacek Kaczmarski;PrzemysĹ‚aw Gintrowski & Zbigniew ĹapiĹ„ski;Polish;1992
 A my nie chcemy uciekać stąd;Jacek Wójcicki;Polish;1989
 Pojde tylko tam;Jamal;Polish;Unknown
 Janusz Laskowski;Świat nie wierzy łzom;English;Unknown
@@ -11442,7 +11442,7 @@ Ostatnia szansa;Kasia Cerekwicka;Polish;2006
 Unknown;Unknown;English;Unknown
 Antidotum;Kasia Kowalska;English;Unknown
 Bezpowrotnie;Kasia Kowalska;English;Unknown
-Co&#347; Optymistycznego;Kasia Kowalska;English;Unknown
+Co&#347: Optymistycznego;Kasia Kowalska;English;Unknown
 Maskarada;Kasia Kowalska;Polish;2008
 Prowadz mnie;Kasia Kowalska;Polish;2004
 Spowiedź;Kasia Kowalska;Polish;Unknown
@@ -11461,7 +11461,7 @@ Slad;Kombii;Polish;2007
 Zostań;KORTEZ;Polish;2015
 Spragniony Karoliny;Kowalski;Polish;Unknown
 Zakazany Owoc;Krzysztof Antkowiak;English;Unknown
-Prócz ciebie;nic;Krzysztof Kiljanski Feat. Kayah;Polish;2005
+Prócz ciebie,nic;Krzysztof Kiljanski Feat. Kayah;Polish;2005
 Bo jesteś Ty;Krzysztof Krawczyk;English;Unknown
 Tabaluga;Krzysztof Mielańczuk;Polish;1997
 Hakuna Matata;Król Lew;English;Unknown
@@ -11472,12 +11472,12 @@ Kryzysowa narzeczona;Lady Pank;Polish;1983
 Na co komu dziś;Lady Pank;English;Unknown
 Tańcz glupia tańcz;Lady Pank;English;Unknown
 Wciąż Bardziej Obcy;Lady Pank;English;Unknown
-Wenus;mars;Lady Pank;Polish;Unknown
+Wenus,mars;Lady Pank;Polish;Unknown
 Zamki na piasku;Lady Pank;English;Unknown
 Zawsze tam gdzie Ty;Lady Pank;Polish;Unknown
 Podpalimy świat;Lanberry;Polish;2015
 Unknown;Lerek Feat. Nowator;English;1900
-Pomidorowa;Letni;Chamski Podryw;Polish;2015
+Pomidorowa,Letni;Chamski Podryw;Polish;2015
 Sen o lepszym dniu;Lipali;Polish;Unknown
 Upadam;lipali;Polish;Unknown
 Przeżyj to sam [LIVE];Lombard;Polish;Unknown
@@ -11502,7 +11502,7 @@ Dziewczyna Gangstera;Manchester;Polish;Unknown
 Nie na pierwszej randce;Manchester;Polish;Unknown
 Silacz;Marcin Rozynek;English;Unknown
 Moskwa;Marcin Spenner;Polish;2015
-Dni;których nie znamy;Marek Grechuta;Polish;Unknown
+Dni,których nie znamy;Marek Grechuta;Polish;Unknown
 Łatwopalni;Maryla Rodowicz;Polish;1997
 Żono moja;Masters;Polish;Unknown
 Dzisiaj w Betlejem;Mazowsze;Polish;Unknown
@@ -11542,7 +11542,7 @@ Bezimienni;Papa Dance;Polish;2007
 Maxi Singiel;Papa Dance;Polish;Unknown
 Naj Story;Papa Dance;Polish;Unknown
 Nasz Disneyland;Papa Dance;Polish;1988
-Wojenko;wojenko;Krzysztof Krawczyk;Polish;Unknown
+Wojenko,wojenko;Krzysztof Krawczyk;Polish;Unknown
 Jeszcze raz;Patrycja Markowska;Polish;2007
 Ostatni;Patrycja Markowska;Polish;Unknown
 Swiat sie pomylil;Patrycja Markowska;Polish;2007
@@ -11561,7 +11561,7 @@ Dziunia;Pewex;English;2011
 Zośka;Piersi;Polish;Unknown
 Caluj Mnie;Piersi i Kukiz;Polish;Unknown
 Niekochanie;Pin;Polish;2008
-Niech mówią;że to nie jest miłość;Piotr Rubik;Polish;Unknown
+Niech mówią,że to nie jest miłość;Piotr Rubik;Polish;Unknown
 Psalm dla ciebie;Piotr Rubik;English;Unknown
 Goniąc kormorany;Piotr Szczepanik;Polish;Unknown
 Kochać jak to łatwo powiedzieć;Piotr Szczepanik;English;Unknown
@@ -11575,7 +11575,7 @@ Bogurodzica;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
 Kurdesz;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1998
 Marsz obozowy;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
 Marsz Polonia;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1998
-My;Pierwsza Brygada (Legiony);Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
+My,Pierwsza Brygada (Legiony);Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
 Piechota;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
 Rota;Reprezentacyjny Zespół Artystyczny Wojska Polskiego;Polish;1989
 Ĺ»eby Polska byĹ‚a PolskÄ…;Reprezentacyjny ZespĂłĹ‚ Artystyczny Wojska Polskiego;Polish;1989
