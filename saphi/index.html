@@ -202,7 +202,7 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>Porównanie speedrunów CTR</h1>
+        <h1>Porównanie speedrunów CTR <small style="font-size: 0.5em; color: var(--muted);">(v1.2)</small></h1>
         <p class="subtitle">Porównanie wyników dwóch graczy w Crash Team Racing</p>
 
         <div class="legend" id="legend">
@@ -280,7 +280,6 @@
         
         // Lista CORS proxy do wypróbowania
         const CORS_PROXIES = [
-            'https://api.allorigins.win/raw?url=',
             'https://corsproxy.io/?',
             'https://api.codetabs.com/v1/proxy?quest='
         ];
@@ -380,24 +379,47 @@
             for (const proxy of CORS_PROXIES) {
                 try {
                     const proxyUrl = proxy + encodeURIComponent(url);
+                    console.log(`Trying proxy: ${proxy}`);
                     const response = await fetch(proxyUrl, {
                         headers: {
-                            'Accept': 'text/html'
-                        }
+                            'Accept': 'text/html',
+                            'Origin': 'https://robinxon.github.io'
+                        },
+                        mode: 'cors'
                     });
                     if (response.ok) {
                         const html = await response.text();
                         const data = parsePlayerData(html);
                         if (Object.keys(data.tracks).length > 0) {
+                            console.log(`Success with proxy: ${proxy}`);
                             return data;
                         }
+                    } else {
+                        console.warn(`Proxy ${proxy} returned status:`, response.status);
                     }
                 } catch (error) {
                     console.warn(`Proxy ${proxy} failed:`, error.message);
                 }
             }
             
-            // Jeśli wszystkie proxy zawiodły, zwróć puste dane
+            // Jeśli wszystkie proxy zawiodły, spróbuj bezpośrednio (może zadziałać lokalnie)
+            try {
+                console.log('Trying direct fetch...');
+                const response = await fetch(url);
+                if (response.ok) {
+                    const html = await response.text();
+                    const data = parsePlayerData(html);
+                    if (Object.keys(data.tracks).length > 0) {
+                        console.log('Direct fetch succeeded');
+                        return data;
+                    }
+                }
+            } catch (error) {
+                console.warn('Direct fetch failed:', error.message);
+            }
+            
+            // Jeśli wszystkie metody zawiodły, zwróć puste dane
+            console.error('All fetch methods failed');
             return { name: '', tracks: {} };
         }
 
