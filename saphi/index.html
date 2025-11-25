@@ -202,7 +202,7 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>Porównanie speedrunów CTR <small style="font-size: 0.5em; color: var(--muted);">(v1.2)</small></h1>
+        <h1>Porównanie speedrunów CTR <small style="font-size: 0.5em; color: var(--muted);">(v1.3)</small></h1>
         <p class="subtitle">Porównanie wyników dwóch graczy w Crash Team Racing</p>
 
         <div class="legend" id="legend">
@@ -252,7 +252,7 @@
             <strong>Źródła danych:</strong><br>
             <a href="https://5ever.crashteamranking.com/ctr/pr.php?id=58" target="_blank" rel="noopener">Saphi (ID: 58)</a> |
             <a href="https://5ever.crashteamranking.com/ctr/pr.php?id=144" target="_blank" rel="noopener">Gracz 2 (ID: 144)</a><br><br>
-            <em>Dane pobierane są dynamicznie z crashteamranking.com przez CORS proxy. Jeśli tabela jest pusta, serwer zewnętrzny może być niedostępny.</em>
+            <em>Dane pobierane są z ramek iframe poniżej. Jeśli tabela jest pusta, sprawdź czy ramki się załadowały.</em>
         </div>
 
         <div class="iframes-container">
@@ -277,12 +277,6 @@
         
         // Słowa kluczowe do wykluczenia nagłówków
         const HEADER_KEYWORDS = ['track', 'name', 'trasa', 'czas', 'time'];
-        
-        // Lista CORS proxy do wypróbowania
-        const CORS_PROXIES = [
-            'https://corsproxy.io/?',
-            'https://api.codetabs.com/v1/proxy?quest='
-        ];
 
         // Stan
         let comparisonData = [];
@@ -373,54 +367,44 @@
             return data;
         }
 
-        // Pobieranie danych gracza przez CORS proxy
-        async function fetchPlayerData(url) {
-            // Spróbuj każdy proxy po kolei
-            for (const proxy of CORS_PROXIES) {
-                try {
-                    const proxyUrl = proxy + encodeURIComponent(url);
-                    console.log(`Trying proxy: ${proxy}`);
-                    const response = await fetch(proxyUrl, {
-                        headers: {
-                            'Accept': 'text/html',
-                            'Origin': 'https://robinxon.github.io'
-                        },
-                        mode: 'cors'
-                    });
-                    if (response.ok) {
-                        const html = await response.text();
+        // Pobieranie danych gracza z iframe
+        async function fetchPlayerDataFromIframe(iframeElement) {
+            return new Promise((resolve) => {
+                const timeout = setTimeout(() => {
+                    console.warn('Timeout loading iframe');
+                    resolve({ name: '', tracks: {} });
+                }, 10000); // 10 sekund timeout
+
+                iframeElement.addEventListener('load', function() {
+                    clearTimeout(timeout);
+                    try {
+                        const iframeDoc = iframeElement.contentDocument || iframeElement.contentWindow.document;
+                        const html = iframeDoc.documentElement.outerHTML;
                         const data = parsePlayerData(html);
-                        if (Object.keys(data.tracks).length > 0) {
-                            console.log(`Success with proxy: ${proxy}`);
-                            return data;
-                        }
-                    } else {
-                        console.warn(`Proxy ${proxy} returned status:`, response.status);
+                        console.log('Data loaded from iframe:', Object.keys(data.tracks).length, 'tracks');
+                        resolve(data);
+                    } catch (error) {
+                        console.error('Cannot access iframe content (CORS):', error.message);
+                        // Fallback: spróbuj odczytać widoczne dane
+                        resolve({ name: '', tracks: {} });
                     }
-                } catch (error) {
-                    console.warn(`Proxy ${proxy} failed:`, error.message);
-                }
-            }
-            
-            // Jeśli wszystkie proxy zawiodły, spróbuj bezpośrednio (może zadziałać lokalnie)
-            try {
-                console.log('Trying direct fetch...');
-                const response = await fetch(url);
-                if (response.ok) {
-                    const html = await response.text();
-                    const data = parsePlayerData(html);
-                    if (Object.keys(data.tracks).length > 0) {
-                        console.log('Direct fetch succeeded');
-                        return data;
+                }, { once: true });
+
+                // Jeśli iframe już załadowany
+                if (iframeElement.contentDocument && iframeElement.contentDocument.readyState === 'complete') {
+                    clearTimeout(timeout);
+                    try {
+                        const iframeDoc = iframeElement.contentDocument || iframeElement.contentWindow.document;
+                        const html = iframeDoc.documentElement.outerHTML;
+                        const data = parsePlayerData(html);
+                        console.log('Data loaded from already loaded iframe:', Object.keys(data.tracks).length, 'tracks');
+                        resolve(data);
+                    } catch (error) {
+                        console.error('Cannot access iframe content (CORS):', error.message);
+                        resolve({ name: '', tracks: {} });
                     }
                 }
-            } catch (error) {
-                console.warn('Direct fetch failed:', error.message);
-            }
-            
-            // Jeśli wszystkie metody zawiodły, zwróć puste dane
-            console.error('All fetch methods failed');
-            return { name: '', tracks: {} };
+            });
         }
 
         // Tworzenie porównania obu graczy
@@ -580,10 +564,21 @@
         // Inicjalizacja
         async function init() {
             try {
+                // Pobierz referencje do iframe
+                const iframe1 = document.querySelector('.iframes-container .iframe-wrapper:nth-child(1) iframe');
+                const iframe2 = document.querySelector('.iframes-container .iframe-wrapper:nth-child(2) iframe');
+
+                if (!iframe1 || !iframe2) {
+                    console.error('Nie znaleziono iframe');
+                    return;
+                }
+
+                console.log('Waiting for iframes to load...');
+                
                 // Pobierz dane obu graczy równolegle
                 const [player1Data, player2Data] = await Promise.all([
-                    fetchPlayerData(PLAYER1_URL),
-                    fetchPlayerData(PLAYER2_URL)
+                    fetchPlayerDataFromIframe(iframe1),
+                    fetchPlayerDataFromIframe(iframe2)
                 ]);
 
                 // Tworzenie porównania
@@ -595,6 +590,10 @@
                 
                 updateSummary(player1Name, player2Name);
                 render();
+
+                if (comparisonData.length === 0) {
+                    console.warn('Brak danych - sprawdź czy iframes się załadowały');
+                }
 
             } catch (error) {
                 console.error('Błąd inicjalizacji:', error);
