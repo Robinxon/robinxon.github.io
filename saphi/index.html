@@ -268,9 +268,15 @@
     </div>
 
     <script>
-        // URLs do pobrania danych
+        // Konfiguracja
         const PLAYER1_URL = 'https://5ever.crashteamranking.com/ctr/pr.php?id=58';
         const PLAYER2_URL = 'https://5ever.crashteamranking.com/ctr/pr.php?id=144';
+        const TIE_THRESHOLD = 0.01; // Tolerancja dla remisu w sekundach
+        const CENTISECONDS_PRECISION = 2;
+        const NULL_TIME_SORT_VALUE = Number.MAX_SAFE_INTEGER;
+        
+        // Słowa kluczowe do wykluczenia nagłówków
+        const HEADER_KEYWORDS = ['track', 'name', 'trasa', 'czas', 'time'];
         
         // Lista CORS proxy do wypróbowania
         const CORS_PROXIES = [
@@ -297,7 +303,7 @@
             if (mmssMatch) {
                 const minutes = parseInt(mmssMatch[1], 10);
                 const seconds = parseInt(mmssMatch[2], 10);
-                const centiseconds = parseInt(mmssMatch[3].padEnd(2, '0').slice(0, 2), 10);
+                const centiseconds = parseInt(mmssMatch[3].padEnd(CENTISECONDS_PRECISION, '0').slice(0, CENTISECONDS_PRECISION), 10);
                 return minutes * 60 + seconds + centiseconds / 100;
             }
             
@@ -305,7 +311,7 @@
             const ssMatch = cleaned.match(/^(\d+)[.,](\d+)$/);
             if (ssMatch) {
                 const seconds = parseInt(ssMatch[1], 10);
-                const centiseconds = parseInt(ssMatch[2].padEnd(2, '0').slice(0, 2), 10);
+                const centiseconds = parseInt(ssMatch[2].padEnd(CENTISECONDS_PRECISION, '0').slice(0, CENTISECONDS_PRECISION), 10);
                 return seconds + centiseconds / 100;
             }
             
@@ -348,13 +354,13 @@
                     if (cells.length >= 2) {
                         const trackName = cells[0].textContent.trim();
                         const timeStr = cells[1].textContent.trim();
+                        const trackNameLower = trackName.toLowerCase();
                         
                         // Pomiń nagłówki i puste wiersze
+                        const isHeader = HEADER_KEYWORDS.some(keyword => trackNameLower.includes(keyword));
                         if (trackName && 
                             trackName.length > 0 && 
-                            !trackName.toLowerCase().includes('track') &&
-                            !trackName.toLowerCase().includes('name') &&
-                            !trackName.toLowerCase().includes('trasa') &&
+                            !isHeader &&
                             parseTime(timeStr) !== null) {
                             data.tracks[trackName] = {
                                 time: timeStr,
@@ -412,7 +418,7 @@
                 
                 if (p1.seconds !== null && p2.seconds !== null) {
                     diff = p1.seconds - p2.seconds;
-                    if (Math.abs(diff) < 0.01) {
+                    if (Math.abs(diff) < TIE_THRESHOLD) {
                         winner = 'tie';
                     } else if (diff < 0) {
                         winner = 'player1';
@@ -455,9 +461,9 @@
             
             const diffEl = document.getElementById('total-diff');
             diffEl.textContent = formatDiff(totalDiff);
-            if (totalDiff < -0.01) {
+            if (totalDiff < -TIE_THRESHOLD) {
                 diffEl.style.color = 'var(--player1)';
-            } else if (totalDiff > 0.01) {
+            } else if (totalDiff > TIE_THRESHOLD) {
                 diffEl.style.color = 'var(--player2)';
             } else {
                 diffEl.style.color = 'var(--tie)';
@@ -485,12 +491,12 @@
                     if (sortKey === 'track') {
                         return a.track.localeCompare(b.track, 'pl') * dir;
                     } else if (sortKey === 'time1') {
-                        const av = a.time1Seconds ?? Infinity;
-                        const bv = b.time1Seconds ?? Infinity;
+                        const av = a.time1Seconds ?? NULL_TIME_SORT_VALUE;
+                        const bv = b.time1Seconds ?? NULL_TIME_SORT_VALUE;
                         return (av - bv) * dir;
                     } else if (sortKey === 'time2') {
-                        const av = a.time2Seconds ?? Infinity;
-                        const bv = b.time2Seconds ?? Infinity;
+                        const av = a.time2Seconds ?? NULL_TIME_SORT_VALUE;
+                        const bv = b.time2Seconds ?? NULL_TIME_SORT_VALUE;
                         return (av - bv) * dir;
                     }
                     return 0;
@@ -515,9 +521,9 @@
                 tdDiff.className = 'diff';
                 if (row.diff !== null) {
                     tdDiff.textContent = formatDiff(row.diff);
-                    if (row.diff < -0.01) {
+                    if (row.diff < -TIE_THRESHOLD) {
                         tdDiff.classList.add('diff-negative');
-                    } else if (row.diff > 0.01) {
+                    } else if (row.diff > TIE_THRESHOLD) {
                         tdDiff.classList.add('diff-positive');
                     }
                 } else {
