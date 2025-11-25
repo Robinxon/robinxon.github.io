@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porównanie speedrunów CTR</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #fff;
+            --fg: #111;
+            --muted: #666;
+            --border: #ddd;
+            --accent: #0a7;
+            --hover: #f6f6f6;
+            --player1: #2196F3;
+            --player2: #FF5722;
+            --tie: #9E9E9E;
+            --win-bg: rgba(76, 175, 80, 0.1);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111;
+                --fg: #eee;
+                --muted: #aaa;
+                --border: #333;
+                --hover: #1a1a1a;
+                --win-bg: rgba(76, 175, 80, 0.2);
+            }
+        }
+        html, body { height: 100%; }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.45;
+        }
+        .wrap {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem 3rem;
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin: 0 0 0.5rem;
+        }
+        .subtitle {
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+        }
+        .legend {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+        }
+        .player1-color { background: var(--player1); }
+        .player2-color { background: var(--player2); }
+        .summary {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            padding: 1rem;
+            background: var(--hover);
+            border-radius: 0.5rem;
+        }
+        .summary-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .summary-label {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .summary-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            overflow: clip;
+        }
+        thead th {
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 1;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+            padding: 0.6rem 0.75rem;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        thead th.sortable:hover { background: var(--hover); }
+        thead th .arrow {
+            display: inline-block;
+            width: 0.9em;
+            text-align: center;
+            color: var(--muted);
+            margin-left: 0.25rem;
+            opacity: 0.9;
+        }
+        thead th[aria-sort="ascending"] .arrow::after { content: "▲"; }
+        thead th[aria-sort="descending"] .arrow::after { content: "▼"; }
+        tbody td {
+            border-bottom: 1px solid var(--border);
+            padding: 0.6rem 0.75rem;
+            vertical-align: middle;
+        }
+        tbody tr:hover { background: var(--hover); }
+        .time-cell {
+            font-family: 'Consolas', 'Monaco', monospace;
+            text-align: right;
+        }
+        .winner {
+            background: var(--win-bg);
+            font-weight: 600;
+        }
+        .diff {
+            font-size: 0.85rem;
+            color: var(--muted);
+            text-align: center;
+        }
+        .diff-positive { color: var(--player2); }
+        .diff-negative { color: var(--player1); }
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--muted);
+        }
+        .error {
+            margin-top: 0.75rem;
+            color: #b00020;
+            font-size: 0.95rem;
+            padding: 1rem;
+            background: rgba(176, 0, 32, 0.1);
+            border-radius: 0.5rem;
+        }
+        .note {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--hover);
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+        .note a {
+            color: var(--accent);
+        }
+        .iframes-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .iframe-wrapper {
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+        .iframe-wrapper h3 {
+            margin: 0;
+            padding: 0.75rem;
+            background: var(--hover);
+            font-size: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .iframe-wrapper iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.9rem;
+            }
+            .summary {
+                gap: 1rem;
+            }
+            .iframes-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Porównanie speedrunów CTR</h1>
+        <p class="subtitle">Porównanie wyników dwóch graczy w Crash Team Racing</p>
+
+        <div class="legend" id="legend">
+            <div class="legend-item">
+                <div class="legend-color player1-color"></div>
+                <span id="player1-name">Saphi (ID: 58)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color player2-color"></div>
+                <span id="player2-name">Gracz 2 (ID: 144)</span>
+            </div>
+        </div>
+
+        <div class="summary" id="summary">
+            <div class="summary-item">
+                <span class="summary-label">Wygrane <span id="p1-label">Saphi</span></span>
+                <span class="summary-value" id="p1-wins" style="color: var(--player1);">0</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Wygrane <span id="p2-label">Gracz 2</span></span>
+                <span class="summary-value" id="p2-wins" style="color: var(--player2);">0</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Remisy</span>
+                <span class="summary-value" id="ties" style="color: var(--tie);">0</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Łączna różnica</span>
+                <span class="summary-value" id="total-diff">0.00s</span>
+            </div>
+        </div>
+
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th class="sortable" data-key="track" scope="col" aria-sort="ascending">Trasa <span class="arrow" aria-hidden="true"></span></th>
+                    <th class="sortable" data-key="time1" scope="col" aria-sort="none"><span id="th-player1">Saphi (ID: 58)</span> <span class="arrow" aria-hidden="true"></span></th>
+                    <th>Różnica</th>
+                    <th class="sortable" data-key="time2" scope="col" aria-sort="none"><span id="th-player2">Gracz 2 (ID: 144)</span> <span class="arrow" aria-hidden="true"></span></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+        <div class="note">
+            <strong>Źródła danych:</strong><br>
+            <a href="https://5ever.crashteamranking.com/ctr/pr.php?id=58" target="_blank" rel="noopener">Saphi (ID: 58)</a> |
+            <a href="https://5ever.crashteamranking.com/ctr/pr.php?id=144" target="_blank" rel="noopener">Gracz 2 (ID: 144)</a><br><br>
+            <em>Dane pobierane są dynamicznie z crashteamranking.com przez CORS proxy. Jeśli tabela jest pusta, serwer zewnętrzny może być niedostępny.</em>
+        </div>
+
+        <div class="iframes-container">
+            <div class="iframe-wrapper">
+                <h3>🔵 Saphi (ID: 58)</h3>
+                <iframe src="https://5ever.crashteamranking.com/ctr/pr.php?id=58" title="Wyniki gracza Saphi"></iframe>
+            </div>
+            <div class="iframe-wrapper">
+                <h3>🟠 Gracz 2 (ID: 144)</h3>
+                <iframe src="https://5ever.crashteamranking.com/ctr/pr.php?id=144" title="Wyniki gracza 2"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Konfiguracja
+        const PLAYER1_URL = 'https://5ever.crashteamranking.com/ctr/pr.php?id=58';
+        const PLAYER2_URL = 'https://5ever.crashteamranking.com/ctr/pr.php?id=144';
+        const TIE_THRESHOLD = 0.01; // Tolerancja dla remisu w sekundach
+        const CENTISECONDS_PRECISION = 2;
+        const NULL_TIME_SORT_VALUE = Number.MAX_SAFE_INTEGER;
+        
+        // Słowa kluczowe do wykluczenia nagłówków
+        const HEADER_KEYWORDS = ['track', 'name', 'trasa', 'czas', 'time'];
+        
+        // Lista CORS proxy do wypróbowania
+        const CORS_PROXIES = [
+            'https://corsproxy.io/?',
+            'https://api.allorigins.win/raw?url=',
+            'https://cors-anywhere.herokuapp.com/'
+        ];
+
+        // Stan
+        let comparisonData = [];
+        let sortKey = 'track';
+        let sortDir = 'asc';
+
+        const $tbl = document.getElementById('tbl');
+        const $tbody = document.getElementById('tbody');
+
+        // Parsowanie czasu w formacie MM:SS.CC lub SS.CC do sekund
+        function parseTime(timeStr) {
+            if (!timeStr || timeStr === '-' || timeStr === 'N/A' || timeStr === '') return null;
+            const cleaned = timeStr.trim();
+            
+            // Format MM:SS.CC
+            const mmssMatch = cleaned.match(/^(\d+):(\d+)[.,](\d+)$/);
+            if (mmssMatch) {
+                const minutes = parseInt(mmssMatch[1], 10);
+                const seconds = parseInt(mmssMatch[2], 10);
+                const centiseconds = parseInt(mmssMatch[3].padEnd(CENTISECONDS_PRECISION, '0').slice(0, CENTISECONDS_PRECISION), 10);
+                return minutes * 60 + seconds + centiseconds / 100;
+            }
+            
+            // Format SS.CC
+            const ssMatch = cleaned.match(/^(\d+)[.,](\d+)$/);
+            if (ssMatch) {
+                const seconds = parseInt(ssMatch[1], 10);
+                const centiseconds = parseInt(ssMatch[2].padEnd(CENTISECONDS_PRECISION, '0').slice(0, CENTISECONDS_PRECISION), 10);
+                return seconds + centiseconds / 100;
+            }
+            
+            return null;
+        }
+
+        // Formatowanie różnicy czasu
+        function formatDiff(diff) {
+            if (diff === null) return '-';
+            const sign = diff > 0 ? '+' : '';
+            return `${sign}${diff.toFixed(2)}s`;
+        }
+
+        // Parsowanie HTML strony i wyciąganie danych
+        function parsePlayerData(html) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            const data = {
+                name: '',
+                tracks: {}
+            };
+
+            // Szukanie nazwy gracza - różne możliwe selektory
+            const nameSelectors = ['h2', 'h1', '.player-name', '.username', 'title'];
+            for (const selector of nameSelectors) {
+                const el = doc.querySelector(selector);
+                if (el && el.textContent.trim()) {
+                    data.name = el.textContent.trim().replace(/Personal Records?.*$/i, '').trim();
+                    if (data.name) break;
+                }
+            }
+
+            // Szukanie tabeli z wynikami
+            const tables = doc.querySelectorAll('table');
+            tables.forEach(table => {
+                const rows = table.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td, th');
+                    if (cells.length >= 2) {
+                        const trackName = cells[0].textContent.trim();
+                        const timeStr = cells[1].textContent.trim();
+                        const trackNameLower = trackName.toLowerCase();
+                        
+                        // Pomiń nagłówki i puste wiersze
+                        const isHeader = HEADER_KEYWORDS.some(keyword => trackNameLower.includes(keyword));
+                        if (trackName && 
+                            trackName.length > 0 && 
+                            !isHeader &&
+                            parseTime(timeStr) !== null) {
+                            data.tracks[trackName] = {
+                                time: timeStr,
+                                seconds: parseTime(timeStr)
+                            };
+                        }
+                    }
+                });
+            });
+
+            return data;
+        }
+
+        // Pobieranie danych gracza przez CORS proxy
+        async function fetchPlayerData(url) {
+            // Spróbuj każdy proxy po kolei
+            for (const proxy of CORS_PROXIES) {
+                try {
+                    const proxyUrl = proxy + encodeURIComponent(url);
+                    const response = await fetch(proxyUrl, {
+                        headers: {
+                            'Accept': 'text/html'
+                        }
+                    });
+                    if (response.ok) {
+                        const html = await response.text();
+                        const data = parsePlayerData(html);
+                        if (Object.keys(data.tracks).length > 0) {
+                            return data;
+                        }
+                    }
+                } catch (error) {
+                    console.warn(`Proxy ${proxy} failed:`, error.message);
+                }
+            }
+            
+            // Jeśli wszystkie proxy zawiodły, zwróć puste dane
+            return { name: '', tracks: {} };
+        }
+
+        // Tworzenie porównania obu graczy
+        function createComparison(player1Data, player2Data) {
+            const allTracks = new Set([
+                ...Object.keys(player1Data.tracks),
+                ...Object.keys(player2Data.tracks)
+            ]);
+
+            const comparison = [];
+            allTracks.forEach(track => {
+                const p1 = player1Data.tracks[track] || { time: '-', seconds: null };
+                const p2 = player2Data.tracks[track] || { time: '-', seconds: null };
+                
+                let diff = null;
+                let winner = null;
+                
+                if (p1.seconds !== null && p2.seconds !== null) {
+                    diff = p1.seconds - p2.seconds;
+                    if (Math.abs(diff) < TIE_THRESHOLD) {
+                        winner = 'tie';
+                    } else if (diff < 0) {
+                        winner = 'player1';
+                    } else {
+                        winner = 'player2';
+                    }
+                }
+
+                comparison.push({
+                    track,
+                    time1: p1.time,
+                    time1Seconds: p1.seconds,
+                    time2: p2.time,
+                    time2Seconds: p2.seconds,
+                    diff,
+                    winner
+                });
+            });
+
+            return comparison;
+        }
+
+        // Aktualizacja podsumowania
+        function updateSummary(player1Name, player2Name) {
+            let p1Wins = 0, p2Wins = 0, ties = 0, totalDiff = 0;
+            
+            comparisonData.forEach(row => {
+                if (row.winner === 'player1') p1Wins++;
+                else if (row.winner === 'player2') p2Wins++;
+                else if (row.winner === 'tie') ties++;
+                
+                if (row.diff !== null) {
+                    totalDiff += row.diff;
+                }
+            });
+
+            document.getElementById('p1-wins').textContent = p1Wins;
+            document.getElementById('p2-wins').textContent = p2Wins;
+            document.getElementById('ties').textContent = ties;
+            
+            const diffEl = document.getElementById('total-diff');
+            diffEl.textContent = formatDiff(totalDiff);
+            if (totalDiff < -TIE_THRESHOLD) {
+                diffEl.style.color = 'var(--player1)';
+            } else if (totalDiff > TIE_THRESHOLD) {
+                diffEl.style.color = 'var(--player2)';
+            } else {
+                diffEl.style.color = 'var(--tie)';
+            }
+
+            // Aktualizacja etykiet
+            if (player1Name) {
+                document.getElementById('player1-name').textContent = player1Name;
+                document.getElementById('p1-label').textContent = player1Name;
+                document.getElementById('th-player1').textContent = player1Name;
+            }
+            if (player2Name) {
+                document.getElementById('player2-name').textContent = player2Name;
+                document.getElementById('p2-label').textContent = player2Name;
+                document.getElementById('th-player2').textContent = player2Name;
+            }
+        }
+
+        // Renderowanie tabeli
+        function render() {
+            let sorted = [...comparisonData];
+            if (sortKey) {
+                const dir = sortDir === 'asc' ? 1 : -1;
+                sorted.sort((a, b) => {
+                    if (sortKey === 'track') {
+                        return a.track.localeCompare(b.track, 'pl') * dir;
+                    } else if (sortKey === 'time1') {
+                        const av = a.time1Seconds ?? NULL_TIME_SORT_VALUE;
+                        const bv = b.time1Seconds ?? NULL_TIME_SORT_VALUE;
+                        return (av - bv) * dir;
+                    } else if (sortKey === 'time2') {
+                        const av = a.time2Seconds ?? NULL_TIME_SORT_VALUE;
+                        const bv = b.time2Seconds ?? NULL_TIME_SORT_VALUE;
+                        return (av - bv) * dir;
+                    }
+                    return 0;
+                });
+            }
+
+            const frag = document.createDocumentFragment();
+            sorted.forEach(row => {
+                const tr = document.createElement('tr');
+                
+                const tdTrack = document.createElement('td');
+                tdTrack.textContent = row.track;
+                tr.appendChild(tdTrack);
+
+                const tdTime1 = document.createElement('td');
+                tdTime1.className = 'time-cell';
+                tdTime1.textContent = row.time1;
+                if (row.winner === 'player1') tdTime1.classList.add('winner');
+                tr.appendChild(tdTime1);
+
+                const tdDiff = document.createElement('td');
+                tdDiff.className = 'diff';
+                if (row.diff !== null) {
+                    tdDiff.textContent = formatDiff(row.diff);
+                    if (row.diff < -TIE_THRESHOLD) {
+                        tdDiff.classList.add('diff-negative');
+                    } else if (row.diff > TIE_THRESHOLD) {
+                        tdDiff.classList.add('diff-positive');
+                    }
+                } else {
+                    tdDiff.textContent = '-';
+                }
+                tr.appendChild(tdDiff);
+
+                const tdTime2 = document.createElement('td');
+                tdTime2.className = 'time-cell';
+                tdTime2.textContent = row.time2;
+                if (row.winner === 'player2') tdTime2.classList.add('winner');
+                tr.appendChild(tdTime2);
+
+                frag.appendChild(tr);
+            });
+
+            $tbody.replaceChildren(frag);
+            updateSortIndicators();
+        }
+
+        function updateSortIndicators() {
+            $tbl.querySelectorAll('thead th.sortable').forEach(th => {
+                const key = th.getAttribute('data-key');
+                if (key === sortKey) {
+                    th.setAttribute('aria-sort', sortDir === 'asc' ? 'ascending' : 'descending');
+                } else {
+                    th.setAttribute('aria-sort', 'none');
+                }
+            });
+        }
+
+        // Inicjalizacja
+        async function init() {
+            try {
+                // Pobierz dane obu graczy równolegle
+                const [player1Data, player2Data] = await Promise.all([
+                    fetchPlayerData(PLAYER1_URL),
+                    fetchPlayerData(PLAYER2_URL)
+                ]);
+
+                // Tworzenie porównania
+                comparisonData = createComparison(player1Data, player2Data);
+
+                // Aktualizacja UI
+                const player1Name = player1Data.name || 'Saphi (ID: 58)';
+                const player2Name = player2Data.name || 'Gracz 2 (ID: 144)';
+                
+                updateSummary(player1Name, player2Name);
+                render();
+
+            } catch (error) {
+                console.error('Błąd inicjalizacji:', error);
+            }
+        }
+
+        // Obsługa sortowania
+        $tbl.addEventListener('click', (ev) => {
+            const th = ev.target.closest('th.sortable');
+            if (!th) return;
+            const key = th.getAttribute('data-key');
+            if (sortKey === key) {
+                sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortKey = key;
+                sortDir = 'asc';
+            }
+            render();
+        });
+
+        // Start
+        init();
+    </script>
+</body>
+</html>
