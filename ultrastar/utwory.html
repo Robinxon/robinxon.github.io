@@ -136,13 +136,14 @@
                     <th class="sortable" data-key="wykonawca" scope="col" aria-sort="none">Wykonawca <span class="arrow" aria-hidden="true"></span></th>
                     <th class="sortable" data-key="jezyk" scope="col" aria-sort="none">Język <span class="arrow" aria-hidden="true"></span></th>
                     <th class="sortable" data-key="rok" scope="col" aria-sort="none">Rok <span class="arrow" aria-hidden="true"></span></th>
+                    <th class="sortable" data-key="anime" scope="col" aria-sort="none">Anime <span class="arrow" aria-hidden="true"></span></th>
                 </tr>
             </thead>
             <tbody id="tbody">
-                <tr><td colspan="4">Wczytywanie…</td></tr>
+                <tr><td colspan="5">Wczytywanie…</td></tr>
             </tbody>
             <tfoot id="tfoot" class="hidden">
-                <tr><td colspan="4">Brak wyników</td></tr>
+                <tr><td colspan="5">Brak wyników</td></tr>
             </tfoot>
         </table>
 
@@ -156,7 +157,7 @@
         // Stan
         let rows = [];       // pełne dane
         let filtered = [];   // przefiltrowane dane
-        let sortKey = null;  // 'tytul' | 'wykonawca' | 'jezyk' | 'rok'
+        let sortKey = null;  // 'tytul' | 'wykonawca' | 'jezyk' | 'rok' | 'anime'
         let sortDir = 'asc'; // 'asc' | 'desc'
 
         const $q = document.getElementById('q');
@@ -249,6 +250,7 @@
                         <td>${escapeHTML(r.wykonawca)}</td>
                         <td>${escapeHTML(r.jezyk)}</td>
                         <td>${r.rok ?? ''}</td>
+                        <td>${escapeHTML(r.anime)}</td>
                     `;
                     frag.appendChild(tr);
                 }
@@ -285,7 +287,8 @@
                 filtered = rows.filter(r => {
                     const hay = [
                         r.tytul, r.wykonawca, r.jezyk,
-                        r.rok != null ? String(r.rok) : ''
+                        r.rok != null ? String(r.rok) : '',
+                        r.anime
                     ].map(norm).join(' ');
                     return hay.includes(q);
                 });
@@ -310,19 +313,19 @@
                 const delim = detectDelimiter(lines[0]);
                 const parsed = lines.map(l => parseLine(l, delim));
 
-                // Oczekiwane 4 kolumny: Tytuł;Wykonawca;Język;Rok
-                // Dostosuj do większej liczby kolumn: bierzemy pierwsze 4.
+                // Oczekiwane 5 kolumn: Tytuł;Wykonawca;Język;Rok;Anime (anime opcjonalne, na końcu linii)
                 let recs = parsed
                     .filter(cols => cols.length >= 2) // przynajmniej tytuł + wykonawca
                     .map(cols => {
-                        const [tytul, wykonawca, jezyk, rok] = [
+                        const [tytul, wykonawca, jezyk, rok, anime] = [
                             cols[0]?.trim() ?? '',
                             cols[1]?.trim() ?? '',
                             cols[2]?.trim() ?? '',
-                            cols[3]?.trim() ?? ''
+                            cols[3]?.trim() ?? '',
+                            cols[4]?.trim() ?? ''
                         ];
                         const rokNum = tryParseInt(rok);
-                        return { tytul, wykonawca, jezyk, rok: rokNum };
+                        return { tytul, wykonawca, jezyk, rok: rokNum, anime };
                     });
 
                 // Jeśli pierwsza linia wygląda na nagłówek (brak roku, słowa kluczowe) – pomiń
